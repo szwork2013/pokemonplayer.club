@@ -1,21 +1,22 @@
 # pokemonplayer.club
 
-## 环境
 
-- node 版本: 6.3 <= node -v < 7
-- npm 版本: 3.10 <= npm -v < 4
+## Environment
+- node : 6.3 <= node -v < 7
+- npm : 3.10 <= npm -v < 4
 
 
-## 运行
+## Running
 
-### 开发模式
+### Development
 ```shell
 $ npm install
 $ npm run start:dev
 ```
 
-### 发布模式
+### Production
 ```shell
 $ npm install
-$ npm run start:dev
+$ npm run build
+$ npm run start:prod
 ```
