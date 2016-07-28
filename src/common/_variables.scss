@@ -1,0 +1,29 @@
+// HTML Default Font-family
+$font-family-base: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !default;
+
+$html-font-family: $font-family-base;
+
+// Body Width
+$body-max-width: 800px !default;
+
+// Font Size
+$font-size-root: 16px !default;
+$font-size-nav: 12px !default;
+$font-size-button: 12px !default;
+
+$font-size-h1: 30px !default;
+$font-size-h2: 24px !default;
+$font-size-h3: 18px !default;
+$font-size-h4: 16px !default;
+$font-size-h5: 14px !default;
+$font-size-h6: 12px !default;
+
+// Neck Navigator
+$neck-navigator-height: 40px !default;
+
+// Top Tabs Bar
+$top-tabs-bar-height: 60px !default;
+
+// Box Shadow
+$box-shadow: 0 5px 30px rgba(0, 0, 0, 0.8);
+$box-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.4);

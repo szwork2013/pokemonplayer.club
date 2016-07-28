@@ -1,0 +1,18 @@
+.home-view {
+
+  .pikachu {
+    width: 200px;
+    height: 200px;
+    background-image: url("../../images/pikachu.gif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: auto;
+  }
+
+  .info {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+  }
+}
