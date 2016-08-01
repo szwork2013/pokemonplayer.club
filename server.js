@@ -1,6 +1,11 @@
 const path = require('path'),
     express = require('express'),
-    webpack = require('webpack');
+    webpack = require('webpack'),
+    yaml = require('js-yaml'),
+    fs = require('fs');
+
+// Data
+const POKEDEX_DATA = yaml.safeLoad(fs.readFileSync('./data/pokedex.yml', 'utf8'));
 
 const webpackConfig = require('./webpack.config'),
     config = require('./config');
@@ -20,6 +25,10 @@ if (workEnv === 'development') {
 } else {
     app.use('/dist', express.static('dist'));
 }
+
+app.get('/data/pokedex', function (req, res) {
+    res.send(POKEDEX_DATA);
+});
 
 app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'app.html'));

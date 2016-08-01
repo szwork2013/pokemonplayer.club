@@ -42,7 +42,7 @@ var webpackConfig = {
             exclude: /node_modules/,
             loader: 'file-loader?name=fonts/[name].[ext]'
         }, {
-            test: /\.(png|jpg|gif)$/,
+            test: /\.(png|jpg|gif|icon|ico)$/,
             exclude: /node_modules/,
             loader: 'url-loader?limit=16384&name=images/[hash].[ext]'
         }, {
