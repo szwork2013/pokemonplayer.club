@@ -1054,7 +1054,7 @@ generation-one:
       icon: "132 Ditto.ico"
       type:
       max-cp: 920
-      rating: "-"
+      rating: 11
     - id: 133
       name-cn: 伊布
       name-jp: イーブイ
@@ -1150,7 +1150,7 @@ generation-one:
       icon: "144 Articuno.ico"
       type:
       max-cp: 2978
-      rating: "-"
+      rating: 11
     - id: 145
       name-cn: 闪电鸟
       name-jp: サンダー
@@ -1158,7 +1158,7 @@ generation-one:
       icon: "145 Zapdos.ico"
       type:
       max-cp: 3114
-      rating: "-"
+      rating: 11
     - id: 146
       name-cn: 火焰鸟
       name-jp: ファイヤー
@@ -1166,7 +1166,7 @@ generation-one:
       icon: "146 Moltres.ico"
       type:
       max-cp: 3240
-      rating: "-"
+      rating: 11
     - id: 147
       name-cn: 迷你龙
       name-jp: ミニリュウ
@@ -1198,7 +1198,7 @@ generation-one:
       icon: "150 Mewtwo.ico"
       type:
       max-cp: 4145
-      rating: "-"
+      rating: 11
     - id: 151
       name-cn: 梦幻
       name-jp: ミュウ
@@ -1206,4 +1206,4 @@ generation-one:
       icon: "151 Mew.ico"
       type:
       max-cp: 3299
-      rating: "-"
+      rating: 11

@@ -13,7 +13,8 @@ export class Pokedex extends Component {
 
         this.state = {
             generationOne: {},
-            pokedexTableBody: ''
+            pokedexTableBody: '',
+            isSorted: false
         };
 
         Ajax.GET('/data/pokedex', (err, data) => {
@@ -39,11 +40,54 @@ export class Pokedex extends Component {
                         <td>{item['name-jp']}</td>
                         <td>{item['name-en']}</td>
                         <td>{item['max-cp']}</td>
-                        <th>{item['rating']} / 10</th>
+                        <td>{item['rating']} / 10</td>
                     </tr>
                 )
             })
         });
+    }
+
+    sortDataByID() {
+        this.sortData('id');
+    }
+
+    sortDataByName() {
+        this.sortData('name-en');
+    }
+
+    sortDataByCP() {
+        this.sortData('max-cp');
+    }
+
+    sortDataByRating() {
+        this.sortData('rating');
+    }
+
+    sortData(type) {
+        let data = this.state.generationOne;
+
+        data.sort((a, b) => {
+
+            if (this.state.isSorted) {
+                let temp = a;
+                a = b;
+                b = temp;
+            }
+
+            if (a[type] < b[type]) {
+                return 1;
+            } else if (a[type] > b[type]) {
+                return -1;
+            } else {
+                return 0;
+            }
+        });
+
+        this.setState({
+            isSorted: !this.state.isSorted
+        });
+
+        this.generateRows();
     }
 
     render() {
@@ -55,13 +99,13 @@ export class Pokedex extends Component {
                     <table className="responsive-table">
                         <thead>
                         <tr>
-                            <th>ID</th>
-                            <th>图鉴</th>
-                            <th>中文名</th>
-                            <th>日文名</th>
-                            <th>英文名</th>
-                            <th>MAX-CP</th>
-                            <th>评分</th>
+                            <th className="sort-th" onClick={this.sortDataByID.bind(this)}>ID</th>
+                            <th className="sort-th">图鉴</th>
+                            <th>中文</th>
+                            <th>日文</th>
+                            <th className="sort-th" onClick={this.sortDataByName.bind(this)}>英文</th>
+                            <th className="sort-th" onClick={this.sortDataByCP.bind(this)}>MAX-CP</th>
+                            <th className="sort-th" onClick={this.sortDataByRating.bind(this)}>评分</th>
                         </tr>
                         </thead>
                         <tbody>

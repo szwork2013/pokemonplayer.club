@@ -1,8 +1,8 @@
 table.responsive-table {
   $sm: 600px;
 
-  $light_grey_bg: #fafafa;
-  $light_grey_border: #ddd;
+  $light-grey-bg: #fafafa;
+  $light-grey-border: #ddd;
 
   width: 100%;
   margin: 0;
@@ -11,19 +11,28 @@ table.responsive-table {
   border-spacing: 0;
 
   thead {
-    visibility: hidden;
-    background: $light_grey_bg;
+    display: table-header-group;
+    background: $light-grey-bg;
+
     @media (min-width: $sm) {
-      visibility: visible;
+      display: table-header-group;
+    }
+
+    tr {
+      border: 1px solid $light-grey-border;
+    }
+
+    th {
+      text-transform: uppercase;
+      font-size: 16px;
     }
   }
 
   tr {
-    border: 1px solid $light_grey_border;
-    border-bottom: 2px solid $light_grey_border;
+
     padding: 5px;
-    margin-bottom: 10px;
     display: block;
+    background: white;
 
     @media (min-width: $sm) {
       display: table-row;
@@ -31,7 +40,7 @@ table.responsive-table {
       margin-bottom: 0;
 
       &:nth-child(even) {
-        background: $light_grey_bg;
+        background: $light-grey-bg;
       }
     }
   }
@@ -42,20 +51,28 @@ table.responsive-table {
     text-align: center;
   }
 
-  th {
-    text-transform: uppercase;
-    font-size: 16px;
+  tbody {
+
+    tr {
+      margin-bottom: 10px;
+      border: 1px solid $light-grey-border;
+      border-bottom: 2px solid $light-grey-border;
+      box-shadow: 0 14px 12px -12px rgba(0, 0, 0, 0.6);
+    }
+
+    td {
+      border-bottom: 1px dotted $light-grey-border;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
   }
 
   td {
     display: block;
     text-align: right;
     font-size: 14px;
-    border-bottom: 1px dotted $light_grey_border;
-
-    &:last-child {
-      border-bottom: none;
-    }
 
     @media (min-width: $sm) {
       display: table-cell;
@@ -70,6 +87,7 @@ table.responsive-table {
     float: left;
     text-transform: uppercase;
     font-weight: bold;
+
     @media (min-width: $sm) {
       content: "";
       display: none;

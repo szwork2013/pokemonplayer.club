@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   overflow-y: auto;
+  padding: 20px;
 
   .back {
     display: block;
@@ -18,6 +19,12 @@
     padding: 8px 20px;
     border-radius: 5px;
     border: 1px solid $blue;
+  }
+
+  table {
+    th.sort-th {
+      cursor: pointer;
+    }
   }
 
 }
