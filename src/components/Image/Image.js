@@ -7,7 +7,7 @@ export class Image extends Component {
     }
 
     render() {
-        let {mode, src, height, width, style} = this.props;
+        let {mode, src, height, width, style, ...props} = this.props;
         let modes = {
             'fill': 'cover',
             'fit': 'contain'
@@ -27,6 +27,6 @@ export class Image extends Component {
             backgroundRepeat: 'no-repeat'
         };
 
-        return <div style={important}/>
+        return <div {...props} style={{...defaults, ...style, ...important}}/>
     }
 }
