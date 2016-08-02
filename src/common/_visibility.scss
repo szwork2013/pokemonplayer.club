@@ -1,0 +1,23 @@
+@import "variables";
+@import "breakpoints";
+
+.display-none {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+@each $bp in map-keys($grid-breakpoints) {
+  .hidden-#{$bp}-up {
+    @include media-breakpoint-up($bp) {
+      display: none !important;
+    }
+  }
+  .hidden-#{$bp}-down {
+    @include media-breakpoint-down($bp) {
+      display: none !important;
+    }
+  }
+}

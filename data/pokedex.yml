@@ -5,1205 +5,1205 @@ generation-one:
       name-en: Bulbasaur
       icon: "001 Bulbasaur.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1072
+      rating: 3.5
     - id: 2
       name-cn: 妙蛙草
       name-jp: フシギソウ
       name-en: Ivysaur
       icon: "002 Ivysaur.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1632
+      rating: 5.5
     - id: 3
       name-cn: 妙蛙花
       name-jp: フシギバナ
       name-en: Venusaur
       icon: "003 Venusaur.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2580
+      rating: 9.5
     - id: 4
       name-cn: 小火龙
       name-jp: ヒトカゲ
       name-en: Charmander
       icon: "004 Charmander.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 955
+      rating: 3.5
     - id: 5
       name-cn: 火恐龙
       name-jp: リザード
       name-en: Charmeleon
       icon: "005 Charmeleon.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1557
+      rating: 5.5
     - id: 6
       name-cn: 喷火龙
       name-jp: リザードン
       name-en: Charizard
       icon: "006 Charizard.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2602
+      rating: 9.5
     - id: 7
       name-cn: 杰尼龟
       name-jp: ゼニガメ
       name-en: Squirtle
       icon: "007 Squirtle.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1009
+      rating: 3.5
     - id: 8
       name-cn: 卡咪龟
       name-jp: カメール
       name-en: Wartortle
       icon: "008 Wartortle.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1583
+      rating: 5.5
     - id: 9
       name-cn: 水箭龟
       name-jp: カメックス
       name-en: Blastoise
       icon: "009 Blastoise.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2542
+      rating: 8.5
     - id: 10
       name-cn: 绿毛虫
       name-jp: キャタピー
       name-en: Caterpie
       icon: "010 Caterpie.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 444
+      rating: 1.5
     - id: 11
       name-cn: 铁甲蛹
       name-jp: トランセル
       name-en: Metapod
       icon: "011 Metapod.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 478
+      rating: 1.5
     - id: 12
       name-cn: 巴大蝶
       name-jp: バタフリー
       name-en: Butterfree
       icon: "012 Butterfree.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1455
+      rating: 6
     - id: 13
       name-cn: 独角虫
       name-jp: ビードル
       name-en: Weedle
       icon: "013 Weedle.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 449
+      rating: 1.5
     - id: 14
       name-cn: 鐵殼蛹
       name-jp: コクーン
       name-en: Kakuna
       icon: "014 Kakuna.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 485
+      rating: 1.5
     - id: 15
       name-cn: 大针蜂
       name-jp: スピアー
       name-en: Beedrill
       icon: "015 Beedrill.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1440
+      rating: 7
     - id: 16
       name-cn: 波波
       name-jp: ポッポ
       name-en: Pidgey
       icon: "016 Pidgey.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 680
+      rating: 3.5
     - id: 17
       name-cn: 比比鸟
       name-jp: ピジョン
       name-en: Pidgeotto
       icon: "017 Pidgeotto.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1224
+      rating: 5
     - id: 18
       name-cn: 大比鸟
       name-jp: ピジョット
       name-en: Pidgeot
       icon: "018 Pidgeot.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2091
+      rating: 9
     - id: 19
       name-cn: 小拉达
       name-jp: コラッタ
       name-en: Rattata
       icon: "019 Rattata.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 582
+      rating: 3.5
     - id: 20
       name-cn: 拉达
       name-jp: ラッタ
       name-en: Raticate
       icon: "020 Raticate.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1444
+      rating: 7
     - id: 21
       name-cn: 烈雀
       name-jp: オニスズメ
       name-en: Spearow
       icon: "021 Spearow.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 687
+      rating: 4
     - id: 22
       name-cn: 大嘴雀
       name-jp: オニドリル
       name-en: Fearow
       icon: "022 Fearow.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1746
+      rating: 6.5
     - id: 23
       name-cn: 阿柏蛇
       name-jp: アーボ
       name-en: Ekans
       icon: "023 Ekans.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 824
+      rating: 4
     - id: 24
       name-cn: 阿柏怪
       name-jp: アーボック
       name-en: Arbok
       icon: "024 Arbok.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1767
+      rating: 7.5
     - id: 25
       name-cn: 皮卡丘
       name-jp: ピカチュウ
       name-en: Pikachu
       icon: "025 Pikachu.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 888
+      rating: 4.5
     - id: 26
       name-cn: 雷丘
       name-jp: ライチュウ
       name-en: Raichu
       icon: "026 Raichu.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2028
+      rating: 9
     - id: 27
       name-cn: 穿山鼠
       name-jp: サンド
       name-en: Sandshrew
       icon: "027 Sandshrew.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 799
+      rating: 4.5
     - id: 28
       name-cn: 穿山王
       name-jp: サンドパン
       name-en: Sandslash
       icon: "028 Sandslash.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1810
+      rating: 8
     - id: 29
       name-cn: 尼多兰
       name-jp: ニドラン♀
       name-en: Nidoran♀
       icon: "029 Nidoran ♀.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 876
+      rating: 4
     - id: 30
       name-cn: 尼多娜
       name-jp: ニドリーナ
       name-en: Nidorina
       icon: "030 Nidorina.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1405
+      rating: 5
     - id: 31
       name-cn: 尼多后
       name-jp: ニドクイン
       name-en: Nidoqueen
       icon: "031 Nidoqueen.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2485
+      rating: 8.5
     - id: 32
       name-cn: 尼多朗
       name-jp: ニドラン♂
       name-en: Nidoran♂
       icon: "032 Nidoran ♂.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 843
+      rating: 4
     - id: 33
       name-cn: 尼多力诺
       name-jp: ニドリーノ
       name-en: Nidorino
       icon: "033 Nidorino.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1373
+      rating: 5
     - id: 34
       name-cn: 尼多王
       name-jp: ニドキング
       name-en: Nidoking
       icon: "034 Nidoking.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2475
+      rating: 8.5
     - id: 35
       name-cn: 皮皮
       name-jp: ピッピ
       name-en: Clefairy
       icon: "035 Clefairy.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1201
+      rating: 4.5
     - id: 36
       name-cn: 皮可西
       name-jp: ピクシー
       name-en: Clefable
       icon: "036 Clefable.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2398
+      rating: 6.5
     - id: 37
       name-cn: 六尾
       name-jp: ロコン
       name-en: Vulpix
       icon: "037 Vulpix.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 831
+      rating: 4
     - id: 38
       name-cn: 九尾
       name-jp: キュウコン
       name-en: Ninetales
       icon: "038 Ninetales.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2188
+      rating: 8.5
     - id: 39
       name-cn: 胖丁
       name-jp: プリン
       name-en: Jigglypuff
       icon: "039 Jigglypuff.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 918
+      rating: 4
     - id: 40
       name-cn: 胖可丁
       name-jp: プクリン
       name-en: Wigglytuff
       icon: "040 Wigglytuff.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2177
+      rating: 9
     - id: 41
       name-cn: 超音蝠
       name-jp: ズバット
       name-en: Zubat
       icon: "041 Zubat.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 643
+      rating: 4
     - id: 42
       name-cn: 大嘴蝠
       name-jp: ゴルバット
       name-en: Golbat
       icon: "042 Golbat.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1921
+      rating: 7.5
     - id: 43
       name-cn: 走路草
       name-jp: ナゾノクサ
       name-en: Oddish
       icon: "043 Oddish.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1148
+      rating: 4.5
     - id: 44
       name-cn: 臭臭花
       name-jp: クサイハナ
       name-en: Gloom
       icon: "044 Gloom.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1689
+      rating: 5.5
     - id: 45
       name-cn: 霸王花
       name-jp: ラフレシア
       name-en: Vileplume
       icon: "045 Vileplume.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2493
+      rating: 8
     - id: 46
       name-cn: 派拉斯
       name-jp: パラス
       name-en: Paras
       icon: "046 Paras.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 917
+      rating: 4
     - id: 47
       name-cn: 派拉斯特
       name-jp: パラセクト
       name-en: Parasect
       icon: "047 Parasect.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1747
+      rating: 8.5
     - id: 48
       name-cn: 毛球
       name-jp: コンパン
       name-en: Venonat
       icon: "048 Venonat.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1029
+      rating: 4
     - id: 49
       name-cn: 摩鲁蛾
       name-jp: モルフォン
       name-en: Venomoth
       icon: "049 Venomoth.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1890
+      rating: 6.5
     - id: 50
       name-cn: 地鼠
       name-jp: ディグダ
       name-en: Diglett
       icon: "050 Diglett.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 457
+      rating: 4
     - id: 51
       name-cn: 三地鼠
       name-jp: ダグトリオ
       name-en: Dugtrio
       icon: "051 Dugtrio.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1169
+      rating: 7
     - id: 52
       name-cn: 喵喵
       name-jp: ニャース
       name-en: Meowth
       icon: "052 Meowth.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 756
+      rating: 4
     - id: 53
       name-cn: 猫老大
       name-jp: ペルシアン
       name-en: Persian
       icon: "053 Persian.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1632
+      rating: 7
     - id: 54
       name-cn: 可达鸭
       name-jp: コダック
       name-en: Psyduck
       icon: "054 Psyduck.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1110
+      rating: 4.5
     - id: 55
       name-cn: 哥达鸭
       name-jp: ゴルダック
       name-en: Golduck
       icon: "055 Golduck.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2387
+      rating: 8.5
     - id: 56
       name-cn: 猴怪
       name-jp: マンキー
       name-en: Mankey
       icon: "056 Mankey.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 879
+      rating: 4.5
     - id: 57
       name-cn: 火爆猴
       name-jp: オコリザル
       name-en: Primeape
       icon: "057 Primeape.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1865
+      rating: 7.5
     - id: 58
       name-cn: 卡蒂狗
       name-jp: ガーディ
       name-en: Growlithe
       icon: "058 Growlithe.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1335
+      rating: 4.5
     - id: 59
       name-cn: 风速狗
       name-jp: ウインディ
       name-en: Arcanine
       icon: "059 Arcanine.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2984
+      rating: 9.5
     - id: 60
       name-cn: 蚊香蝌蚪
       name-jp: ニョロモ
       name-en: Poliwag
       icon: "060 Poliwag.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 796
+      rating: 4.5
     - id: 61
       name-cn: 蚊香君
       name-jp: ニョロゾ
       name-en: Poliwhirl
       icon: "061 Poliwhirl.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1340
+      rating: 5.5
     - id: 62
       name-cn: 蚊香泳士
       name-jp: ニョロボン
       name-en: Poliwrath
       icon: "062 Poliwrath.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2505
+      rating: 9
     - id: 63
       name-cn: 凯西
       name-jp: ケーシィ
       name-en: Abra
       icon: "063 Abra.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 600
+      rating: 4.5
     - id: 64
       name-cn: 勇基拉
       name-jp: ユンゲラー
       name-en: Kadabra
       icon: "064 Kadabra.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1132
+      rating: 5.5
     - id: 65
       name-cn: 胡地
       name-jp: フーディン
       name-en: Alakazam
       icon: "065 Alakazam.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1814
+      rating: 9.5
     - id: 66
       name-cn: 腕力
       name-jp: ワンリキー
       name-en: Machop
       icon: "066 Machop.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1090
+      rating: 4.5
     - id: 67
       name-cn: 豪力
       name-jp: ゴーリキー
       name-en: Machoke
       icon: "067 Machoke.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1761
+      rating: 6
     - id: 68
       name-cn: 怪力
       name-jp: カイリキー
       name-en: Machamp
       icon: "068 Machamp.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2594
+      rating: 8
     - id: 69
       name-cn: 喇叭芽
       name-jp: マダツボミ
       name-en: Bellsprout
       icon: "069 Bellsprout.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1117
+      rating: 4.5
     - id: 70
       name-cn: 口呆花
       name-jp: ウツドン
       name-en: Weepinbell
       icon: "070 Weepinbell.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1724
+      rating: 6
     - id: 71
       name-cn: 大食花
       name-jp: ウツボット
       name-en: Victreebel
       icon: "071 Victreebel.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2531
+      rating: 8.5
     - id: 72
       name-cn: 玛瑙水母
       name-jp: メノクラゲ
       name-en: Tentacool
       icon: "072 Tentacool.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 905
+      rating: 5
     - id: 73
       name-cn: 毒刺水母
       name-jp: ドククラゲ
       name-en: Tentacruel
       icon: "073 Tentacruel.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2220
+      rating: 8.5
     - id: 74
       name-cn: 小拳石
       name-jp: イシツブテ
       name-en: Geodude
       icon: "074 Geodude.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 849
+      rating: 4.5
     - id: 75
       name-cn: 隆隆石
       name-jp: ゴローン
       name-en: Graveler
       icon: "075 Graveler.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1434
+      rating: 6
     - id: 76
       name-cn: 隆隆岩
       name-jp: ゴローニャ
       name-en: Golem
       icon: "076 Golem.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2303
+      rating: 9
     - id: 77
       name-cn: 小火马
       name-jp: ポニータ
       name-en: Ponyta
       icon: "077 Ponyta.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1516
+      rating: 6
     - id: 78
       name-cn: 烈焰马
       name-jp: ギャロップ
       name-en: Rapidash
       icon: "078 Rapidash.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2199
+      rating: 7
     - id: 79
       name-cn: 呆呆兽
       name-jp: ヤドン
       name-en: Slowpoke
       icon: "079 Slowpoke.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1219
+      rating: 4.5
     - id: 80
       name-cn: 呆壳兽
       name-jp: ヤドラン
       name-en: Slowbro
       icon: "080 Slowbro.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2597
+      rating: 8.5
     - id: 81
       name-cn: 小磁怪
       name-jp: コイル
       name-en: Magnemite
       icon: "081 Magnemite.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 891
+      rating: 4.5
     - id: 82
       name-cn: 三合一磁怪
       name-jp: レアコイル
       name-en: Magneton
       icon: "082 Magneton.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1880
+      rating: 8
     - id: 83
       name-cn: 大葱鸭
       name-jp: カモネギ
       name-en: Farfetch'd
       icon: "083 Farfetch'd.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1264
+      rating: 5
     - id: 84
       name-cn: 嘟嘟利
       name-jp: ドードー
       name-en: Doduo
       icon: "084 Doduo.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 855
+      rating: 4.5
     - id: 85
       name-cn: 嘟嘟利
       name-jp: ドードリオ
       name-en: Dodrio
       icon: "085 Dodrio.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1836
+      rating: 6.5
     - id: 86
       name-cn: 小海狮
       name-jp: パウワウ
       name-en: Seel
       icon: "086 Seel.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1107
+      rating: 4.5
     - id: 87
       name-cn: 白海狮
       name-jp: ジュゴン
       name-en: Dewgong
       icon: "087 Dewgong.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2146
+      rating: 8.5
     - id: 88
       name-cn: 臭泥
       name-jp: ベトベター
       name-en: Grimer
       icon: "088 Grimer.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1284
+      rating: 4.5
     - id: 89
       name-cn: 臭臭泥
       name-jp: ベトベトン
       name-en: Muk
       icon: "089 Muk.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2603
+      rating: 9.5
     - id: 90
       name-cn: 大舌贝
       name-jp: シェルダー
       name-en: Shellder
       icon: "090 Shellder.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 823
+      rating: 5
     - id: 91
       name-cn: 刺甲贝
       name-jp: パルシェン
       name-en: Cloyster
       icon: "091 Cloyster.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2053
+      rating: 8
     - id: 92
       name-cn: 鬼斯
       name-jp: ゴース
       name-en: Gastly
       icon: "092 Gastly.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 804
+      rating: 4.5
     - id: 93
       name-cn: 鬼斯通
       name-jp: ゴースト
       name-en: Haunter
       icon: "093 Haunter.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1380
+      rating: 6
     - id: 94
       name-cn: 耿鬼
       name-jp: ゲンガー
       name-en: Gengar
       icon: "094 Gengar.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2078
+      rating: 9
     - id: 95
       name-cn: 大岩蛇
       name-jp: イワーク
       name-en: Onix
       icon: "095 Onix.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 857
+      rating: 4
     - id: 96
       name-cn: 催眠貘
       name-jp: スリープ
       name-en: Drowzee
       icon: "096 Drowzee.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1075
+      rating: 5
     - id: 97
       name-cn: 引梦貘人
       name-jp: スリーパー
       name-en: Hypno
       icon: "097 Hypno.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2184
+      rating: 8
     - id: 98
       name-cn: 大钳蟹
       name-jp: クラブ
       name-en: Krabby
       icon: "098 Krabby.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 792
+      rating: 5
     - id: 99
       name-cn: 巨钳蟹
       name-jp: キングラー
       name-en: Kingler
       icon: "099 Kingler.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1823
+      rating: 7
     - id: 100
       name-cn: 霹雳电球
       name-jp: ビリリダマ
       name-en: Voltorb
       icon: "100 Voltorb.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 840
+      rating: 4.5
     - id: 101
       name-cn: 顽皮雷弹
       name-jp: マルマイン
       name-en: Electrode
       icon: "101 Electrode.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1646
+      rating: 8.5
     - id: 102
       name-cn: 蛋蛋
       name-jp: タマタマ
       name-en: Exeggcute
       icon: "102 Exeggcute.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1100
+      rating: 4.5
     - id: 103
       name-cn: 椰蛋树
       name-jp: ナッシー
       name-en: Exeggutor
       icon: "103 Exeggutor.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2955
+      rating: 9
     - id: 104
       name-cn: 卡拉卡拉
       name-jp: カラカラ
       name-en: Cubone
       icon: "104 Cubone.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1007
+      rating: 4.5
     - id: 105
       name-cn: 嘎啦嘎啦
       name-jp: ガラガラ
       name-en: Marowak
       icon: "105 Marowak.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1657
+      rating: 6
     - id: 106
       name-cn: 飞腿郎
       name-jp: サワムラー
       name-en: Hitmonlee
       icon: "106 Hitmonlee.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1493
+      rating: 7
     - id: 107
       name-cn: 快拳郎
       name-jp: エビワラー
       name-en: Hitmonchan
       icon: "107 Hitmonchan.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1517
+      rating: 7
     - id: 108
       name-cn: 大舌头
       name-jp: ベロリンガ
       name-en: Lickitung
       icon: "108 Lickitung.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1627
+      rating: 7.5
     - id: 109
       name-cn: 瓦斯弹
       name-jp: ドガース
       name-en: Koffing
       icon: "109 Koffing.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1152
+      rating: 5
     - id: 110
       name-cn: 双弹瓦斯
       name-jp: マタドガス
       name-en: Weezing
       icon: "110 Weezing.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2250
+      rating: 8
     - id: 111
       name-cn: 独角犀牛
       name-jp: サイホーン
       name-en: Rhyhorn
       icon: "111 Rhyhorn.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1182
+      rating: 5
     - id: 112
       name-cn: 钻角犀兽
       name-jp: サイドン
       name-en: Rhydon
       icon: "112 Rhydon.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2243
+      rating: 7.5
     - id: 113
       name-cn: 吉利蛋
       name-jp: ラッキー
       name-en: Chansey
       icon: "113 Chansey.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 675
+      rating: 8.5
     - id: 114
       name-cn: 蔓藤怪
       name-jp: モンジャラ
       name-en: Tangela
       icon: "114 Tangela.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1740
+      rating: 8
     - id: 115
       name-cn: 袋兽
       name-jp: ガルーラ
       name-en: Kangaskhan
       icon: "115 Kangaskhan.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2043
+      rating: 7.5
     - id: 116
       name-cn: 墨海马
       name-jp: タッツー
       name-en: Horsea
       icon: "116 Horsea.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 795
+      rating: 4.5
     - id: 117
       name-cn: 海刺龙
       name-jp: シードラ
       name-en: Seadra
       icon: "117 Seadra.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1713
+      rating: 8
     - id: 118
       name-cn: 角金鱼
       name-jp: トサキント
       name-en: Goldeen
       icon: "118 Goldeen.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 965
+      rating: 5
     - id: 119
       name-cn: 金鱼王
       name-jp: アズマオウ
       name-en: Seaking
       icon: "119 Seaking.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2044
+      rating: 7.5
     - id: 120
       name-cn: 海星星
       name-jp: ヒトデマン
       name-en: Staryu
       icon: "120 Staryu.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 938
+      rating: 5
     - id: 121
       name-cn: 宝石海星
       name-jp: スターミー
       name-en: Starmie
       icon: "121 Starmie.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2182
+      rating: 8.5
     - id: 122
       name-cn: 魔墙人偶
       name-jp: バリヤード
       name-en: Mr. Mime
       icon: "122 Mr. Mime.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1494
+      rating: 7.5
     - id: 123
       name-cn: 飞天螳螂
       name-jp: ストライク
       name-en: Scyther
       icon: "123 Scyther.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2074
+      rating: 7
     - id: 124
       name-cn: 迷唇姐
       name-jp: ルージュラ
       name-en: Jynx
       icon: "124 Jynx.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1717
+      rating: 7
     - id: 125
       name-cn: 电击兽
       name-jp: エレブー
       name-en: Electabuzz
       icon: "125 Electabuzz.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2119
+      rating: 8.5
     - id: 126
       name-cn: 鸭嘴火兽
       name-jp: ブーバー
       name-en: Magmar
       icon: "126 Magmar.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2265
+      rating: 8.5
     - id: 127
       name-cn: 凯罗斯
       name-jp: カイロス
       name-en: Pinsir
       icon: "127 Pinsir.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2122
+      rating: 7
     - id: 128
       name-cn: 肯泰罗
       name-jp: ケンタロス
       name-en: Tauros
       icon: "128 Tauros.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1845
+      rating: 7.5
     - id: 129
       name-cn: 鲤鱼王
       name-jp: コイキング
       name-en: Magikarp
       icon: "129 Magikarp.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 263
+      rating: 1
     - id: 130
       name-cn: 暴鲤龙
       name-jp: ギャラドス
       name-en: Gyarados
       icon: "130 Gyarados.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2689
+      rating: 9.5
     - id: 131
       name-cn: 拉普拉斯
       name-jp: ラプラス
       name-en: Lapras
       icon: "131 Lapras.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2981
+      rating: 9.5
     - id: 132
       name-cn: 百变怪
       name-jp: メタモン
       name-en: Ditto
       icon: "132 Ditto.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 920
+      rating: "-"
     - id: 133
       name-cn: 伊布
       name-jp: イーブイ
       name-en: Eevee
       icon: "133 Eevee.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1077
+      rating: 4.5
     - id: 134
       name-cn: 水伊布
       name-jp: シャワーズ
       name-en: Vaporeon
       icon: "134 Vaporeon.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2816
+      rating: 10
     - id: 135
       name-cn: 雷伊布
       name-jp: サンダース
       name-en: Jolteon
       icon: "135 Jolteon.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2140
+      rating: 8
     - id: 136
       name-cn: 火伊布
       name-jp: ブースター
       name-en: Flareon
       icon: "136 Flareon.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2643
+      rating: 9
     - id: 137
       name-cn: 多边兽
       name-jp: ポリゴン
       name-en: Porygon
       icon: "137 Porygon.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1692
+      rating: 7
     - id: 138
       name-cn: 菊石兽
       name-jp: オムナイト
       name-en: Omanyte
       icon: "138 Omanyte.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1120
+      rating: 5
     - id: 139
       name-cn: 多刺菊石兽
       name-jp: オムスター
       name-en: Omastar
       icon: "139 Omastar.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2234
+      rating: 7.5
     - id: 140
       name-cn: 化石盔
       name-jp: カブト
       name-en: Kabuto
       icon: "140 Kabuto.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1105
+      rating: 5
     - id: 141
       name-cn: 镰刀盔
       name-jp: カブトプス
       name-en: Kabutops
       icon: "141 Kabutops.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2130
+      rating: 7.5
     - id: 142
       name-cn: 化石翼龙
       name-jp: プテラ
       name-en: Aerodactyl
       icon: "142 Aerodactyl.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2165
+      rating: 7.5
     - id: 143
       name-cn: 卡比兽
       name-jp: カビゴン
       name-en: Snorlax
       icon: "143 Snorlax.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 3113
+      rating: 10
     - id: 144
       name-cn: 急冻鸟
       name-jp: フリーザー
       name-en: Articuno
       icon: "144 Articuno.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 2978
+      rating: "-"
     - id: 145
       name-cn: 闪电鸟
       name-jp: サンダー
       name-en: Zapdos
       icon: "145 Zapdos.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 3114
+      rating: "-"
     - id: 146
       name-cn: 火焰鸟
       name-jp: ファイヤー
       name-en: Moltres
       icon: "146 Moltres.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 3240
+      rating: "-"
     - id: 147
       name-cn: 迷你龙
       name-jp: ミニリュウ
       name-en: Dratini
       icon: "147 Dratini.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 983
+      rating: 4
     - id: 148
       name-cn: 哈克龙
       name-jp: ハクリュー
       name-en: Dragonair
       icon: "148 Dragonair.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 1748
+      rating: 6
     - id: 149
       name-cn: 快龙
       name-jp: カイリュー
       name-en: Dragonite
       icon: "149 Dragonite.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 3500
+      rating: 10
     - id: 150
       name-cn: 超梦
       name-jp: ミュウツー
       name-en: Mewtwo
       icon: "150 Mewtwo.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 4145
+      rating: "-"
     - id: 151
       name-cn: 梦幻
       name-jp: ミュウ
       name-en: Mew
       icon: "151 Mew.ico"
       type:
-      max-cp:
-      rating:
+      max-cp: 3299
+      rating: "-"

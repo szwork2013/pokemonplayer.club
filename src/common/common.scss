@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./breakpoints";
+@import "./visibility";
 @import "./normalize";
 @import "./colors";
 @import "./utils";
@@ -11,7 +13,7 @@ html, body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  //background-color: #c8c8c8;
+  background-color: whitesmoke;
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -38,9 +40,33 @@ html, body {
   position: relative;
 }
 
+.website-title {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.version {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+}
+
 ul {
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: $blue;
+
+  &:link, &:visited, &:hover, &:active {
+    color: $blue;
+  }
 }
 
 img {

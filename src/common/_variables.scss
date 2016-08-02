@@ -27,3 +27,17 @@ $top-tabs-bar-height: 60px !default;
 // Box Shadow
 $box-shadow: 0 5px 30px rgba(0, 0, 0, 0.8);
 $box-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.4);
+
+// Breakpoints
+$grid-breakpoints: (
+  // Extra small screen / phone
+        xs: 0,
+  // iPhone 5s
+        sm: 320px,
+  // iPhone 6s
+        md: 375px,
+  // iPhone 6s Plus
+        lg: 414px,
+  // iPad mini
+        xl: 768px
+) !default;
