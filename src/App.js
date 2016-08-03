@@ -5,10 +5,10 @@ import {render} from 'react-dom'
 
 import {Provider} from 'react-redux';
 import {Router, Route, IndexRoute, browserHistory} from 'react-router'
-import { syncHistoryWithStore } from 'react-router-redux';
+import {syncHistoryWithStore} from 'react-router-redux';
 
 import configureStore from './stores/configureStore';
-import {Error, Home, Pokedex, DevTools} from './containers'
+import {Error, Home, Pokedex, Pokemap, DevTools} from './containers'
 
 let initState = {};
 
@@ -40,6 +40,7 @@ render((
         <Router history={history}>
             <Route path="/" component={Home}/>
             <Route path="/pokedex" component={Pokedex}/>
+            <Route path="/pokemap" component={Pokemap}/>
             <Route path="*" component={Home}/>
         </Router>
     </Provider>

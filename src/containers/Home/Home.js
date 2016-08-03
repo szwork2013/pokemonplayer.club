@@ -21,9 +21,9 @@ class Home extends Component {
                 <div className="home-view">
                     <AppBlock path="pokedex" name="Pokédex" icon={require('../../images/podex-icon.png')}/>
                     <AppBlock path="pokemap" name="Pokémap" icon=""/>
-                    <AppBlock path="pokemap" name="属性计算器" icon=""/>
-                    <AppBlock path="pokemap" name="攻略" icon=""/>
-                    <AppBlock path="donate" name="捐赠" icon=""/>
+                    <AppBlock path="/" name="属性计算器" icon=""/>
+                    <AppBlock path="/" name="攻略" icon=""/>
+                    <AppBlock path="/" name="捐赠" icon=""/>
                 </div>
 
                 <div className="version">
@@ -34,6 +34,5 @@ class Home extends Component {
         );
     }
 }
-
 
 export default connect()(Home)
