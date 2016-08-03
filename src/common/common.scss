@@ -14,7 +14,8 @@ html, body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background-color: #ececec;
+  background: $light-grey url("../images/background-image.png");
+
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

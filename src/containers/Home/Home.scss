@@ -12,14 +12,18 @@
     margin: 25px;
   }
 
-  .pikachu {
-    width: 350px;
-    height: 250px;
-    background-image: url("../../images/pikachu.gif");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin: auto;
-  }
-
 }
 
+.pikachu {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 350px;
+  height: 250px;
+  background: url("../../images/pikachu.gif") no-repeat;
+  background-size: 100% auto;
+  margin: auto;
+}

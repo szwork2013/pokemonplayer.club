@@ -1,8 +1,8 @@
 import './Pokedex.scss'
 
 import React, {Component} from 'react';
-
 import {Link} from 'react-router'
+import {Nav} from '../../components'
 
 import Ajax from '../../utils/AjaxUtil'
 
@@ -94,7 +94,9 @@ export class Pokedex extends Component {
         return (
             <div className="container">
                 <div className="pokedex-view">
-                    <Link to="/" className="back">返回</Link>
+
+                    {/* Top-Nav*/}
+                    <Nav/>
 
                     <div className="type-filter">
                         <div className="filter-item">

@@ -16,15 +16,15 @@ export class Home extends Component {
         return (
             <div className="container">
                 <div className="website-title">Pokémon 玩家俱乐部</div>
-                {/*<div className="website-title">Test</div>*/}
+
+                <div className="pikachu"></div>
 
                 <div className="home-view">
                     <AppBlock path="pokedex" name="Pokédex" icon={require('../../images/podex-icon.png')}/>
                     <AppBlock path="pokemap" name="Pokémap" icon=""/>
                     <AppBlock path="pokemap" name="属性计算器" icon=""/>
+                    <AppBlock path="pokemap" name="攻略" icon=""/>
                     <AppBlock path="donate" name="捐赠" icon=""/>
-                    {/*<AppBlock path="pokemap" name="孵蛋" icon=""/>*/}
-                    {/*<AppBlock path="pokemap" name="等级" icon=""/>*/}
                 </div>
 
                 <div className="version">

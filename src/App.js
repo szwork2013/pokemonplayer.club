@@ -16,4 +16,5 @@ window.onload = function () {
             <Route path="*" component={Home}/>
         </Router>
     ), document.getElementById('reactRoot'));
+
 };
