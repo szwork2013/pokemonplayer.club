@@ -1023,7 +1023,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1101,7 +1101,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1218,7 +1218,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1335,7 +1335,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 2km
       weakness-resistance:
         bug:
         dark:
@@ -1413,7 +1413,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1491,7 +1491,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 2km
       weakness-resistance:
         bug:
         dark:
@@ -1569,7 +1569,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch:  2km
       weakness-resistance:
         bug:
         dark:
@@ -1628,12 +1628,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 43
       name-cn: 走路草
       name-jp: ナゾノクサ
       name-en: Oddish
       icon: "043 Oddish.ico"
-
       max-cp: 1148
       rating: 4.5
       type: []
@@ -1647,7 +1647,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1745,12 +1745,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 46
       name-cn: 派拉斯
       name-jp: パラス
       name-en: Paras
       icon: "046 Paras.ico"
-
       max-cp: 917
       rating: 4
       type: []
@@ -1764,7 +1764,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1823,12 +1823,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 48
       name-cn: 毛球
       name-jp: コンパン
       name-en: Venonat
       icon: "048 Venonat.ico"
-
       max-cp: 1029
       rating: 4
       type: []
@@ -1842,7 +1842,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1901,12 +1901,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 50
       name-cn: 地鼠
       name-jp: ディグダ
       name-en: Diglett
       icon: "050 Diglett.ico"
-
       max-cp: 457
       rating: 4
       type: []
@@ -1920,7 +1920,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -1979,12 +1979,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 52
       name-cn: 喵喵
       name-jp: ニャース
       name-en: Meowth
       icon: "052 Meowth.ico"
-
       max-cp: 756
       rating: 4
       type: []
@@ -1998,7 +1998,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2057,12 +2057,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 54
       name-cn: 可达鸭
       name-jp: コダック
       name-en: Psyduck
       icon: "054 Psyduck.ico"
-
       max-cp: 1110
       rating: 4.5
       type: []
@@ -2076,7 +2076,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2135,12 +2135,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 56
       name-cn: 猴怪
       name-jp: マンキー
       name-en: Mankey
       icon: "056 Mankey.ico"
-
       max-cp: 879
       rating: 4.5
       type: []
@@ -2154,7 +2154,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2213,12 +2213,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 58
       name-cn: 卡蒂狗
       name-jp: ガーディ
       name-en: Growlithe
       icon: "058 Growlithe.ico"
-
       max-cp: 1335
       rating: 4.5
       type: []
@@ -2232,7 +2232,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2291,12 +2291,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 60
       name-cn: 蚊香蝌蚪
       name-jp: ニョロモ
       name-en: Poliwag
       icon: "060 Poliwag.ico"
-
       max-cp: 796
       rating: 4.5
       type: []
@@ -2310,7 +2310,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2330,12 +2330,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 61
       name-cn: 蚊香君
       name-jp: ニョロゾ
       name-en: Poliwhirl
       icon: "061 Poliwhirl.ico"
-
       max-cp: 1340
       rating: 5.5
       type: []
@@ -2427,7 +2427,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2525,12 +2525,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 66
       name-cn: 腕力
       name-jp: ワンリキー
       name-en: Machop
       icon: "066 Machop.ico"
-
       max-cp: 1090
       rating: 4.5
       type: []
@@ -2544,7 +2544,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2642,12 +2642,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 69
       name-cn: 喇叭芽
       name-jp: マダツボミ
       name-en: Bellsprout
       icon: "069 Bellsprout.ico"
-
       max-cp: 1117
       rating: 4.5
       type: []
@@ -2661,7 +2661,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2759,12 +2759,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 72
       name-cn: 玛瑙水母
       name-jp: メノクラゲ
       name-en: Tentacool
       icon: "072 Tentacool.ico"
-
       max-cp: 905
       rating: 5
       type: []
@@ -2778,7 +2778,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -2856,7 +2856,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch:  2km
       weakness-resistance:
         bug:
         dark:
@@ -2954,12 +2954,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 77
       name-cn: 小火马
       name-jp: ポニータ
       name-en: Ponyta
       icon: "077 Ponyta.ico"
-
       max-cp: 1516
       rating: 6
       type: []
@@ -2973,7 +2973,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3032,12 +3032,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 79
       name-cn: 呆呆兽
       name-jp: ヤドン
       name-en: Slowpoke
       icon: "079 Slowpoke.ico"
-
       max-cp: 1219
       rating: 4.5
       type: []
@@ -3051,7 +3051,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3110,12 +3110,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 81
       name-cn: 小磁怪
       name-jp: コイル
       name-en: Magnemite
       icon: "081 Magnemite.ico"
-
       max-cp: 891
       rating: 4.5
       type: []
@@ -3129,7 +3129,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3188,12 +3188,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 83
       name-cn: 大葱鸭
       name-jp: カモネギ
       name-en: Farfetch'd
       icon: "083 Farfetch'd.ico"
-
       max-cp: 1264
       rating: 5
       type: []
@@ -3207,7 +3207,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3227,12 +3227,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 84
       name-cn: 嘟嘟利
       name-jp: ドードー
       name-en: Doduo
       icon: "084 Doduo.ico"
-
       max-cp: 855
       rating: 4.5
       type: []
@@ -3246,7 +3246,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3305,12 +3305,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 86
       name-cn: 小海狮
       name-jp: パウワウ
       name-en: Seel
       icon: "086 Seel.ico"
-
       max-cp: 1107
       rating: 4.5
       type: []
@@ -3324,7 +3324,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3383,12 +3383,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 88
       name-cn: 臭泥
       name-jp: ベトベター
       name-en: Grimer
       icon: "088 Grimer.ico"
-
       max-cp: 1284
       rating: 4.5
       type: []
@@ -3402,7 +3402,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3461,12 +3461,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 90
       name-cn: 大舌贝
       name-jp: シェルダー
       name-en: Shellder
       icon: "090 Shellder.ico"
-
       max-cp: 823
       rating: 5
       type: []
@@ -3480,7 +3480,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3539,12 +3539,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 92
       name-cn: 鬼斯
       name-jp: ゴース
       name-en: Gastly
       icon: "092 Gastly.ico"
-
       max-cp: 804
       rating: 4.5
       type: []
@@ -3558,7 +3558,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3656,12 +3656,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 95
       name-cn: 大岩蛇
       name-jp: イワーク
       name-en: Onix
       icon: "095 Onix.ico"
-
       max-cp: 857
       rating: 4
       type: []
@@ -3675,7 +3675,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -3695,12 +3695,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 96
       name-cn: 催眠貘
       name-jp: スリープ
       name-en: Drowzee
       icon: "096 Drowzee.ico"
-
       max-cp: 1075
       rating: 5
       type: []
@@ -3714,7 +3714,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3792,7 +3792,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3851,12 +3851,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 100
       name-cn: 霹雳电球
       name-jp: ビリリダマ
       name-en: Voltorb
       icon: "100 Voltorb.ico"
-
       max-cp: 840
       rating: 4.5
       type: []
@@ -3870,7 +3870,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3934,7 +3934,6 @@ generation-one:
       name-jp: タマタマ
       name-en: Exeggcute
       icon: "102 Exeggcute.ico"
-
       max-cp: 1100
       rating: 4.5
       type: []
@@ -3948,7 +3947,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -3968,6 +3967,7 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 103
       name-cn: 椰蛋树
       name-jp: ナッシー
@@ -4026,7 +4026,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4085,12 +4085,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 106
       name-cn: 飞腿郎
       name-jp: サワムラー
       name-en: Hitmonlee
       icon: "106 Hitmonlee.ico"
-
       max-cp: 1493
       rating: 7
       type: []
@@ -4104,7 +4104,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4124,12 +4124,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 107
       name-cn: 快拳郎
       name-jp: エビワラー
       name-en: Hitmonchan
       icon: "107 Hitmonchan.ico"
-
       max-cp: 1517
       rating: 7
       type: []
@@ -4143,7 +4143,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4182,7 +4182,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4221,7 +4221,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4299,7 +4299,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4358,12 +4358,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 113
       name-cn: 吉利蛋
       name-jp: ラッキー
       name-en: Chansey
       icon: "113 Chansey.ico"
-
       max-cp: 675
       rating: 8.5
       type: []
@@ -4377,7 +4377,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4416,7 +4416,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4455,7 +4455,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4494,7 +4494,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4572,7 +4572,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4650,7 +4650,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -4709,12 +4709,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 122
       name-cn: 魔墙人偶
       name-jp: バリヤード
       name-en: Mr. Mime
       icon: "122 Mr. Mime.ico"
-
       max-cp: 1494
       rating: 7.5
       type: []
@@ -4728,7 +4728,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4748,12 +4748,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 123
       name-cn: 飞天螳螂
       name-jp: ストライク
       name-en: Scyther
       icon: "123 Scyther.ico"
-
       max-cp: 2074
       rating: 7
       type: []
@@ -4767,7 +4767,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4787,12 +4787,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 124
       name-cn: 迷唇姐
       name-jp: ルージュラ
       name-en: Jynx
       icon: "124 Jynx.ico"
-
       max-cp: 1717
       rating: 7
       type: []
@@ -4806,7 +4806,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4826,12 +4826,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 125
       name-cn: 电击兽
       name-jp: エレブー
       name-en: Electabuzz
       icon: "125 Electabuzz.ico"
-
       max-cp: 2119
       rating: 8.5
       type: []
@@ -4845,7 +4845,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4865,12 +4865,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 126
       name-cn: 鸭嘴火兽
       name-jp: ブーバー
       name-en: Magmar
       icon: "126 Magmar.ico"
-
       max-cp: 2265
       rating: 8.5
       type: []
@@ -4884,7 +4884,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4904,12 +4904,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 127
       name-cn: 凯罗斯
       name-jp: カイロス
       name-en: Pinsir
       icon: "127 Pinsir.ico"
-
       max-cp: 2122
       rating: 7
       type: []
@@ -4923,7 +4923,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -4962,7 +4962,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -5001,7 +5001,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch:  2km
       weakness-resistance:
         bug:
         dark:
@@ -5060,12 +5060,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 131
       name-cn: 拉普拉斯
       name-jp: ラプラス
       name-en: Lapras
       icon: "131 Lapras.ico"
-
       max-cp: 2981
       rating: 9.5
       type: []
@@ -5079,7 +5079,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5138,12 +5138,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 133
       name-cn: 伊布
       name-jp: イーブイ
       name-en: Eevee
       icon: "133 Eevee.ico"
-
       max-cp: 1077
       rating: 4.5
       type: []
@@ -5157,7 +5157,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5177,12 +5177,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 134
       name-cn: 水伊布
       name-jp: シャワーズ
       name-en: Vaporeon
       icon: "134 Vaporeon.ico"
-
       max-cp: 2816
       rating: 10
       type: []
@@ -5313,7 +5313,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 5km
       weakness-resistance:
         bug:
         dark:
@@ -5338,7 +5338,6 @@ generation-one:
       name-jp: オムナイト
       name-en: Omanyte
       icon: "138 Omanyte.ico"
-
       max-cp: 1120
       rating: 5
       type: []
@@ -5352,7 +5351,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5416,7 +5415,6 @@ generation-one:
       name-jp: カブト
       name-en: Kabuto
       icon: "140 Kabuto.ico"
-
       max-cp: 1105
       rating: 5
       type: []
@@ -5430,7 +5428,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5494,7 +5492,6 @@ generation-one:
       name-jp: プテラ
       name-en: Aerodactyl
       icon: "142 Aerodactyl.ico"
-
       max-cp: 2165
       rating: 7.5
       type: []
@@ -5508,7 +5505,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5528,12 +5525,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 143
       name-cn: 卡比兽
       name-jp: カビゴン
       name-en: Snorlax
       icon: "143 Snorlax.ico"
-
       max-cp: 3113
       rating: 10
       type: []
@@ -5547,7 +5544,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5684,12 +5681,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 147
       name-cn: 迷你龙
       name-jp: ミニリュウ
       name-en: Dratini
       icon: "147 Dratini.ico"
-
       max-cp: 983
       rating: 4
       type: []
@@ -5703,7 +5700,7 @@ generation-one:
         class:
       evolution-requirements:
         candy-to-evolve:
-        egg-distance-to-hatch:
+        egg-distance-to-hatch: 10km
       weakness-resistance:
         bug:
         dark:
@@ -5723,12 +5720,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 148
       name-cn: 哈克龙
       name-jp: ハクリュー
       name-en: Dragonair
       icon: "148 Dragonair.ico"
-
       max-cp: 1748
       rating: 6
       type: []
@@ -5762,12 +5759,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 149
       name-cn: 快龙
       name-jp: カイリュー
       name-en: Dragonite
       icon: "149 Dragonite.ico"
-
       max-cp: 3500
       rating: 10
       type: []
@@ -5801,12 +5798,12 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 150
       name-cn: 超梦
       name-jp: ミュウツー
       name-en: Mewtwo
       icon: "150 Mewtwo.ico"
-
       max-cp: 4145
       rating: 11
       type: []
@@ -5840,6 +5837,7 @@ generation-one:
         rock:
         steel:
         water:
+
     - id: 151
       name-cn: 梦幻
       name-jp: ミュウ

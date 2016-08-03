@@ -1,12 +1,11 @@
 import './Home.scss'
 
 import React, {Component} from 'react';
-
-import {Link, Route, IndexRoute, browserHistory} from 'react-router'
+import { connect } from 'react-redux';
 
 import {AppBlock} from '../../components'
 
-export class Home extends Component {
+class Home extends Component {
 
     constructor(props) {
         super(props);
@@ -28,10 +27,13 @@ export class Home extends Component {
                 </div>
 
                 <div className="version">
-                    <div>WeChat: ezsun724</div>
-                    <div>Version: v0.1.0 dev</div>
+                    <div>微信: ezsun724</div>
+                    <div>v0.1.0 dev</div>
                 </div>
             </div>
         );
     }
 }
+
+
+export default connect()(Home)

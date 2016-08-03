@@ -1,32 +1,33 @@
 import './Pokedex.scss'
 
 import React, {Component} from 'react';
+import { connect } from 'react-redux';
 import {Link} from 'react-router'
-import {Nav} from '../../components'
 
+import {Nav, PokeTypeFilter, PokeEggFilter} from '../../components'
 import Ajax from '../../utils/AjaxUtil'
 
-export class Pokedex extends Component {
+class Pokedex extends Component {
 
     constructor(props) {
         super(props);
 
         this.state = {
-            generationOne: {},
+            data: {},
             pokedexTableBody: '',
             isSorted: false
         };
 
         Ajax.GET('/data/pokedex', (err, data) => {
             this.setState({
-                generationOne: data['generation-one']
+                data: data['generation-one']
             });
             this.generateRows();
         });
     }
 
     generateRows() {
-        let data = this.state.generationOne;
+        let data = this.state.data;
 
         this.setState({
             pokedexTableBody: data.map((item) => {
@@ -64,7 +65,7 @@ export class Pokedex extends Component {
     }
 
     sortData(type) {
-        let data = this.state.generationOne;
+        let data = this.state.data;
 
         data.sort((a, b) => {
 
@@ -95,65 +96,9 @@ export class Pokedex extends Component {
             <div className="container">
                 <div className="pokedex-view">
 
-                    {/* Top-Nav*/}
                     <Nav/>
-
-                    <div className="type-filter">
-                        <div className="filter-item">
-                            <label className="tag bug-tag">BUG</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag dark-tag">DARK</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag dragon-tag">DRAGON</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag electr-tag">ELECTR</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag fairy-tag">FAIRY</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag fight-tag">FIGHT</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag fire-tag">FIRE</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag flying-tag">FLYING</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag ghost-tag">GHOST</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag grass-tag">GRASS</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag ground-tag">GROUND</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag ice-tag">ICE</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag normal-tag">NORMAL</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag poison-tag">POISON</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag psychc-tag">PSYCHC</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag rock-tag">ROCK</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag steel-tag">STEEL</label>
-                        </div>
-                        <div className="filter-item">
-                            <label className="tag water-tag">WATER</label>
-                        </div>
-                    </div>
+                    <PokeTypeFilter/>
+                    <PokeEggFilter/>
 
                     <table className="responsive-table">
                         <thead>
@@ -176,3 +121,5 @@ export class Pokedex extends Component {
         );
     }
 }
+
+export default connect()(Pokedex)

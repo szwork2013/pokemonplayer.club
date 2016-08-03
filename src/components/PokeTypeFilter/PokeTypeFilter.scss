@@ -1,0 +1,130 @@
+.component-type-filter {
+
+  background-color: white;
+  margin: 10px auto;
+  padding: 5px;
+  box-shadow: 0 12px 10px -12px rgba(0, 0, 0, 0.4);
+
+  .header {
+    margin: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  .tags {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .item {
+      width: 16.66666667%;
+      height: 50px;
+      text-align: center;
+      border: 1px solid transparent;
+      padding-top: 10px;
+    }
+
+    .tag {
+      padding: 2px 4px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      border: 1px solid black;
+      color: white;
+      font-size: 11px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-align: center;
+
+      &.bug-tag {
+        border-color: rgb(67, 108, 56);
+        background-color: rgb(178, 189, 33);
+      }
+
+      &.dark-tag {
+        border-color: rgb(75, 58, 49);
+        background-color: rgb(115, 90, 75);
+      }
+
+      &.dragon-tag {
+        border-color: rgb(72, 55, 145);
+        background-color: rgb(110, 88, 211);
+      }
+
+      &.electr-tag {
+        border-color: rgb(108, 76, 22);
+        background-color: rgb(255, 198, 49);
+      }
+
+      &.fairy-tag {
+        border-color: rgb(192, 33, 208);
+        background-color: rgb(247, 181, 247);
+      }
+
+      &.fight-tag {
+        border-color: rgb(69, 55, 48);
+        background-color: rgb(165, 82, 57);
+      }
+
+      &.fire-tag {
+        border-color: rgb(122, 35, 10);
+        background-color: rgb(247, 82, 49);
+      }
+
+      &.flying-tag {
+        border-color: rgb(71, 87, 153);
+        background-color: rgb(158, 176, 251);
+      }
+
+      &.ghost-tag {
+        border-color: rgb(75, 59, 89);
+        background-color: rgb(99, 100, 184);
+      }
+
+      &.grass-tag {
+        border-color: rgb(69, 112, 58);
+        background-color: rgb(123, 206, 82);
+      }
+
+      &.ground-tag {
+        border-color: rgb(120, 87, 27);
+        background-color: rgb(206, 173, 86);
+      }
+
+      &.ice-tag {
+        border-color: rgb(67, 89, 152);
+        background-color: rgb(90, 206, 231)
+      }
+
+      &.normal-tag {
+        border-color: rgb(81, 81, 81);
+        background-color: rgb(178, 169, 151);
+      }
+
+      &.poison-tag {
+        border-color: rgb(72, 61, 78);
+        background-color: rgb(181, 90, 165);
+      }
+
+      &.psychc-tag {
+        border-color: rgb(115, 60, 63);
+        background-color: rgb(255, 115, 165);
+      }
+
+      &.rock-tag {
+        border-color: rgb(119, 86, 27);
+        background-color: rgb(217, 193, 96);
+      }
+
+      &.steel-tag {
+        border-color: rgb(87, 87, 88);
+        background-color: rgb(175, 175, 200);
+      }
+
+      &.water-tag {
+        border-color: rgb(65, 86, 154);
+        background-color: rgb(57, 156, 255);
+      }
+    }
+
+  }
+
+}

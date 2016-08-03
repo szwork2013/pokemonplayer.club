@@ -1,8 +1,9 @@
 import './Error.scss'
 
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
-export default class Error extends Component {
+class Error extends Component {
 
     constructor(props) {
         super(props);
@@ -17,3 +18,5 @@ export default class Error extends Component {
     }
 
 }
+
+export default connect()(Error)
