@@ -1,8 +1,9 @@
-import './PokeTypeFilter.scss'
+import './PokedexTypeFilter.scss'
 
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
-export class PokeTypeFilter extends Component {
+class PokedexTypeFilter extends Component {
 
     constructor(props) {
         super(props);
@@ -26,7 +27,7 @@ export class PokeTypeFilter extends Component {
         let tagsComponent = this.generateTags();
 
         return (
-            <div className="component-type-filter">
+            <div className="component-pokedex-type-filter">
                 <div className="header">类型过滤器</div>
                 <div className="tags">
                     {tagsComponent}
@@ -35,3 +36,5 @@ export class PokeTypeFilter extends Component {
         );
     }
 }
+
+export default connect()(PokedexTypeFilter)

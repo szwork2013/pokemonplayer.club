@@ -1,4 +1,3 @@
-'use strict';
 import 'whatwg-fetch'; // Fetch-poilfill
 
 let API_URL_BASE = '';
@@ -99,7 +98,6 @@ class AjaxUtil {
             }
 
             callback(null, res);
-
         }).catch(error => {
             if (callback instanceof Function) {
                 callback(error);

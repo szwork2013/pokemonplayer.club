@@ -1,9 +1,15 @@
 import {combineReducers} from 'redux'
 import {routerReducer} from 'react-router-redux';
 
-import TestReducer from './TestReducer'
+import Pokedex from './Pokedex'
+import PokedexTable from './PokedexTable'
+import PokedexEggFilter from './PokedexEggFilter'
+import PokedexTypeFilter from './PokedexTypeFilter'
 
 export default combineReducers({
-    TestReducer,
+    Pokedex,
+    PokedexTable,
+    PokedexEggFilter,
+    PokedexTypeFilter,
     routing: routerReducer
 });

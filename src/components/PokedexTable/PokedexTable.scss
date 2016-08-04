@@ -1,0 +1,9 @@
+.component-pokedex-table {
+
+  th.id,
+  th.name-en,
+  th.max-cp,
+  th.rating {
+    cursor: pointer;
+  }
+}

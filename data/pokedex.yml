@@ -1,5 +1,6 @@
 generation-one:
     - id: 1
+      display: true
       name-cn: 妙蛙种子
       name-jp: フシギダネ
       name-en: Bulbasaur
@@ -39,6 +40,7 @@ generation-one:
         water: 0.8
 
     - id: 2
+      display: true
       name-cn: 妙蛙草
       name-jp: フシギソウ
       name-en: Ivysaur
@@ -78,6 +80,7 @@ generation-one:
         water: 0.8
 
     - id: 3
+      display: true
       name-cn: 妙蛙花
       name-jp: フシギバナ
       name-en: Venusaur
@@ -117,6 +120,7 @@ generation-one:
         water: 0.8
 
     - id: 4
+      display: true
       name-cn: 小火龙
       name-jp: ヒトカゲ
       name-en: Charmander
@@ -156,6 +160,7 @@ generation-one:
         water: 1.2
 
     - id: 5
+      display: true
       name-cn: 火恐龙
       name-jp: リザード
       name-en: Charmeleon
@@ -195,6 +200,7 @@ generation-one:
         water: 1.2
 
     - id: 6
+      display: true
       name-cn: 喷火龙
       name-jp: リザードン
       name-en: Charizard
@@ -234,6 +240,7 @@ generation-one:
         water: 1.2
 
     - id: 7
+      display: true
       name-cn: 杰尼龟
       name-jp: ゼニガメ
       name-en: Squirtle
@@ -272,6 +279,7 @@ generation-one:
         steel: 0.8
         water: 0.8
     - id: 8
+      display: true
       name-cn: 卡咪龟
       name-jp: カメール
       name-en: Wartortle
@@ -310,6 +318,7 @@ generation-one:
         steel: 0.8
         water: 0.8
     - id: 9
+      display: true
       name-cn: 水箭龟
       name-jp: カメックス
       name-en: Blastoise
@@ -349,6 +358,7 @@ generation-one:
         water: 0.8
 
     - id: 10
+      display: true
       name-cn: 绿毛虫
       name-jp: キャタピー
       name-en: Caterpie
@@ -387,6 +397,7 @@ generation-one:
         steel: 1
         water: 1
     - id: 11
+      display: true
       name-cn: 铁甲蛹
       name-jp: トランセル
       name-en: Metapod
@@ -425,6 +436,7 @@ generation-one:
         steel: 1
         water: 1
     - id: 12
+      display: true
       name-cn: 巴大蝶
       name-jp: バタフリー
       name-en: Butterfree
@@ -465,6 +477,7 @@ generation-one:
         water: 1
 
     - id: 13
+      display: true
       name-cn: 独角虫
       name-jp: ビードル
       name-en: Weedle
@@ -503,6 +516,7 @@ generation-one:
         steel: 1
         water: 1
     - id: 14
+      display: true
       name-cn: 铁壳蛹
       name-jp: コクーン
       name-en: Kakuna
@@ -542,6 +556,7 @@ generation-one:
         water: 1
 
     - id: 15
+      display: true
       name-cn: 大针蜂
       name-jp: スピアー
       name-en: Beedrill
@@ -581,6 +596,7 @@ generation-one:
         water: 1
 
     - id: 16
+      display: true
       name-cn: 波波
       name-jp: ポッポ
       name-en: Pidgey
@@ -619,6 +635,7 @@ generation-one:
         steel: 1
         water: 1
     - id: 17
+      display: true
       name-cn: 比比鸟
       name-jp: ピジョン
       name-en: Pidgeotto
@@ -657,6 +674,7 @@ generation-one:
         steel: 1
         water: 1
     - id: 18
+      display: true
       name-cn: 大比鸟
       name-jp: ピジョット
       name-en: Pidgeot
@@ -695,6 +713,7 @@ generation-one:
         steel: 1
         water: 1
     - id: 19
+      display: true
       name-cn: 小拉达
       name-jp: コラッタ
       name-en: Rattata
@@ -734,6 +753,7 @@ generation-one:
         water: 1
 
     - id: 20
+      display: true
       name-cn: 拉达
       name-jp: ラッタ
       name-en: Raticate
@@ -773,6 +793,7 @@ generation-one:
         water: 1
 
     - id: 21
+      display: true
       name-cn: 烈雀
       name-jp: オニスズメ
       name-en: Spearow
@@ -812,6 +833,7 @@ generation-one:
         water: 1
 
     - id: 22
+      display: true
       name-cn: 大嘴雀
       name-jp: オニドリル
       name-en: Fearow
@@ -851,6 +873,7 @@ generation-one:
         water: 1
 
     - id: 23
+      display: true
       name-cn: 阿柏蛇
       name-jp: アーボ
       name-en: Ekans
@@ -890,6 +913,7 @@ generation-one:
         water: 1
 
     - id: 24
+      display: true
       name-cn: 阿柏怪
       name-jp: アーボック
       name-en: Arbok
@@ -929,6 +953,7 @@ generation-one:
         water: 1
 
     - id: 25
+      display: true
       name-cn: 皮卡丘
       name-jp: ピカチュウ
       name-en: Pikachu
@@ -967,6 +992,7 @@ generation-one:
         steel: 0.8
         water: 1
     - id: 26
+      display: true
       name-cn: 雷丘
       name-jp: ライチュウ
       name-en: Raichu
@@ -1005,6 +1031,7 @@ generation-one:
         steel: 0.8
         water: 1
     - id: 27
+      display: true
       name-cn: 穿山鼠
       name-jp: サンド
       name-en: Sandshrew
@@ -1044,6 +1071,7 @@ generation-one:
         steel:
         water:
     - id: 28
+      display: true
       name-cn: 穿山王
       name-jp: サンドパン
       name-en: Sandslash
@@ -1083,6 +1111,7 @@ generation-one:
         steel:
         water:
     - id: 29
+      display: true
       name-cn: 尼多兰
       name-jp: ニドラン♀
       name-en: Nidoran♀
@@ -1122,6 +1151,7 @@ generation-one:
         steel:
         water:
     - id: 30
+      display: true
       name-cn: 尼多娜
       name-jp: ニドリーナ
       name-en: Nidorina
@@ -1161,6 +1191,7 @@ generation-one:
         steel:
         water:
     - id: 31
+      display: true
       name-cn: 尼多后
       name-jp: ニドクイン
       name-en: Nidoqueen
@@ -1200,6 +1231,7 @@ generation-one:
         steel:
         water:
     - id: 32
+      display: true
       name-cn: 尼多朗
       name-jp: ニドラン♂
       name-en: Nidoran♂
@@ -1239,6 +1271,7 @@ generation-one:
         steel:
         water:
     - id: 33
+      display: true
       name-cn: 尼多力诺
       name-jp: ニドリーノ
       name-en: Nidorino
@@ -1278,6 +1311,7 @@ generation-one:
         steel:
         water:
     - id: 34
+      display: true
       name-cn: 尼多王
       name-jp: ニドキング
       name-en: Nidoking
@@ -1317,6 +1351,7 @@ generation-one:
         steel:
         water:
     - id: 35
+      display: true
       name-cn: 皮皮
       name-jp: ピッピ
       name-en: Clefairy
@@ -1356,6 +1391,7 @@ generation-one:
         steel:
         water:
     - id: 36
+      display: true
       name-cn: 皮可西
       name-jp: ピクシー
       name-en: Clefable
@@ -1395,6 +1431,7 @@ generation-one:
         steel:
         water:
     - id: 37
+      display: true
       name-cn: 六尾
       name-jp: ロコン
       name-en: Vulpix
@@ -1434,6 +1471,7 @@ generation-one:
         steel:
         water:
     - id: 38
+      display: true
       name-cn: 九尾
       name-jp: キュウコン
       name-en: Ninetales
@@ -1473,6 +1511,7 @@ generation-one:
         steel:
         water:
     - id: 39
+      display: true
       name-cn: 胖丁
       name-jp: プリン
       name-en: Jigglypuff
@@ -1512,6 +1551,7 @@ generation-one:
         steel:
         water:
     - id: 40
+      display: true
       name-cn: 胖可丁
       name-jp: プクリン
       name-en: Wigglytuff
@@ -1551,6 +1591,7 @@ generation-one:
         steel:
         water:
     - id: 41
+      display: true
       name-cn: 超音蝠
       name-jp: ズバット
       name-en: Zubat
@@ -1590,6 +1631,7 @@ generation-one:
         steel:
         water:
     - id: 42
+      display: true
       name-cn: 大嘴蝠
       name-jp: ゴルバット
       name-en: Golbat
@@ -1630,6 +1672,7 @@ generation-one:
         water:
 
     - id: 43
+      display: true
       name-cn: 走路草
       name-jp: ナゾノクサ
       name-en: Oddish
@@ -1668,6 +1711,7 @@ generation-one:
         steel:
         water:
     - id: 44
+      display: true
       name-cn: 臭臭花
       name-jp: クサイハナ
       name-en: Gloom
@@ -1707,6 +1751,7 @@ generation-one:
         steel:
         water:
     - id: 45
+      display: true
       name-cn: 霸王花
       name-jp: ラフレシア
       name-en: Vileplume
@@ -1747,6 +1792,7 @@ generation-one:
         water:
 
     - id: 46
+      display: true
       name-cn: 派拉斯
       name-jp: パラス
       name-en: Paras
@@ -1785,6 +1831,7 @@ generation-one:
         steel:
         water:
     - id: 47
+      display: true
       name-cn: 派拉斯特
       name-jp: パラセクト
       name-en: Parasect
@@ -1825,6 +1872,7 @@ generation-one:
         water:
 
     - id: 48
+      display: true
       name-cn: 毛球
       name-jp: コンパン
       name-en: Venonat
@@ -1863,6 +1911,7 @@ generation-one:
         steel:
         water:
     - id: 49
+      display: true
       name-cn: 摩鲁蛾
       name-jp: モルフォン
       name-en: Venomoth
@@ -1903,6 +1952,7 @@ generation-one:
         water:
 
     - id: 50
+      display: true
       name-cn: 地鼠
       name-jp: ディグダ
       name-en: Diglett
@@ -1941,6 +1991,7 @@ generation-one:
         steel:
         water:
     - id: 51
+      display: true
       name-cn: 三地鼠
       name-jp: ダグトリオ
       name-en: Dugtrio
@@ -1981,6 +2032,7 @@ generation-one:
         water:
 
     - id: 52
+      display: true
       name-cn: 喵喵
       name-jp: ニャース
       name-en: Meowth
@@ -2019,6 +2071,7 @@ generation-one:
         steel:
         water:
     - id: 53
+      display: true
       name-cn: 猫老大
       name-jp: ペルシアン
       name-en: Persian
@@ -2059,6 +2112,7 @@ generation-one:
         water:
 
     - id: 54
+      display: true
       name-cn: 可达鸭
       name-jp: コダック
       name-en: Psyduck
@@ -2097,6 +2151,7 @@ generation-one:
         steel:
         water:
     - id: 55
+      display: true
       name-cn: 哥达鸭
       name-jp: ゴルダック
       name-en: Golduck
@@ -2137,6 +2192,7 @@ generation-one:
         water:
 
     - id: 56
+      display: true
       name-cn: 猴怪
       name-jp: マンキー
       name-en: Mankey
@@ -2175,6 +2231,7 @@ generation-one:
         steel:
         water:
     - id: 57
+      display: true
       name-cn: 火爆猴
       name-jp: オコリザル
       name-en: Primeape
@@ -2215,6 +2272,7 @@ generation-one:
         water:
 
     - id: 58
+      display: true
       name-cn: 卡蒂狗
       name-jp: ガーディ
       name-en: Growlithe
@@ -2253,6 +2311,7 @@ generation-one:
         steel:
         water:
     - id: 59
+      display: true
       name-cn: 风速狗
       name-jp: ウインディ
       name-en: Arcanine
@@ -2293,6 +2352,7 @@ generation-one:
         water:
 
     - id: 60
+      display: true
       name-cn: 蚊香蝌蚪
       name-jp: ニョロモ
       name-en: Poliwag
@@ -2332,6 +2392,7 @@ generation-one:
         water:
 
     - id: 61
+      display: true
       name-cn: 蚊香君
       name-jp: ニョロゾ
       name-en: Poliwhirl
@@ -2370,6 +2431,7 @@ generation-one:
         steel:
         water:
     - id: 62
+      display: true
       name-cn: 蚊香泳士
       name-jp: ニョロボン
       name-en: Poliwrath
@@ -2409,6 +2471,7 @@ generation-one:
         steel:
         water:
     - id: 63
+      display: true
       name-cn: 凯西
       name-jp: ケーシィ
       name-en: Abra
@@ -2448,6 +2511,7 @@ generation-one:
         steel:
         water:
     - id: 64
+      display: true
       name-cn: 勇基拉
       name-jp: ユンゲラー
       name-en: Kadabra
@@ -2487,6 +2551,7 @@ generation-one:
         steel:
         water:
     - id: 65
+      display: true
       name-cn: 胡地
       name-jp: フーディン
       name-en: Alakazam
@@ -2527,6 +2592,7 @@ generation-one:
         water:
 
     - id: 66
+      display: true
       name-cn: 腕力
       name-jp: ワンリキー
       name-en: Machop
@@ -2565,6 +2631,7 @@ generation-one:
         steel:
         water:
     - id: 67
+      display: true
       name-cn: 豪力
       name-jp: ゴーリキー
       name-en: Machoke
@@ -2604,6 +2671,7 @@ generation-one:
         steel:
         water:
     - id: 68
+      display: true
       name-cn: 怪力
       name-jp: カイリキー
       name-en: Machamp
@@ -2644,6 +2712,7 @@ generation-one:
         water:
 
     - id: 69
+      display: true
       name-cn: 喇叭芽
       name-jp: マダツボミ
       name-en: Bellsprout
@@ -2682,6 +2751,7 @@ generation-one:
         steel:
         water:
     - id: 70
+      display: true
       name-cn: 口呆花
       name-jp: ウツドン
       name-en: Weepinbell
@@ -2721,6 +2791,7 @@ generation-one:
         steel:
         water:
     - id: 71
+      display: true
       name-cn: 大食花
       name-jp: ウツボット
       name-en: Victreebel
@@ -2761,6 +2832,7 @@ generation-one:
         water:
 
     - id: 72
+      display: true
       name-cn: 玛瑙水母
       name-jp: メノクラゲ
       name-en: Tentacool
@@ -2799,6 +2871,7 @@ generation-one:
         steel:
         water:
     - id: 73
+      display: true
       name-cn: 毒刺水母
       name-jp: ドククラゲ
       name-en: Tentacruel
@@ -2838,6 +2911,7 @@ generation-one:
         steel:
         water:
     - id: 74
+      display: true
       name-cn: 小拳石
       name-jp: イシツブテ
       name-en: Geodude
@@ -2877,6 +2951,7 @@ generation-one:
         steel:
         water:
     - id: 75
+      display: true
       name-cn: 隆隆石
       name-jp: ゴローン
       name-en: Graveler
@@ -2916,6 +2991,7 @@ generation-one:
         steel:
         water:
     - id: 76
+      display: true
       name-cn: 隆隆岩
       name-jp: ゴローニャ
       name-en: Golem
@@ -2956,6 +3032,7 @@ generation-one:
         water:
 
     - id: 77
+      display: true
       name-cn: 小火马
       name-jp: ポニータ
       name-en: Ponyta
@@ -2994,6 +3071,7 @@ generation-one:
         steel:
         water:
     - id: 78
+      display: true
       name-cn: 烈焰马
       name-jp: ギャロップ
       name-en: Rapidash
@@ -3034,6 +3112,7 @@ generation-one:
         water:
 
     - id: 79
+      display: true
       name-cn: 呆呆兽
       name-jp: ヤドン
       name-en: Slowpoke
@@ -3072,6 +3151,7 @@ generation-one:
         steel:
         water:
     - id: 80
+      display: true
       name-cn: 呆壳兽
       name-jp: ヤドラン
       name-en: Slowbro
@@ -3112,6 +3192,7 @@ generation-one:
         water:
 
     - id: 81
+      display: true
       name-cn: 小磁怪
       name-jp: コイル
       name-en: Magnemite
@@ -3150,6 +3231,7 @@ generation-one:
         steel:
         water:
     - id: 82
+      display: true
       name-cn: 三合一磁怪
       name-jp: レアコイル
       name-en: Magneton
@@ -3190,6 +3272,7 @@ generation-one:
         water:
 
     - id: 83
+      display: true
       name-cn: 大葱鸭
       name-jp: カモネギ
       name-en: Farfetch'd
@@ -3229,6 +3312,7 @@ generation-one:
         water:
 
     - id: 84
+      display: true
       name-cn: 嘟嘟利
       name-jp: ドードー
       name-en: Doduo
@@ -3267,6 +3351,7 @@ generation-one:
         steel:
         water:
     - id: 85
+      display: true
       name-cn: 嘟嘟利
       name-jp: ドードリオ
       name-en: Dodrio
@@ -3307,6 +3392,7 @@ generation-one:
         water:
 
     - id: 86
+      display: true
       name-cn: 小海狮
       name-jp: パウワウ
       name-en: Seel
@@ -3345,6 +3431,7 @@ generation-one:
         steel:
         water:
     - id: 87
+      display: true
       name-cn: 白海狮
       name-jp: ジュゴン
       name-en: Dewgong
@@ -3385,6 +3472,7 @@ generation-one:
         water:
 
     - id: 88
+      display: true
       name-cn: 臭泥
       name-jp: ベトベター
       name-en: Grimer
@@ -3423,6 +3511,7 @@ generation-one:
         steel:
         water:
     - id: 89
+      display: true
       name-cn: 臭臭泥
       name-jp: ベトベトン
       name-en: Muk
@@ -3463,6 +3552,7 @@ generation-one:
         water:
 
     - id: 90
+      display: true
       name-cn: 大舌贝
       name-jp: シェルダー
       name-en: Shellder
@@ -3501,6 +3591,7 @@ generation-one:
         steel:
         water:
     - id: 91
+      display: true
       name-cn: 刺甲贝
       name-jp: パルシェン
       name-en: Cloyster
@@ -3541,6 +3632,7 @@ generation-one:
         water:
 
     - id: 92
+      display: true
       name-cn: 鬼斯
       name-jp: ゴース
       name-en: Gastly
@@ -3579,6 +3671,7 @@ generation-one:
         steel:
         water:
     - id: 93
+      display: true
       name-cn: 鬼斯通
       name-jp: ゴースト
       name-en: Haunter
@@ -3618,6 +3711,7 @@ generation-one:
         steel:
         water:
     - id: 94
+      display: true
       name-cn: 耿鬼
       name-jp: ゲンガー
       name-en: Gengar
@@ -3658,6 +3752,7 @@ generation-one:
         water:
 
     - id: 95
+      display: true
       name-cn: 大岩蛇
       name-jp: イワーク
       name-en: Onix
@@ -3697,6 +3792,7 @@ generation-one:
         water:
 
     - id: 96
+      display: true
       name-cn: 催眠貘
       name-jp: スリープ
       name-en: Drowzee
@@ -3735,6 +3831,7 @@ generation-one:
         steel:
         water:
     - id: 97
+      display: true
       name-cn: 引梦貘人
       name-jp: スリーパー
       name-en: Hypno
@@ -3774,6 +3871,7 @@ generation-one:
         steel:
         water:
     - id: 98
+      display: true
       name-cn: 大钳蟹
       name-jp: クラブ
       name-en: Krabby
@@ -3813,6 +3911,7 @@ generation-one:
         steel:
         water:
     - id: 99
+      display: true
       name-cn: 巨钳蟹
       name-jp: キングラー
       name-en: Kingler
@@ -3853,6 +3952,7 @@ generation-one:
         water:
 
     - id: 100
+      display: true
       name-cn: 霹雳电球
       name-jp: ビリリダマ
       name-en: Voltorb
@@ -3891,6 +3991,7 @@ generation-one:
         steel:
         water:
     - id: 101
+      display: true
       name-cn: 顽皮雷弹
       name-jp: マルマイン
       name-en: Electrode
@@ -3930,6 +4031,7 @@ generation-one:
         steel:
         water:
     - id: 102
+      display: true
       name-cn: 蛋蛋
       name-jp: タマタマ
       name-en: Exeggcute
@@ -3969,6 +4071,7 @@ generation-one:
         water:
 
     - id: 103
+      display: true
       name-cn: 椰蛋树
       name-jp: ナッシー
       name-en: Exeggutor
@@ -4008,6 +4111,7 @@ generation-one:
         steel:
         water:
     - id: 104
+      display: true
       name-cn: 卡拉卡拉
       name-jp: カラカラ
       name-en: Cubone
@@ -4047,6 +4151,7 @@ generation-one:
         steel:
         water:
     - id: 105
+      display: true
       name-cn: 嘎啦嘎啦
       name-jp: ガラガラ
       name-en: Marowak
@@ -4087,6 +4192,7 @@ generation-one:
         water:
 
     - id: 106
+      display: true
       name-cn: 飞腿郎
       name-jp: サワムラー
       name-en: Hitmonlee
@@ -4126,6 +4232,7 @@ generation-one:
         water:
 
     - id: 107
+      display: true
       name-cn: 快拳郎
       name-jp: エビワラー
       name-en: Hitmonchan
@@ -4164,6 +4271,7 @@ generation-one:
         steel:
         water:
     - id: 108
+      display: true
       name-cn: 大舌头
       name-jp: ベロリンガ
       name-en: Lickitung
@@ -4203,6 +4311,7 @@ generation-one:
         steel:
         water:
     - id: 109
+      display: true
       name-cn: 瓦斯弹
       name-jp: ドガース
       name-en: Koffing
@@ -4242,6 +4351,7 @@ generation-one:
         steel:
         water:
     - id: 110
+      display: true
       name-cn: 双弹瓦斯
       name-jp: マタドガス
       name-en: Weezing
@@ -4281,6 +4391,7 @@ generation-one:
         steel:
         water:
     - id: 111
+      display: true
       name-cn: 独角犀牛
       name-jp: サイホーン
       name-en: Rhyhorn
@@ -4320,6 +4431,7 @@ generation-one:
         steel:
         water:
     - id: 112
+      display: true
       name-cn: 钻角犀兽
       name-jp: サイドン
       name-en: Rhydon
@@ -4360,6 +4472,7 @@ generation-one:
         water:
 
     - id: 113
+      display: true
       name-cn: 吉利蛋
       name-jp: ラッキー
       name-en: Chansey
@@ -4398,6 +4511,7 @@ generation-one:
         steel:
         water:
     - id: 114
+      display: true
       name-cn: 蔓藤怪
       name-jp: モンジャラ
       name-en: Tangela
@@ -4437,6 +4551,7 @@ generation-one:
         steel:
         water:
     - id: 115
+      display: true
       name-cn: 袋兽
       name-jp: ガルーラ
       name-en: Kangaskhan
@@ -4476,6 +4591,7 @@ generation-one:
         steel:
         water:
     - id: 116
+      display: true
       name-cn: 墨海马
       name-jp: タッツー
       name-en: Horsea
@@ -4515,6 +4631,7 @@ generation-one:
         steel:
         water:
     - id: 117
+      display: true
       name-cn: 海刺龙
       name-jp: シードラ
       name-en: Seadra
@@ -4554,6 +4671,7 @@ generation-one:
         steel:
         water:
     - id: 118
+      display: true
       name-cn: 角金鱼
       name-jp: トサキント
       name-en: Goldeen
@@ -4593,6 +4711,7 @@ generation-one:
         steel:
         water:
     - id: 119
+      display: true
       name-cn: 金鱼王
       name-jp: アズマオウ
       name-en: Seaking
@@ -4632,6 +4751,7 @@ generation-one:
         steel:
         water:
     - id: 120
+      display: true
       name-cn: 海星星
       name-jp: ヒトデマン
       name-en: Staryu
@@ -4671,6 +4791,7 @@ generation-one:
         steel:
         water:
     - id: 121
+      display: true
       name-cn: 宝石海星
       name-jp: スターミー
       name-en: Starmie
@@ -4711,6 +4832,7 @@ generation-one:
         water:
 
     - id: 122
+      display: true
       name-cn: 魔墙人偶
       name-jp: バリヤード
       name-en: Mr. Mime
@@ -4750,6 +4872,7 @@ generation-one:
         water:
 
     - id: 123
+      display: true
       name-cn: 飞天螳螂
       name-jp: ストライク
       name-en: Scyther
@@ -4789,6 +4912,7 @@ generation-one:
         water:
 
     - id: 124
+      display: true
       name-cn: 迷唇姐
       name-jp: ルージュラ
       name-en: Jynx
@@ -4828,6 +4952,7 @@ generation-one:
         water:
 
     - id: 125
+      display: true
       name-cn: 电击兽
       name-jp: エレブー
       name-en: Electabuzz
@@ -4867,6 +4992,7 @@ generation-one:
         water:
 
     - id: 126
+      display: true
       name-cn: 鸭嘴火兽
       name-jp: ブーバー
       name-en: Magmar
@@ -4906,6 +5032,7 @@ generation-one:
         water:
 
     - id: 127
+      display: true
       name-cn: 凯罗斯
       name-jp: カイロス
       name-en: Pinsir
@@ -4944,6 +5071,7 @@ generation-one:
         steel:
         water:
     - id: 128
+      display: true
       name-cn: 肯泰罗
       name-jp: ケンタロス
       name-en: Tauros
@@ -4983,6 +5111,7 @@ generation-one:
         steel:
         water:
     - id: 129
+      display: true
       name-cn: 鲤鱼王
       name-jp: コイキング
       name-en: Magikarp
@@ -5022,6 +5151,7 @@ generation-one:
         steel:
         water:
     - id: 130
+      display: true
       name-cn: 暴鲤龙
       name-jp: ギャラドス
       name-en: Gyarados
@@ -5062,6 +5192,7 @@ generation-one:
         water:
 
     - id: 131
+      display: true
       name-cn: 拉普拉斯
       name-jp: ラプラス
       name-en: Lapras
@@ -5100,6 +5231,7 @@ generation-one:
         steel:
         water:
     - id: 132
+      display: true
       name-cn: 百变怪
       name-jp: メタモン
       name-en: Ditto
@@ -5140,6 +5272,7 @@ generation-one:
         water:
 
     - id: 133
+      display: true
       name-cn: 伊布
       name-jp: イーブイ
       name-en: Eevee
@@ -5179,6 +5312,7 @@ generation-one:
         water:
 
     - id: 134
+      display: true
       name-cn: 水伊布
       name-jp: シャワーズ
       name-en: Vaporeon
@@ -5217,6 +5351,7 @@ generation-one:
         steel:
         water:
     - id: 135
+      display: true
       name-cn: 雷伊布
       name-jp: サンダース
       name-en: Jolteon
@@ -5256,6 +5391,7 @@ generation-one:
         steel:
         water:
     - id: 136
+      display: true
       name-cn: 火伊布
       name-jp: ブースター
       name-en: Flareon
@@ -5295,6 +5431,7 @@ generation-one:
         steel:
         water:
     - id: 137
+      display: true
       name-cn: 多边兽
       name-jp: ポリゴン
       name-en: Porygon
@@ -5334,6 +5471,7 @@ generation-one:
         steel:
         water:
     - id: 138
+      display: true
       name-cn: 菊石兽
       name-jp: オムナイト
       name-en: Omanyte
@@ -5372,6 +5510,7 @@ generation-one:
         steel:
         water:
     - id: 139
+      display: true
       name-cn: 多刺菊石兽
       name-jp: オムスター
       name-en: Omastar
@@ -5411,6 +5550,7 @@ generation-one:
         steel:
         water:
     - id: 140
+      display: true
       name-cn: 化石盔
       name-jp: カブト
       name-en: Kabuto
@@ -5449,6 +5589,7 @@ generation-one:
         steel:
         water:
     - id: 141
+      display: true
       name-cn: 镰刀盔
       name-jp: カブトプス
       name-en: Kabutops
@@ -5488,6 +5629,7 @@ generation-one:
         steel:
         water:
     - id: 142
+      display: true
       name-cn: 化石翼龙
       name-jp: プテラ
       name-en: Aerodactyl
@@ -5527,6 +5669,7 @@ generation-one:
         water:
 
     - id: 143
+      display: true
       name-cn: 卡比兽
       name-jp: カビゴン
       name-en: Snorlax
@@ -5565,6 +5708,7 @@ generation-one:
         steel:
         water:
     - id: 144
+      display: true
       name-cn: 急冻鸟
       name-jp: フリーザー
       name-en: Articuno
@@ -5604,6 +5748,7 @@ generation-one:
         steel:
         water:
     - id: 145
+      display: true
       name-cn: 闪电鸟
       name-jp: サンダー
       name-en: Zapdos
@@ -5643,6 +5788,7 @@ generation-one:
         steel:
         water:
     - id: 146
+      display: true
       name-cn: 火焰鸟
       name-jp: ファイヤー
       name-en: Moltres
@@ -5683,6 +5829,7 @@ generation-one:
         water:
 
     - id: 147
+      display: true
       name-cn: 迷你龙
       name-jp: ミニリュウ
       name-en: Dratini
@@ -5722,6 +5869,7 @@ generation-one:
         water:
 
     - id: 148
+      display: true
       name-cn: 哈克龙
       name-jp: ハクリュー
       name-en: Dragonair
@@ -5761,6 +5909,7 @@ generation-one:
         water:
 
     - id: 149
+      display: true
       name-cn: 快龙
       name-jp: カイリュー
       name-en: Dragonite
@@ -5800,6 +5949,7 @@ generation-one:
         water:
 
     - id: 150
+      display: true
       name-cn: 超梦
       name-jp: ミュウツー
       name-en: Mewtwo
@@ -5839,6 +5989,7 @@ generation-one:
         water:
 
     - id: 151
+      display: true
       name-cn: 梦幻
       name-jp: ミュウ
       name-en: Mew
