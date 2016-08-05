@@ -46,3 +46,4 @@ render((
     </Provider>
 ), document.getElementById('reactRoot'));
 
+console.log(`Current Environment -> ${process.env.NODE_ENV}`);

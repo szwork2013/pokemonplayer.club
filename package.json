@@ -1,6 +1,6 @@
 {
   "name": "pokemonplayer.club",
-  "version": "2.0.0",
+  "version": "0.2.0",
   "description": "pokemonplayer.club",
   "main": "server.js",
   "private": true,
@@ -9,7 +9,7 @@
     "npm": ">=3.10 <4"
   },
   "scripts": {
-    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "build": "rm -rf ./dist && NODE_ENV=production webpack --config webpack.config.js",
     "start:dev": "NODE_ENV=development node server.js",
     "start:prod": "NODE_ENV=production node server.js"
   },
@@ -53,9 +53,12 @@
     "webpack-hot-middleware": "^2.9.1"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
     "fastclick": "^1.0.6",
     "font-awesome": "^4.6.3",
     "js-yaml": "^3.6.1",
+    "morgan": "^1.7.0",
     "react": "15.2.1",
     "react-dom": "15.2.1",
     "react-redux": "^4.4.5",

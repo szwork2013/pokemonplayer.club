@@ -1,7 +1,7 @@
 import './Home.scss'
 
 import React, {Component} from 'react';
-import { connect } from 'react-redux';
+import {connect} from 'react-redux';
 
 import {AppBlock} from '../../components'
 
@@ -28,7 +28,7 @@ class Home extends Component {
 
                 <div className="version">
                     <div>微信: ezsun724</div>
-                    <div>v0.1.0 dev</div>
+                    <div>{process.env.VERSION} {process.env.NODE_ENV}</div>
                 </div>
             </div>
         );

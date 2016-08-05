@@ -4,10 +4,10 @@ import thunk from 'redux-thunk'
 // import clientMiddleware from '../middlewares/clientMiddleware'
 import rootReducer from '../reducers'
 
-
-let __DEVELOPMENT__ = true;
-
 export default function configureStore(initialState, history, client) {
+
+    let __DEVELOPMENT__ = process.env.NODE_ENV === 'development';
+
     // Sync dispatched route actions to the history
     const reduxRouterMiddleware = routerMiddleware(history);
 
