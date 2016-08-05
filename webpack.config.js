@@ -18,7 +18,7 @@ var webpackConfig = {
         } else {
             return {
                 app: [
-                    'webpack-hot-middleware/client?path=' + devHost + '/__webpack_hmr',
+                    'webpack-hot-middleware/client?path=' + hostAddress + '/__webpack_hmr',
                     './src/App.js'
                 ]
             }
