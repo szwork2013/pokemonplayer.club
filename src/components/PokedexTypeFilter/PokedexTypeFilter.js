@@ -9,20 +9,6 @@ class PokedexTypeFilter extends Component {
         super(props);
     }
 
-    generateTags() {
-        let tags = ['bug', 'dark', 'dragon', 'electr', 'fairy', 'fight',
-            'fire', 'flying', 'ghost', 'grass', 'ground', 'ice',
-            'normal', 'poison', 'psychc', 'rock', 'steel', 'water'];
-
-        return tags.map((tag) => {
-            return (
-                <div key={tag} className="item">
-                    <label className={"tag " + tag + "-tag"}>{tag.toUpperCase()}</label>
-                </div>
-            )
-        })
-    }
-
     render() {
         let tags = ['bug', 'dark', 'dragon', 'electr', 'fairy', 'fight',
             'fire', 'flying', 'ghost', 'grass', 'ground', 'ice',

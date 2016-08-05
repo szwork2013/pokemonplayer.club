@@ -58,7 +58,7 @@ generation-one:
         class: Normal
       evolution-requirements:
         candy-to-evolve: 100
-        egg-distance-to-hatch: null
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
         dark: 1
@@ -97,8 +97,8 @@ generation-one:
         flee-rate: 5%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
         dark: 1
@@ -178,7 +178,7 @@ generation-one:
         class: Normal
       evolution-requirements:
         candy-to-evolve: 100
-        egg-distance-to-hatch: null
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -297,7 +297,7 @@ generation-one:
         class: Normal
       evolution-requirements:
         candy-to-evolve: 100
-        egg-distance-to-hatch: null
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
         dark: 1
@@ -335,8 +335,8 @@ generation-one:
         flee-rate: 5%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
         dark: 1
@@ -415,7 +415,7 @@ generation-one:
         class: Normal
       evolution-requirements:
         candy-to-evolve: 50
-        egg-distance-to-hatch: null
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
         dark: 1
@@ -454,8 +454,8 @@ generation-one:
         flee-rate: 6%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -534,7 +534,7 @@ generation-one:
         class: Normal
       evolution-requirements:
         candy-to-evolve: 50
-        egg-distance-to-hatch: null
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -573,8 +573,8 @@ generation-one:
         flee-rate: 6%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -653,7 +653,7 @@ generation-one:
         class: Normal
       evolution-requirements:
         candy-to-evolve: 50
-        egg-distance-to-hatch: null
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -691,8 +691,8 @@ generation-one:
         flee-rate: 6%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -850,8 +850,8 @@ generation-one:
         flee-rate: 7%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -930,8 +930,8 @@ generation-one:
         flee-rate: 7%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
         dark: 1
@@ -991,6 +991,7 @@ generation-one:
         rock: 1
         steel: 0.8
         water: 1
+
     - id: 26
       display: true
       name-cn: 雷丘
@@ -1009,8 +1010,8 @@ generation-one:
         flee-rate: 6%
         class: Normal
       evolution-requirements:
-        candy-to-evolve: null
-        egg-distance-to-hatch: null
+        candy-to-evolve:
+        egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
         dark: 1
@@ -1030,93 +1031,93 @@ generation-one:
         rock: 1
         steel: 0.8
         water: 1
+
     - id: 27
       display: true
       name-cn: 穿山鼠
       name-jp: サンド
       name-en: Sandshrew
       icon: "027 Sandshrew.ico"
-
       max-cp: 799
       rating: 4.5
-      type: []
+      type: ['ground']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        Max Theoretical CP	798.76
+        Base Attack	90
+        Base Defense	114
+        Base Stamina	100
+        Capture Rate	40 %
+        Flee Rate	10 %
+        Class	Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1
+        water: 1.2
+
     - id: 28
       display: true
       name-cn: 穿山王
       name-jp: サンドパン
       name-en: Sandslash
       icon: "028 Sandslash.ico"
-
       max-cp: 1810
       rating: 8
-      type: []
+      type: ['ground']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        Max Theoretical CP	1810.22
+        Base Attack	150
+        Base Defense	172
+        Base Stamina	150
+        Capture Rate	16 %
+        Flee Rate	6 %
+        Class	Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1
+        water: 1.2
+
     - id: 29
       display: true
       name-cn: 尼多兰
       name-jp: ニドラン♀
       name-en: Nidoran♀
       icon: "029 Nidoran ♀.ico"
-
       max-cp: 876
       rating: 4
       type: []
@@ -1132,12 +1133,12 @@ generation-one:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
         fire:
         flying:
         ghost:
