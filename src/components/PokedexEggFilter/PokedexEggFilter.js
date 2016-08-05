@@ -3,41 +3,18 @@ import './PokedexEggFilter.scss'
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 
-import {EGG_FILTER_ALL, EGG_FILTER_2KM, EGG_FILTER_5KM, EGG_FILTER_10KM} from '../../actions/actions'
+import {setPokedexEggFilter} from '../../actions'
 
 class PokedexEggFilter extends Component {
 
     constructor(props) {
         super(props);
-
-        console.log('************');
-        console.log(props.pokedexData);
-        console.log('************');
     }
 
     onChangeEgg(event) {
-        let value = event.currentTarget.getAttribute('value');
-        let type = EGG_FILTER_ALL;
         const {dispatch} = this.props;
-
-        if ('2km' == value) {
-            type = EGG_FILTER_2KM;
-        } else if ('5km' == value) {
-            type = EGG_FILTER_5KM;
-        } else if ('10km' == value) {
-            type = EGG_FILTER_10KM;
-        } else if ('all' == value) {
-            type = EGG_FILTER_ALL;
-        }
-
-        console.log('************');
-        console.log(this.props.pokedexData);
-        console.log('************');
-
-        dispatch({
-            type: type,
-            pokedexData: this.props.pokedexData
-        });
+        let value = event.currentTarget.getAttribute('value');
+        dispatch(setPokedexEggFilter(value));
     }
 
     render() {
@@ -64,19 +41,10 @@ class PokedexEggFilter extends Component {
     }
 }
 
-PokedexEggFilter.propTypes = {
-    pokedexData: React.PropTypes.array
-};
-
-function PokedexEggFilterData(state) {
-
-    console.log('****!!!********');
-    console.log(state.pokedexData);
-    console.log('*******!!!*****');
-
+function mapStateToProps(state) {
     return {
-        pokedexData: state.pokedexData
+        Pokedex: state.Pokedex
     }
 }
 
-export default connect(PokedexEggFilterData)(PokedexEggFilter)
+export default connect(mapStateToProps)(PokedexEggFilter)

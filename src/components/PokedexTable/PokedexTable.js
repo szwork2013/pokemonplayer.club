@@ -2,6 +2,7 @@ import './PokedexTable.scss'
 
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
+import {sortPokedexData} from '../../actions'
 
 class PokedexTable extends Component {
 
@@ -14,39 +15,16 @@ class PokedexTable extends Component {
         this.sortData(type);
     }
 
-    sortData(type) {
-        let data = this.state.pokedexData;
-
-        data.sort((a, b) => {
-
-            if (this.state.isSorted) {
-                let temp = a;
-                a = b;
-                b = temp;
-            }
-
-            if (a[type] < b[type]) {
-                return 1;
-            } else if (a[type] > b[type]) {
-                return -1;
-            } else {
-                return 0;
-            }
-        });
-
-        this.setState({
-            isSorted: !this.state.isSorted
-        });
+    sortData(header) {
+        const {dispatch} = this.props;
+        dispatch(sortPokedexData(header));
     }
 
     render() {
-        // const {getState, dispatch, pokedexData} = this.props;
-        // console.log(111);
-        // console.log(pokedexData);
-        // let pokedexData = this.state['pokedexData'];
+        const {Pokedex} = this.props;
 
         return (
-            <table className="responsive-table pokedex-table">
+            <table className="responsive-table component-pokedex-table">
                 <thead>
                 <tr>
                     <th className="id" value='id' onClick={this.clickHeader.bind(this)}>ID</th>
@@ -60,7 +38,8 @@ class PokedexTable extends Component {
                 </thead>
                 <tbody>
                 {
-                    this.props.pokedexData && this.props.pokedexData.map((item) => {
+                    Pokedex.map((item) => {
+
                         if (item.display) {
                             return (
                                 <tr key={item.id}>
@@ -84,10 +63,10 @@ class PokedexTable extends Component {
     }
 }
 
-function PokedexData(state) {
+function mapStateToProps(state) {
     return {
-        pokedexData: state.pokedexData
+        Pokedex: state.Pokedex
     }
 }
 
-export default connect(PokedexData)(PokedexTable)
+export default connect(mapStateToProps)(PokedexTable)

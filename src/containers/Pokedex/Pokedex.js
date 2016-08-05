@@ -4,6 +4,7 @@ import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 
 import {Nav, PokedexTable, PokedexTypeFilter, PokedexEggFilter} from '../../components'
+import {setPokedexData} from '../../actions'
 
 import Ajax from '../../utils/AjaxUtil'
 
@@ -11,39 +12,35 @@ class Pokedex extends Component {
 
     constructor(props) {
         super(props);
+        const {dispatch} = this.props;
 
         Ajax.GET('/data/pokedex', (err, data) => {
             let generationOne = data['generation-one'];
-            const {dispatch} = this.props;
-
-            dispatch({
-                type: 'TEST',
-                pokedexData: generationOne
-            });
+            dispatch(setPokedexData(generationOne));
         });
     }
 
     render() {
-        const {dispatch, pokedexData} = this.props;
+
+        const {Pokedex} = this.props;
 
         return (
             <div className="container">
                 <div className="pokedex-view">
-
                     <Nav/>
-                    <PokedexTypeFilter />
-                    <PokedexEggFilter />
-                    <PokedexTable pokedexData={pokedexData}/>
+                    <PokedexTypeFilter/>
+                    <PokedexEggFilter/>
+                    <PokedexTable Pokedex={Pokedex}/>
                 </div>
             </div>
         );
     }
 }
 
-function PokedexData(state) {
+function mapStateToProps(state) {
     return {
-        pokedexData: state.pokedexData
+        Pokedex: state.Pokedex
     }
 }
 
-export default connect(PokedexData)(Pokedex)
+export default connect(mapStateToProps)(Pokedex)
