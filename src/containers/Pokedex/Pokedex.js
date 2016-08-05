@@ -28,7 +28,7 @@ class Pokedex extends Component {
             <div className="container">
                 <div className="pokedex-view">
                     <Nav/>
-                    <PokedexTypeFilter/>
+                    {/*<PokedexTypeFilter/>*/}
                     <PokedexEggFilter/>
                     <PokedexTable Pokedex={Pokedex}/>
                 </div>

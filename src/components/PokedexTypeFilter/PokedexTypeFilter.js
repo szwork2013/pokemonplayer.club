@@ -24,13 +24,22 @@ class PokedexTypeFilter extends Component {
     }
 
     render() {
-        let tagsComponent = this.generateTags();
+        let tags = ['bug', 'dark', 'dragon', 'electr', 'fairy', 'fight',
+            'fire', 'flying', 'ghost', 'grass', 'ground', 'ice',
+            'normal', 'poison', 'psychc', 'rock', 'steel', 'water'];
 
         return (
             <div className="component-pokedex-type-filter">
                 <div className="header">类型过滤器</div>
                 <div className="tags">
-                    {tagsComponent}
+                    {
+                        tags.map((tag) => {
+                            return (
+                                <div key={tag} className="item">
+                                    <label className={"tag " + tag + "-tag"}>{tag.toUpperCase()}</label>
+                                </div>
+                            )
+                        })}
                 </div>
             </div>
         );

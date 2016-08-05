@@ -15,9 +15,9 @@ export class Nav extends Component {
                 <Link to='/' className="brand">Pokémon 玩家俱乐部</Link>
 
                 <ul className="nav">
-                    <li className="item">
-                        <Link to='/pokedex' className="link">Pokédex</Link>
-                    </li>
+                    {/*<li className="item">*/}
+                        {/*<Link to='/pokedex' className="link">Pokédex</Link>*/}
+                    {/*</li>*/}
                     {/*<li className="item">*/}
                         {/*<Link to='/' className="link">Pokémap</Link>*/}
                     {/*</li>*/}
