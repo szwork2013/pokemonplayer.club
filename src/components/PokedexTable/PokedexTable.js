@@ -15,9 +15,10 @@ class PokedexTable extends Component {
         this.sortData(type);
     }
 
-    sortData(header) {
+    sortData(sortType) {
         const {dispatch} = this.props;
-        dispatch(sortPokedexData(header));
+        dispatch(sortPokedexData(sortType));
+        this.forceUpdate();
     }
 
     render() {
