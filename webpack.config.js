@@ -66,6 +66,10 @@ var webpackConfig = {
         if (process.env.NODE_ENV === PRODUCTION) {
             return [
                 new webpack.DefinePlugin(definePluginObj),
+                // new webpack.ProvidePlugin({
+                //     'Promise': 'es6-promise',
+                //     'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
+                // }),
                 new webpack.optimize.DedupePlugin(),
                 new webpack.optimize.OccurrenceOrderPlugin(),
                 new webpack.optimize.UglifyJsPlugin({

@@ -1,4 +1,6 @@
 import 'whatwg-fetch'; // Fetch-poilfill
+import {polyfill} from 'es6-promise';
+polyfill();
 
 let API_URL_BASE = '';
 
@@ -91,7 +93,7 @@ class AjaxUtil {
             options.body = JSON.stringify(request.body);
         }
 
-        return window.fetch(API_URL_BASE + request.url, options).then(res => res.json()).then(res => {
+        return fetch(API_URL_BASE + request.url, options).then(res => res.json()).then(res => {
 
             if (!(callback instanceof Function)) {
                 return;
