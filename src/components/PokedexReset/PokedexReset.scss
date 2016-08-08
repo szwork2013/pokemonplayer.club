@@ -1,4 +1,4 @@
-.component-pokedex-filter {
+.component-pokedex-reset {
 
   background-color: white;
   margin: 10px auto;
@@ -9,19 +9,13 @@
     margin: 5px;
     padding: 5px 15px;
     font-weight: bold;
-    display: flex;
-
-    .title {
-      //padding: 3px 10px;
-    }
   }
 
-  .radio {
-    display: inline-block;
-    margin: 10px 30px;
+  .button-box {
+    padding: 20px;
 
-    > label {
-      margin: auto 5px;
+    .button {
+      width: 100%;
     }
   }
 

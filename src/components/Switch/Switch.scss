@@ -1,0 +1,92 @@
+.component-switch {
+
+  $activeColor: rgb(71, 195, 95);
+  $switchTogglerSize: 20px !default;
+  $switchTogglerWidth: $switchTogglerSize * 2 !default;
+  $switchTogglerHeight: $switchTogglerSize + 5px;
+
+  @keyframes switchOpen {
+    from {
+      left: 0;
+    }
+
+    30% {
+      left: calc(100% - 20px);
+    }
+
+    60% {
+      left: calc(100% - 20px - 5px);
+    }
+
+    to {
+      left: calc(100% - 20px);
+    }
+  }
+
+  @keyframes switchClose {
+    from {
+      left: calc(100% - 20px);
+    }
+
+    30% {
+      left: 0;
+    }
+
+    60% {
+      left: 5px;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  min-width: $switchTogglerWidth;
+  width: $switchTogglerWidth;
+  height: $switchTogglerHeight;
+  border-radius: $switchTogglerSize;
+  position: relative;
+  box-sizing: border-box;
+  background: ghostwhite;
+  border: 2px solid #DDD;
+
+  &.close {
+    transition: background-color 0.3s ease-out;
+
+    > .switch-toggler {
+      animation-name: switchClose;
+    }
+  }
+
+  &.open {
+    border: 2px solid darken($activeColor, 5%);
+    background: $activeColor;
+    transition: background-color 0.3s ease-out;
+
+    > .switch-toggler {
+      animation-name: switchOpen;
+    }
+  }
+
+  > .switch-toggler {
+    box-sizing: border-box;
+    position: absolute;
+    width: $switchTogglerSize;
+    height: $switchTogglerSize;
+    top: 0;
+    bottom: 0;
+    border-radius: $switchTogglerSize;
+    background: ghostwhite;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+
+    &.bigger {
+      top: -2px;
+      width: $switchTogglerSize + 4px;
+      height: $switchTogglerSize + 4px;
+    }
+  }
+
+}

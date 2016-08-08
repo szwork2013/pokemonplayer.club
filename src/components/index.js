@@ -1,8 +1,10 @@
 export {AppBlock} from './AppBlock/AppBlock'
 export {Nav} from './Nav/Nav'
+export {Switch} from './Switch/Switch'
 
 export PokedexTable from './PokedexTable/PokedexTable'
 export PokedexSearch from './PokedexSearch/PokedexSearch'
 export PokedexTypeFilter from './PokedexTypeFilter/PokedexTypeFilter'
 export PokedexFilter from './PokedexFilter/PokedexFilter'
 export PokedexSearch from'./PokedexSearch/PokedexSearch'
+export PokedexReset from'./PokedexReset/PokedexReset'
