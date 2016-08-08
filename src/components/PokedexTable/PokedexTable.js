@@ -29,10 +29,12 @@ class PokedexTable extends Component {
                 <thead>
                 <tr>
                     <th className="id" value='id' onClick={this.clickHeader.bind(this)}>ID</th>
-                    <th>图鉴</th>
-                    <th>中文</th>
-                    <th>日文</th>
+                    <th className="image">图鉴</th>
+                    <th className="name-cn">中文</th>
+                    <th className="name-jp">日文</th>
                     <th className="name-en" value='name-en' onClick={this.clickHeader.bind(this)}>英文</th>
+                    <th className="evolution">进化</th>
+                    <th className="egg">孵蛋</th>
                     <th className="max-cp" value='max-cp' onClick={this.clickHeader.bind(this)}>MAX-CP</th>
                     <th className="rating" value='rating' onClick={this.clickHeader.bind(this)}>评分</th>
                 </tr>
@@ -42,6 +44,10 @@ class PokedexTable extends Component {
                     Pokedex.map((item) => {
 
                         if (item.display) {
+
+                            let candyToEvolve = item['evolution-requirements']['candy-to-evolve'],
+                                eggDistanceToHatch = item['evolution-requirements']['egg-distance-to-hatch'];
+
                             return (
                                 <tr key={item.id}>
                                     <td>{item.id}</td>
@@ -51,6 +57,8 @@ class PokedexTable extends Component {
                                     <td>{item['name-cn']}</td>
                                     <td>{item['name-jp']}</td>
                                     <td>{item['name-en']}</td>
+                                    <td>{candyToEvolve ? candyToEvolve : '-'}</td>
+                                    <td>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
                                     <td>{item['max-cp']}</td>
                                     <td>{item['rating']} / 10</td>
                                 </tr>

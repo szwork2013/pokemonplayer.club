@@ -1174,7 +1174,7 @@ generation-one:
         flee-rate: 7 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
@@ -1254,7 +1254,7 @@ generation-one:
         flee-rate: 15 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
         bug: 0.8
@@ -1294,7 +1294,7 @@ generation-one:
         flee-rate: 7 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
@@ -1374,7 +1374,7 @@ generation-one:
         flee-rate: 10 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 2km
       weakness-resistance:
         bug: 0.8
@@ -1614,7 +1614,7 @@ generation-one:
         flee-rate: 20 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch:  2km
       weakness-resistance:
         bug: 0.8
@@ -1894,7 +1894,7 @@ generation-one:
         flee-rate: 15 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
         bug: 0.8
@@ -1974,7 +1974,7 @@ generation-one:
         flee-rate: 10 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
         bug: 1
@@ -2134,7 +2134,7 @@ generation-one:
         flee-rate: 10 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
         bug: 1
@@ -2214,7 +2214,7 @@ generation-one:
         flee-rate: 10 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
         bug: 0.8
@@ -2294,7 +2294,7 @@ generation-one:
         flee-rate: 10 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
         bug: 0.8
@@ -2414,7 +2414,7 @@ generation-one:
         flee-rate: 7 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
@@ -2454,7 +2454,7 @@ generation-one:
         flee-rate: 5 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve: 100
+        candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
         bug: 1
@@ -2654,7 +2654,7 @@ generation-one:
         flee-rate: 7 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
         bug: 0.8
@@ -5854,7 +5854,7 @@ generation-one:
         flee-rate: 9 %
         class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 10km
       weakness-resistance:
         bug: 1

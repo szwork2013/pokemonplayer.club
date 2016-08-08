@@ -19,6 +19,7 @@ class PokedexEggFilter extends Component {
 
     render() {
         let eggs = ['all', '2km', '5km', '10km'];
+        let candy = ['12', '25', '50', '100', '400'];
 
         return (
             <div className="component-pokedex-egg-filter">
