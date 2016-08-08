@@ -225,7 +225,7 @@ generation-one:
         dragon: 1
         electr: 1.2
         fairy: 0.8
-        fight: 1
+        fight: 0.8
         fire: 0.8
         flying: 1
         ghost: 1
@@ -278,6 +278,7 @@ generation-one:
         rock: 1
         steel: 0.8
         water: 0.8
+
     - id: 8
       display: true
       name-cn: 卡咪龟
@@ -317,6 +318,7 @@ generation-one:
         rock: 1
         steel: 0.8
         water: 0.8
+
     - id: 9
       display: true
       name-cn: 水箭龟
@@ -396,6 +398,7 @@ generation-one:
         rock: 1.2
         steel: 1
         water: 1
+
     - id: 11
       display: true
       name-cn: 铁甲蛹
@@ -712,6 +715,7 @@ generation-one:
         rock: 1.2
         steel: 1
         water: 1
+
     - id: 19
       display: true
       name-cn: 小拉达
@@ -981,7 +985,7 @@ generation-one:
         fight: 1
         fire: 1
         flying: 0.8
-        ghost: 1.2
+        ghost: 1
         grass: 1
         ground: 1.2
         ice: 1
@@ -1021,7 +1025,7 @@ generation-one:
         fight: 1
         fire: 1
         flying: 0.8
-        ghost: 1.2
+        ghost: 1
         grass: 1
         ground: 1.2
         ice: 1
@@ -1042,13 +1046,13 @@ generation-one:
       rating: 4.5
       type: ['ground']
       stats:
-        Max Theoretical CP	798.76
-        Base Attack	90
-        Base Defense	114
-        Base Stamina	100
-        Capture Rate	40 %
-        Flee Rate	10 %
-        Class	Normal
+        max-theoretical-cp: 798.76
+        base-attack: 90
+        base-defense: 114
+        base-stamina: 100
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve: 50
         egg-distance-to-hatch: 5km
@@ -1082,13 +1086,13 @@ generation-one:
       rating: 8
       type: ['ground']
       stats:
-        Max Theoretical CP	1810.22
-        Base Attack	150
-        Base Defense	172
-        Base Stamina	150
-        Capture Rate	16 %
-        Flee Rate	6 %
-        Class	Normal
+        max-theoretical-cp: 1810.22
+        base-attack: 150
+        base-defense: 172
+        base-stamina: 150
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
@@ -1120,15 +1124,135 @@ generation-one:
       icon: "029 Nidoran ♀.ico"
       max-cp: 876
       rating: 4
-      type: []
+      type: ['poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 876.01
+        base-attack: 100
+        base-defense: 104
+        base-stamina: 110
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
+      evolution-requirements:
+        candy-to-evolve: 25
+        egg-distance-to-hatch: 5km
+      weakness-resistance:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
+    - id: 30
+      display: true
+      name-cn: 尼多娜
+      name-jp: ニドリーナ
+      name-en: Nidorina
+      icon: "030 Nidorina.ico"
+      max-cp: 1405
+      rating: 5
+      type: ['poison']
+      stats:
+        max-theoretical-cp: 1404.61
+        base-attack: 132
+        base-defense: 136
+        base-stamina: 140
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
+      evolution-requirements:
+        candy-to-evolve:
+        egg-distance-to-hatch:
+      weakness-resistance:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
+    - id: 31
+      display: true
+      name-cn: 尼多后
+      name-jp: ニドクイン
+      name-en: Nidoqueen
+      icon: "031 Nidoqueen.ico"
+      max-cp: 2485
+      rating: 8.5
+      type: ['ground', 'poison']
+      stats:
+        max-theoretical-cp: 2485.03
+        base-attack: 184
+        base-defense: 190
+        base-stamina: 180
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
+      evolution-requirements:
+        candy-to-evolve:
+        egg-distance-to-hatch:
+      weakness-resistance:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 1.2
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1.2
+
+    - id: 32
+      display: true
+      name-cn: 尼多朗
+      name-jp: ニドラン♂
+      name-en: Nidoran♂
+      icon: "032 Nidoran ♂.ico"
+      max-cp: 843
+      rating: 4
+      type: ['poison']
+      stats:
+        max-theoretical-cp: 843.14
+        base-attack: 110
+        base-defense: 94
+        base-stamina: 92
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
@@ -1139,538 +1263,418 @@ generation-one:
         electr: 1
         fairy: 0.8
         fight: 0.8
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
-    - id: 30
-      display: true
-      name-cn: 尼多娜
-      name-jp: ニドリーナ
-      name-en: Nidorina
-      icon: "030 Nidorina.ico"
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
 
-      max-cp: 1405
-      rating: 5
-      type: []
-      stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
-      evolution-requirements:
-        candy-to-evolve:
-        egg-distance-to-hatch:
-      weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
-    - id: 31
-      display: true
-      name-cn: 尼多后
-      name-jp: ニドクイン
-      name-en: Nidoqueen
-      icon: "031 Nidoqueen.ico"
-
-      max-cp: 2485
-      rating: 8.5
-      type: []
-      stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
-      evolution-requirements:
-        candy-to-evolve:
-        egg-distance-to-hatch:
-      weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
-    - id: 32
-      display: true
-      name-cn: 尼多朗
-      name-jp: ニドラン♂
-      name-en: Nidoran♂
-      icon: "032 Nidoran ♂.ico"
-
-      max-cp: 843
-      rating: 4
-      type: []
-      stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
-      evolution-requirements:
-        candy-to-evolve:
-        egg-distance-to-hatch: 5km
-      weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
     - id: 33
       display: true
       name-cn: 尼多力诺
       name-jp: ニドリーノ
       name-en: Nidorino
       icon: "033 Nidorino.ico"
-
       max-cp: 1373
       rating: 5
-      type: []
+      type: ['poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1372.50
+        base-attack: 142
+        base-defense: 128
+        base-stamina: 122
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 34
       display: true
       name-cn: 尼多王
       name-jp: ニドキング
       name-en: Nidoking
       icon: "034 Nidoking.ico"
-
       max-cp: 2475
       rating: 8.5
-      type: []
+      type: ['ground', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2475.14
+        base-attack: 204
+        base-defense: 170
+        base-stamina: 162
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 1.2
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1.2
+
     - id: 35
       display: true
       name-cn: 皮皮
       name-jp: ピッピ
       name-en: Clefairy
       icon: "035 Clefairy.ico"
-
       max-cp: 1201
       rating: 4.5
-      type: []
+      type: ['fairy']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1200.96
+        base-attack: 116
+        base-defense: 124
+        base-stamina: 140
+        capture-rate: 24 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 2km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 0.8
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1.2
+        psychc: 1
+        rock: 1
+        steel: 1.2
+        water: 1
+
     - id: 36
       display: true
       name-cn: 皮可西
       name-jp: ピクシー
       name-en: Clefable
       icon: "036 Clefable.ico"
-
       max-cp: 2398
       rating: 6.5
-      type: []
+      type: ['fairy']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2397.71
+        base-attack: 178
+        base-defense: 178
+        base-stamina: 190
+        capture-rate: 8 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 0.8
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1.2
+        psychc: 1
+        rock: 1
+        steel: 1.2
+        water: 1
+
     - id: 37
       display: true
       name-cn: 六尾
       name-jp: ロコン
       name-en: Vulpix
       icon: "037 Vulpix.ico"
-
       max-cp: 831
       rating: 4
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 831.41
+        base-attack: 106
+        base-defense: 118
+        base-stamina: 76
+        capture-rate: 24 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
+
     - id: 38
       display: true
       name-cn: 九尾
       name-jp: キュウコン
       name-en: Ninetales
       icon: "038 Ninetales.ico"
-
       max-cp: 2188
       rating: 8.5
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2188.28
+        base-attack: 176
+        base-defense: 194
+        base-stamina: 146
+        capture-rate: 8 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
+
     - id: 39
       display: true
       name-cn: 胖丁
       name-jp: プリン
       name-en: Jigglypuff
       icon: "039 Jigglypuff.ico"
-
       max-cp: 918
       rating: 4
-      type: []
+      type: ['fairy', 'normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 917.64
+        base-attack: 98
+        base-defense: 54
+        base-stamina: 230
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 2km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 0.8
+        electr: 1
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1.2
+        psychc: 1
+        rock: 1
+        steel: 1.2
+        water: 1
+
     - id: 40
       display: true
       name-cn: 胖可丁
       name-jp: プクリン
       name-en: Wigglytuff
       icon: "040 Wigglytuff.ico"
-
       max-cp: 2177
       rating: 9
-      type: []
+      type: ['fairy', 'normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2177.20
+        base-attack: 168
+        base-defense: 108
+        base-stamina: 280
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 0.8
+        electr: 1
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1.2
+        psychc: 1
+        rock: 1
+        steel: 1.2
+        water: 1
+
     - id: 41
       display: true
       name-cn: 超音蝠
       name-jp: ズバット
       name-en: Zubat
       icon: "041 Zubat.ico"
-
       max-cp: 643
       rating: 4
-      type: []
+      type: ['flying', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 642.51
+        base-attack: 88
+        base-defense: 90
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 20 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:  2km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1.2
+        rock: 1.2
+        steel: 1
+        water: 1
+
     - id: 42
       display: true
       name-cn: 大嘴蝠
       name-jp: ゴルバット
       name-en: Golbat
       icon: "042 Golbat.ico"
-
       max-cp: 1921
       rating: 7.5
-      type: []
+      type: ['flying', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1921.35
+        base-attack: 164
+        base-defense: 164
+        base-stamina: 150
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1.2
+        rock: 1.2
+        steel: 1
+        water: 1
 
     - id: 43
       display: true
@@ -1680,117 +1684,117 @@ generation-one:
       icon: "043 Oddish.ico"
       max-cp: 1148
       rating: 4.5
-      type: []
+      type: ['grass', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1148.28
+        base-attack: 134
+        base-defense: 130
+        base-stamina: 90
+        capture-rate: 48 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 0.8
+
     - id: 44
       display: true
       name-cn: 臭臭花
       name-jp: クサイハナ
       name-en: Gloom
       icon: "044 Gloom.ico"
-
       max-cp: 1689
       rating: 5.5
-      type: []
+      type: ['grass', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1689.46
+        base-attack: 162
+        base-defense: 158
+        base-stamina: 120
+        capture-rate: 24 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 0.8
+
     - id: 45
       display: true
       name-cn: 霸王花
       name-jp: ラフレシア
       name-en: Vileplume
       icon: "045 Vileplume.ico"
-
       max-cp: 2493
       rating: 8
-      type: []
+      type: ['grass', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2492.66
+        base-attack: 202
+        base-defense: 190
+        base-stamina: 150
+        capture-rate: 12 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 0.8
 
     - id: 46
       display: true
@@ -1800,77 +1804,77 @@ generation-one:
       icon: "046 Paras.ico"
       max-cp: 917
       rating: 4
-      type: []
+      type: ['bug', 'grass']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 916.60
+        base-attack: 122
+        base-defense: 120
+        base-stamina: 70
+        capture-rate: 32 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1.2
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 0.8
+
     - id: 47
       display: true
       name-cn: 派拉斯特
       name-jp: パラセクト
       name-en: Parasect
       icon: "047 Parasect.ico"
-
       max-cp: 1747
       rating: 8.5
-      type: []
+      type: ['bug', 'grass']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1747.07
+        base-attack: 162
+        base-defense: 170
+        base-stamina: 120
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1.2
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 0.8
 
     - id: 48
       display: true
@@ -1880,77 +1884,77 @@ generation-one:
       icon: "048 Venonat.ico"
       max-cp: 1029
       rating: 4
-      type: []
+      type: ['bug', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1029.39
+        base-attack: 108
+        base-defense: 118
+        base-stamina: 120
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 0.8
+        psychc: 1.2
+        rock: 1.2
+        steel: 1
+        water: 1
+
     - id: 49
       display: true
       name-cn: 摩鲁蛾
       name-jp: モルフォン
       name-en: Venomoth
       icon: "049 Venomoth.ico"
-
       max-cp: 1890
       rating: 6.5
-      type: []
+      type: ['bug', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1890.32
+        base-attack: 172
+        base-defense: 154
+        base-stamina: 140
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 0.8
+        psychc: 1.2
+        rock: 1.2
+        steel: 1
+        water: 1
 
     - id: 50
       display: true
@@ -1960,77 +1964,77 @@ generation-one:
       icon: "050 Diglett.ico"
       max-cp: 457
       rating: 4
-      type: []
+      type: ['ground']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 456.76
+        base-attack: 108
+        base-defense: 86
+        base-stamina: 20
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1
+        water: 1.2
+
     - id: 51
       display: true
       name-cn: 三地鼠
       name-jp: ダグトリオ
       name-en: Dugtrio
       icon: "051 Dugtrio.ico"
-
       max-cp: 1169
       rating: 7
-      type: []
+      type: ['ground']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1168.55
+        base-attack: 148
+        base-defense: 140
+        base-stamina: 70
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1
+        water: 1.2
 
     - id: 52
       display: true
@@ -2040,77 +2044,77 @@ generation-one:
       icon: "052 Meowth.ico"
       max-cp: 756
       rating: 4
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 756.32
+        base-attack: 104
+        base-defense: 94
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 53
       display: true
       name-cn: 猫老大
       name-jp: ペルシアン
       name-en: Persian
       icon: "053 Persian.ico"
-
       max-cp: 1632
       rating: 7
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1631.84
+        base-attack: 156
+        base-defense: 146
+        base-stamina: 130
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 54
       display: true
@@ -2120,77 +2124,77 @@ generation-one:
       icon: "054 Psyduck.ico"
       max-cp: 1110
       rating: 4.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1109.56
+        base-attack: 132
+        base-defense: 112
+        base-stamina: 100
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 55
       display: true
       name-cn: 哥达鸭
       name-jp: ゴルダック
       name-en: Golduck
       icon: "055 Golduck.ico"
-
       max-cp: 2387
       rating: 8.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2386.52
+        base-attack: 194
+        base-defense: 176
+        base-stamina: 160
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
 
     - id: 56
       display: true
@@ -2200,77 +2204,77 @@ generation-one:
       icon: "056 Mankey.ico"
       max-cp: 879
       rating: 4.5
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 878.67
+        base-attack: 122
+        base-defense: 96
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
+
     - id: 57
       display: true
       name-cn: 火爆猴
       name-jp: オコリザル
       name-en: Primeape
       icon: "057 Primeape.ico"
-
       max-cp: 1865
       rating: 7.5
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1864.52
+        base-attack: 178
+        base-defense: 150
+        base-stamina: 130
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
 
     - id: 58
       display: true
@@ -2280,77 +2284,77 @@ generation-one:
       icon: "058 Growlithe.ico"
       max-cp: 1335
       rating: 4.5
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1335.03
+        base-attack: 156
+        base-defense: 110
+        base-stamina: 110
+        capture-rate: 24 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
+
     - id: 59
       display: true
       name-cn: 风速狗
       name-jp: ウインディ
       name-en: Arcanine
       icon: "059 Arcanine.ico"
-
       max-cp: 2984
       rating: 9.5
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2983.90
+        base-attack: 230
+        base-defense: 180
+        base-stamina: 180
+        capture-rate: 8 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
 
     - id: 60
       display: true
@@ -2360,37 +2364,37 @@ generation-one:
       icon: "060 Poliwag.ico"
       max-cp: 796
       rating: 4.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 795.96
+        base-attack: 108
+        base-defense: 98
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
 
     - id: 61
       display: true
@@ -2400,197 +2404,197 @@ generation-one:
       icon: "061 Poliwhirl.ico"
       max-cp: 1340
       rating: 5.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1340.43
+        base-attack: 132
+        base-defense: 132
+        base-stamina: 130
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 62
       display: true
       name-cn: 蚊香泳士
       name-jp: ニョロボン
       name-en: Poliwrath
       icon: "062 Poliwrath.ico"
-
       max-cp: 2505
       rating: 9
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2505.33
+        base-attack: 180
+        base-defense: 202
+        base-stamina: 180
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 63
       display: true
       name-cn: 凯西
       name-jp: ケーシィ
       name-en: Abra
       icon: "063 Abra.ico"
-
       max-cp: 600
       rating: 4.5
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 600.44
+        base-attack: 110
+        base-defense: 76
+        base-stamina: 50
+        capture-rate: 40 %
+        flee-rate: 99 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 64
       display: true
       name-cn: 勇基拉
       name-jp: ユンゲラー
       name-en: Kadabra
       icon: "064 Kadabra.ico"
-
       max-cp: 1132
       rating: 5.5
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1131.96
+        base-attack: 150
+        base-defense: 112
+        base-stamina: 80
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 65
       display: true
       name-cn: 胡地
       name-jp: フーディン
       name-en: Alakazam
       icon: "065 Alakazam.ico"
-
       max-cp: 1814
       rating: 9.5
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1813.82
+        base-attack: 186
+        base-defense: 152
+        base-stamina: 110
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 66
       display: true
@@ -2600,117 +2604,117 @@ generation-one:
       icon: "066 Machop.ico"
       max-cp: 1090
       rating: 4.5
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1089.59
+        base-attack: 118
+        base-defense: 96
+        base-stamina: 140
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
+
     - id: 67
       display: true
       name-cn: 豪力
       name-jp: ゴーリキー
       name-en: Machoke
       icon: "067 Machoke.ico"
-
       max-cp: 1761
       rating: 6
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1760.71
+        base-attack: 154
+        base-defense: 144
+        base-stamina: 160
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
+
     - id: 68
       display: true
       name-cn: 怪力
       name-jp: カイリキー
       name-en: Machamp
       icon: "068 Machamp.ico"
-
       max-cp: 2594
       rating: 8
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2594.17
+        base-attack: 198
+        base-defense: 180
+        base-stamina: 180
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
 
     - id: 69
       display: true
@@ -2720,117 +2724,117 @@ generation-one:
       icon: "069 Bellsprout.ico"
       max-cp: 1117
       rating: 4.5
-      type: []
+      type: ['grass', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1117.43
+        base-attack: 158
+        base-defense: 78
+        base-stamina: 100
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 0.8
+
     - id: 70
       display: true
       name-cn: 口呆花
       name-jp: ウツドン
       name-en: Weepinbell
       icon: "070 Weepinbell.ico"
-
       max-cp: 1724
       rating: 6
-      type: []
+      type: ['grass', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1723.76
+        base-attack: 190
+        base-defense: 110
+        base-stamina: 130
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 0.8
+
     - id: 71
       display: true
       name-cn: 大食花
       name-jp: ウツボット
       name-en: Victreebel
       icon: "071 Victreebel.ico"
-
       max-cp: 2531
       rating: 8.5
-      type: []
+      type: ['grass', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2530.52
+        base-attack: 222
+        base-defense: 152
+        base-stamina: 160
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 0.8
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 0.8
 
     - id: 72
       display: true
@@ -2840,197 +2844,197 @@ generation-one:
       icon: "072 Tentacool.ico"
       max-cp: 905
       rating: 5
-      type: []
+      type: ['poison', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 905.15
+        base-attack: 106
+        base-defense: 136
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 0.8
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 0.8
+        psychc: 1.2
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 73
       display: true
       name-cn: 毒刺水母
       name-jp: ドククラゲ
       name-en: Tentacruel
       icon: "073 Tentacruel.ico"
-
       max-cp: 2220
       rating: 8.5
-      type: []
+      type: ['poison', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2220.32
+        base-attack: 170
+        base-defense: 196
+        base-stamina: 160
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 0.8
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 0.8
+        psychc: 1.2
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 74
       display: true
       name-cn: 小拳石
       name-jp: イシツブテ
       name-en: Geodude
       icon: "074 Geodude.ico"
-
       max-cp: 849
       rating: 4.5
-      type: []
+      type: ['ground', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 849.49
+        base-attack: 106
+        base-defense: 118
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch:  2km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1.2
+        water: 1.2
+
     - id: 75
       display: true
       name-cn: 隆隆石
       name-jp: ゴローン
       name-en: Graveler
       icon: "075 Graveler.ico"
-
       max-cp: 1434
       rating: 6
-      type: []
+      type: ['ground', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1433.63
+        base-attack: 142
+        base-defense: 156
+        base-stamina: 110
+        capture-rate: 20 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1.2
+        water: 1.2
+
     - id: 76
       display: true
       name-cn: 隆隆岩
       name-jp: ゴローニャ
       name-en: Golem
       icon: "076 Golem.ico"
-
       max-cp: 2303
       rating: 9
-      type: []
+      type: ['ground', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2303.17
+        base-attack: 176
+        base-defense: 198
+        base-stamina: 160
+        capture-rate: 10 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1.2
+        water: 1.2
 
     - id: 77
       display: true
@@ -3040,77 +3044,77 @@ generation-one:
       icon: "077 Ponyta.ico"
       max-cp: 1516
       rating: 6
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1516.11
+        base-attack: 168
+        base-defense: 138
+        base-stamina: 100
+        capture-rate: 32 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
+
     - id: 78
       display: true
       name-cn: 烈焰马
       name-jp: ギャロップ
       name-en: Rapidash
       icon: "078 Rapidash.ico"
-
       max-cp: 2199
       rating: 7
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2199.34
+        base-attack: 200
+        base-defense: 170
+        base-stamina: 130
+        capture-rate: 12 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
 
     - id: 79
       display: true
@@ -3120,77 +3124,77 @@ generation-one:
       icon: "079 Slowpoke.ico"
       max-cp: 1219
       rating: 4.5
-      type: []
+      type: ['psychc', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1218.90
+        base-attack: 110
+        base-defense: 110
+        base-stamina: 180
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1.2
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 80
       display: true
       name-cn: 呆壳兽
       name-jp: ヤドラン
       name-en: Slowbro
       icon: "080 Slowbro.ico"
-
       max-cp: 2597
       rating: 8.5
-      type: []
+      type: ['psychc', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2597.19
+        base-attack: 184
+        base-defense: 198
+        base-stamina: 190
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1.2
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 0.8
+        water: 0.8
 
     - id: 81
       display: true
@@ -3200,77 +3204,77 @@ generation-one:
       icon: "081 Magnemite.ico"
       max-cp: 891
       rating: 4.5
-      type: []
+      type: ['electr', 'steel']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 890.68
+        base-attack: 128
+        base-defense: 138
+        base-stamina: 50
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 0.8
+        electr: 0.8
+        fairy: 0.8
+        fight: 1.2
+        fire: 1.2
+        flying: 0.8
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 0.8
+        posion: 1
+        psychc: 0.8
+        rock: 0.8
+        steel: 0.8
+        water: 1
+
     - id: 82
       display: true
       name-cn: 三合一磁怪
       name-jp: レアコイル
       name-en: Magneton
       icon: "082 Magneton.ico"
-
       max-cp: 1880
       rating: 8
-      type: []
+      type: ['electr', 'steel']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1879.95
+        base-attack: 186
+        base-defense: 180
+        base-stamina: 100
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 0.8
+        electr: 0.8
+        fairy: 0.8
+        fight: 1.2
+        fire: 1.2
+        flying: 0.8
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 0.8
+        posion: 1
+        psychc: 0.8
+        rock: 0.8
+        steel: 0.8
+        water: 1
 
     - id: 83
       display: true
@@ -3280,37 +3284,37 @@ generation-one:
       icon: "083 Farfetch'd.ico"
       max-cp: 1264
       rating: 5
-      type: []
+      type: ['flying', 'normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1263.89
+        base-attack: 138
+        base-defense: 132
+        base-stamina: 104
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 1
 
     - id: 84
       display: true
@@ -3320,77 +3324,77 @@ generation-one:
       icon: "084 Doduo.ico"
       max-cp: 855
       rating: 4.5
-      type: []
+      type: ['flying', 'normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 855.41
+        base-attack: 126
+        base-defense: 96
+        base-stamina: 70
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 1
+
     - id: 85
       display: true
       name-cn: 嘟嘟利
       name-jp: ドードリオ
       name-en: Dodrio
       icon: "085 Dodrio.ico"
-
       max-cp: 1836
       rating: 6.5
-      type: []
+      type: ['flying', 'normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1836.37
+        base-attack: 182
+        base-defense: 150
+        base-stamina: 120
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 1
 
     - id: 86
       display: true
@@ -3400,77 +3404,77 @@ generation-one:
       icon: "086 Seel.ico"
       max-cp: 1107
       rating: 4.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1107.03
+        base-attack: 104
+        base-defense: 138
+        base-stamina: 130
+        capture-rate: 40 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 87
       display: true
       name-cn: 白海狮
       name-jp: ジュゴン
       name-en: Dewgong
       icon: "087 Dewgong.ico"
-
       max-cp: 2146
       rating: 8.5
-      type: []
+      type: ['ice', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2145.77
+        base-attack: 156
+        base-defense: 192
+        base-stamina: 180
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 0.8
 
     - id: 88
       display: true
@@ -3480,77 +3484,77 @@ generation-one:
       icon: "088 Grimer.ico"
       max-cp: 1284
       rating: 4.5
-      type: []
+      type: ['poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1284.02
+        base-attack: 124
+        base-defense: 110
+        base-stamina: 160
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 89
       display: true
       name-cn: 臭臭泥
       name-jp: ベトベトン
       name-en: Muk
       icon: "089 Muk.ico"
-
       max-cp: 2603
       rating: 9.5
-      type: []
+      type: ['poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2602.90
+        base-attack: 180
+        base-defense: 188
+        base-stamina: 210
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 90
       display: true
@@ -3560,77 +3564,77 @@ generation-one:
       icon: "090 Shellder.ico"
       max-cp: 823
       rating: 5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 822.91
+        base-attack: 120
+        base-defense: 112
+        base-stamina: 60
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 91
       display: true
       name-cn: 刺甲贝
       name-jp: パルシェン
       name-en: Cloyster
       icon: "091 Cloyster.ico"
-
       max-cp: 2053
       rating: 8
-      type: []
+      type: ['ice', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2052.85
+        base-attack: 196
+        base-defense: 196
+        base-stamina: 100
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 0.8
 
     - id: 92
       display: true
@@ -3640,117 +3644,117 @@ generation-one:
       icon: "092 Gastly.ico"
       max-cp: 804
       rating: 4.5
-      type: []
+      type: ['ghost', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 804.41
+        base-attack: 136
+        base-defense: 82
+        base-stamina: 60
+        capture-rate: 32 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 0.8
+        posion: 0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 93
       display: true
       name-cn: 鬼斯通
       name-jp: ゴースト
       name-en: Haunter
       icon: "093 Haunter.ico"
-
       max-cp: 1380
       rating: 6
-      type: []
+      type: ['ghost', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1380.21
+        base-attack: 172
+        base-defense: 118
+        base-stamina: 90
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 0.8
+        posion: 0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 94
       display: true
       name-cn: 耿鬼
       name-jp: ゲンガー
       name-en: Gengar
       icon: "094 Gengar.ico"
-
       max-cp: 2078
       rating: 9
-      type: []
+      type: ['ghost', 'poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2078.23
+        base-attack: 204
+        base-defense: 156
+        base-stamina: 120
+        capture-rate: 8 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 0.8
+        posion: 0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 95
       display: true
@@ -3760,37 +3764,37 @@ generation-one:
       icon: "095 Onix.ico"
       max-cp: 857
       rating: 4
-      type: []
+      type: ['ground', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 857.20
+        base-attack: 90
+        base-defense: 186
+        base-stamina: 70
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1.2
+        water: 1.2
 
     - id: 96
       display: true
@@ -3800,157 +3804,157 @@ generation-one:
       icon: "096 Drowzee.ico"
       max-cp: 1075
       rating: 5
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1075.14
+        base-attack: 104
+        base-defense: 140
+        base-stamina: 120
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 97
       display: true
       name-cn: 引梦貘人
       name-jp: スリーパー
       name-en: Hypno
       icon: "097 Hypno.ico"
-
       max-cp: 2184
       rating: 8
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2184.16
+        base-attack: 162
+        base-defense: 196
+        base-stamina: 170
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 98
       display: true
       name-cn: 大钳蟹
       name-jp: クラブ
       name-en: Krabby
       icon: "098 Krabby.ico"
-
       max-cp: 792
       rating: 5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 792.21
+        base-attack: 116
+        base-defense: 110
+        base-stamina: 60
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 99
       display: true
       name-cn: 巨钳蟹
       name-jp: キングラー
       name-en: Kingler
       icon: "099 Kingler.ico"
-
       max-cp: 1823
       rating: 7
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1823.15
+        base-attack: 178
+        base-defense: 168
+        base-stamina: 110
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
 
     - id: 100
       display: true
@@ -3960,77 +3964,78 @@ generation-one:
       icon: "100 Voltorb.ico"
       max-cp: 840
       rating: 4.5
-      type: []
+      type: ['electr']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 839.73
+        base-attack: 102
+        base-defense: 124
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 0.8
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 0.8
+        water: 1
+
     - id: 101
       display: true
       name-cn: 顽皮雷弹
       name-jp: マルマイン
       name-en: Electrode
       icon: "101 Electrode.ico"
-
       max-cp: 1646
       rating: 8.5
-      type: []
+      type: ['electr']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1646.14
+        base-attack: 150
+        base-defense: 174
+        base-stamina: 120
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 0.8
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 0.8
+        water: 1
+
     - id: 102
       display: true
       name-cn: 蛋蛋
@@ -4039,37 +4044,37 @@ generation-one:
       icon: "102 Exeggcute.ico"
       max-cp: 1100
       rating: 4.5
-      type: []
+      type: ['grass', 'psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1099.81
+        base-attack: 110
+        base-defense: 132
+        base-stamina: 120
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 0,8
+        fairy: 1
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1.2
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1.2
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 0.8
 
     - id: 103
       display: true
@@ -4077,120 +4082,119 @@ generation-one:
       name-jp: ナッシー
       name-en: Exeggutor
       icon: "103 Exeggutor.ico"
-
       max-cp: 2955
       rating: 9
-      type: []
+      type: ['grass', 'psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2955.18
+        base-attack: 232
+        base-defense: 164
+        base-stamina: 190
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 0,8
+        fairy: 1
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1.2
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1.2
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 0.8
+
     - id: 104
       display: true
       name-cn: 卡拉卡拉
       name-jp: カラカラ
       name-en: Cubone
       icon: "104 Cubone.ico"
-
       max-cp: 1007
       rating: 4.5
-      type: []
+      type: ['ground']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1006.61
+        base-attack: 102
+        base-defense: 150
+        base-stamina: 100
+        capture-rate: 32 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1
+        water: 1.2
+
     - id: 105
       display: true
       name-cn: 嘎啦嘎啦
       name-jp: ガラガラ
       name-en: Marowak
       icon: "105 Marowak.ico"
-
       max-cp: 1657
       rating: 6
-      type: []
+      type: ['ground']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1656.96
+        base-attack: 140
+        base-defense: 202
+        base-stamina: 120
+        capture-rate: 12 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1
+        water: 1.2
 
     - id: 106
       display: true
@@ -4200,37 +4204,37 @@ generation-one:
       icon: "106 Hitmonlee.ico"
       max-cp: 1493
       rating: 7
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1492.94
+        base-attack: 148
+        base-defense: 172
+        base-stamina: 100
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
 
     - id: 107
       display: true
@@ -4240,237 +4244,237 @@ generation-one:
       icon: "107 Hitmonchan.ico"
       max-cp: 1517
       rating: 7
-      type: []
+      type: ['fight']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1516.51
+        base-attack: 138
+        base-defense: 204
+        base-stamina: 100
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 0.8
+        dragon: 1
+        electr: 1
+        fairy: 1.2
+        fight: 1
+        fire: 1
+        flying: 1.2
+        ghost: 1
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1.2
+        rock: 0.8
+        steel: 1
+        water: 1
+
     - id: 108
       display: true
       name-cn: 大舌头
       name-jp: ベロリンガ
       name-en: Lickitung
       icon: "108 Lickitung.ico"
-
       max-cp: 1627
       rating: 7.5
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1626.82
+        base-attack: 126
+        base-defense: 160
+        base-stamina: 180
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 109
       display: true
       name-cn: 瓦斯弹
       name-jp: ドガース
       name-en: Koffing
       icon: "109 Koffing.ico"
-
       max-cp: 1152
       rating: 5
-      type: []
+      type: ['poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1151.79
+        base-attack: 136
+        base-defense: 142
+        base-stamina: 80
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 110
       display: true
       name-cn: 双弹瓦斯
       name-jp: マタドガス
       name-en: Weezing
       icon: "110 Weezing.ico"
-
       max-cp: 2250
       rating: 8
-      type: []
+      type: ['poison']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2250.15
+        base-attack: 190
+        base-defense: 198
+        base-stamina: 130
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion:  0.8
+        psychc: 1.2
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 111
       display: true
       name-cn: 独角犀牛
       name-jp: サイホーン
       name-en: Rhyhorn
       icon: "111 Rhyhorn.ico"
-
       max-cp: 1182
       rating: 5
-      type: []
+      type: ['ground', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1182.08
+        base-attack: 110
+        base-defense: 116
+        base-stamina: 160
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1.2
+        water: 1.2
+
     - id: 112
       display: true
       name-cn: 钻角犀兽
       name-jp: サイドン
       name-en: Rhydon
       icon: "112 Rhydon.ico"
-
       max-cp: 2243
       rating: 7.5
-      type: []
+      type: ['ground', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2243.22
+        base-attack: 166
+        base-defense: 160
+        base-stamina: 210
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 0.8
+        steel: 1.2
+        water: 1.2
 
     - id: 113
       display: true
@@ -4480,357 +4484,357 @@ generation-one:
       icon: "113 Chansey.ico"
       max-cp: 675
       rating: 8.5
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 675.12
+        base-attack: 40
+        base-defense: 60
+        base-stamina: 500
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 114
       display: true
       name-cn: 蔓藤怪
       name-jp: モンジャラ
       name-en: Tangela
       icon: "114 Tangela.ico"
-
       max-cp: 1740
       rating: 8
-      type: []
+      type: ['grass']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1739.72
+        base-attack: 164
+        base-defense: 152
+        base-stamina: 130
+        capture-rate: 32 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 0.8
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 0.8
+
     - id: 115
       display: true
       name-cn: 袋兽
       name-jp: ガルーラ
       name-en: Kangaskhan
       icon: "115 Kangaskhan.ico"
-
       max-cp: 2043
       rating: 7.5
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2043.40
+        base-attack: 142
+        base-defense: 178
+        base-stamina: 210
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 116
       display: true
       name-cn: 墨海马
       name-jp: タッツー
       name-en: Horsea
       icon: "116 Horsea.ico"
-
       max-cp: 795
       rating: 4.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 794.67
+        base-attack: 122
+        base-defense: 100
+        base-stamina: 60
+        capture-rate: 40 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 117
       display: true
       name-cn: 海刺龙
       name-jp: シードラ
       name-en: Seadra
       icon: "117 Seadra.ico"
-
       max-cp: 1713
       rating: 8
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1713.22
+        base-attack: 176
+        base-defense: 150
+        base-stamina: 110
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 118
       display: true
       name-cn: 角金鱼
       name-jp: トサキント
       name-en: Goldeen
       icon: "118 Goldeen.ico"
-
       max-cp: 965
       rating: 5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 965.14
+        base-attack: 112
+        base-defense: 126
+        base-stamina: 90
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 119
       display: true
       name-cn: 金鱼王
       name-jp: アズマオウ
       name-en: Seaking
       icon: "119 Seaking.ico"
-
       max-cp: 2044
       rating: 7.5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2043.92
+        base-attack: 172
+        base-defense: 160
+        base-stamina: 160
+        capture-rate: 16 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 120
       display: true
       name-cn: 海星星
       name-jp: ヒトデマン
       name-en: Staryu
       icon: "120 Staryu.ico"
-
       max-cp: 938
       rating: 5
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 937.89
+        base-attack: 130
+        base-defense: 128
+        base-stamina: 60
+        capture-rate: 40 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 121
       display: true
       name-cn: 宝石海星
       name-jp: スターミー
       name-en: Starmie
       icon: "121 Starmie.ico"
-
       max-cp: 2182
       rating: 8.5
-      type: []
+      type: ['psychc', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2182.14
+        base-attack: 194
+        base-defense: 192
+        base-stamina: 120
+        capture-rate: 16 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1.2
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 0.8
+        water: 0.8
 
     - id: 122
       display: true
@@ -4840,37 +4844,37 @@ generation-one:
       icon: "122 Mr. Mime.ico"
       max-cp: 1494
       rating: 7.5
-      type: []
+      type: ['fairy', 'psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1494.42
+        base-attack: 154
+        base-defense: 196
+        base-stamina: 80
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 0.8
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1.2
+        psychc: 0.8
+        rock: 1
+        steel: 1.2
+        water: 1
 
     - id: 123
       display: true
@@ -4880,37 +4884,37 @@ generation-one:
       icon: "123 Scyther.ico"
       max-cp: 2074
       rating: 7
-      type: []
+      type: ['bug', 'flying']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2073.96
+        base-attack: 176
+        base-defense: 180
+        base-stamina: 140
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 1
 
     - id: 124
       display: true
@@ -4920,37 +4924,37 @@ generation-one:
       icon: "124 Jynx.ico"
       max-cp: 1717
       rating: 7
-      type: []
+      type: ['ice', 'psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1716.73
+        base-attack: 172
+        base-defense: 134
+        base-stamina: 130
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1
+        fire: 1.2
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1.2
+        steel: 1.2
+        water: 1
 
     - id: 125
       display: true
@@ -4960,37 +4964,37 @@ generation-one:
       icon: "125 Electabuzz.ico"
       max-cp: 2119
       rating: 8.5
-      type: []
+      type: ['electr']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2119.17
+        base-attack: 198
+        base-defense: 160
+        base-stamina: 130
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 0.8
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 0.8
+        water: 1
 
     - id: 126
       display: true
@@ -5000,37 +5004,37 @@ generation-one:
       icon: "126 Magmar.ico"
       max-cp: 2265
       rating: 8.5
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2265.30
+        base-attack: 214
+        base-defense: 158
+        base-stamina: 130
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
 
     - id: 127
       display: true
@@ -5040,157 +5044,157 @@ generation-one:
       icon: "127 Pinsir.ico"
       max-cp: 2122
       rating: 7
-      type: []
+      type: ['bug']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2121.87
+        base-attack: 184
+        base-defense: 186
+        base-stamina: 130
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1.2
+        flying: 1.2
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 1
+
     - id: 128
       display: true
       name-cn: 肯泰罗
       name-jp: ケンタロス
       name-en: Tauros
       icon: "128 Tauros.ico"
-
       max-cp: 1845
       rating: 7.5
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1844.76
+        base-attack: 148
+        base-defense: 184
+        base-stamina: 150
+        capture-rate: 24 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 129
       display: true
       name-cn: 鲤鱼王
       name-jp: コイキング
       name-en: Magikarp
       icon: "129 Magikarp.ico"
-
       max-cp: 263
       rating: 1
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 262.70
+        base-attack: 42
+        base-defense: 84
+        base-stamina: 40
+        capture-rate: 56 %
+        flee-rate: 15 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 400
         egg-distance-to-hatch:  2km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 130
       display: true
       name-cn: 暴鲤龙
       name-jp: ギャラドス
       name-en: Gyarados
       icon: "130 Gyarados.ico"
-
       max-cp: 2689
       rating: 9.5
-      type: []
+      type: ['flying', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2688.89
+        base-attack: 192
+        base-defense: 196
+        base-stamina: 190
+        capture-rate: 8 %
+        flee-rate: 7 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 1
+        ground: 0.8
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 0.8
 
     - id: 131
       display: true
@@ -5200,77 +5204,77 @@ generation-one:
       icon: "131 Lapras.ico"
       max-cp: 2981
       rating: 9.5
-      type: []
+      type: ['ice', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2980.73
+        base-attack: 186
+        base-defense: 190
+        base-stamina: 260
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 0.8
+
     - id: 132
       display: true
       name-cn: 百变怪
       name-jp: メタモン
       name-en: Ditto
       icon: "132 Ditto.ico"
-
       max-cp: 920
       rating: 11
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 919.62
+        base-attack: 110
+        base-defense: 110
+        base-stamina: 96
+        capture-rate: 16 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 133
       display: true
@@ -5280,37 +5284,37 @@ generation-one:
       icon: "133 Eevee.ico"
       max-cp: 1077
       rating: 4.5
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1077.20
+        base-attack: 114
+        base-defense: 128
+        base-stamina: 110
+        capture-rate: 32 %
+        flee-rate: 10 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 25
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 134
       display: true
@@ -5320,157 +5324,158 @@ generation-one:
       icon: "134 Vaporeon.ico"
       max-cp: 2816
       rating: 10
-      type: []
+      type: ['water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2816.25
+        base-attack: 186
+        base-defense: 168
+        base-stamina: 260
+        capture-rate: 12 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon:	1
+        electr:	1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 	1
+        grass: 1.2
+        ground: 1
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc:	1
+        rock: 1
+        steel: 0.8
+        water: 0.8
+
     - id: 135
       display: true
       name-cn: 雷伊布
       name-jp: サンダース
       name-en: Jolteon
       icon: "135 Jolteon.ico"
-
       max-cp: 2140
       rating: 8
-      type: []
+      type: ['electr']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2140.27
+        base-attack: 192
+        base-defense: 174
+        base-stamina: 130
+        capture-rate: 12 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 0.8
+        fairy: 1
+        fight: 1
+        fire: 1
+        flying: 0.8
+        ghost: 1
+        grass: 1
+        ground: 1.2
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 0.8
+        water: 1
+
     - id: 136
       display: true
       name-cn: 火伊布
       name-jp: ブースター
       name-en: Flareon
       icon: "136 Flareon.ico"
-
       max-cp: 2643
       rating: 9
-      type: []
+      type: ['fire']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2643.43
+        base-attack: 238
+        base-defense: 178
+        base-stamina: 130
+        capture-rate: 12 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 0.8
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1.2
+        ice: 0.8
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
+
     - id: 137
       display: true
       name-cn: 多边兽
       name-jp: ポリゴン
       name-en: Porygon
       icon: "137 Porygon.ico"
-
       max-cp: 1692
       rating: 7
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1691.56
+        base-attack: 156
+        base-defense: 158
+        base-stamina: 130
+        capture-rate: 32 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 5km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 138
       display: true
       name-cn: 菊石兽
@@ -5479,77 +5484,78 @@ generation-one:
       icon: "138 Omanyte.ico"
       max-cp: 1120
       rating: 5
-      type: []
+      type: ['rock', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1119.77
+        base-attack: 132
+        base-defense: 160
+        base-stamina: 70
+        capture-rate: 32 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 0.8
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 139
       display: true
       name-cn: 多刺菊石兽
       name-jp: オムスター
       name-en: Omastar
       icon: "139 Omastar.ico"
-
       max-cp: 2234
       rating: 7.5
-      type: []
+      type: ['rock', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2233.65
+        base-attack: 180
+        base-defense: 202
+        base-stamina: 140
+        capture-rate: 12 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 0.8
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 140
       display: true
       name-cn: 化石盔
@@ -5558,77 +5564,78 @@ generation-one:
       icon: "140 Kabuto.ico"
       max-cp: 1105
       rating: 5
-      type: []
+      type: ['rock', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1104.72
+        base-attack: 148
+        base-defense: 142
+        base-stamina: 60
+        capture-rate: 32 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 50
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 0.8
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 141
       display: true
       name-cn: 镰刀盔
       name-jp: カブトプス
       name-en: Kabutops
       icon: "141 Kabutops.ico"
-
       max-cp: 2130
       rating: 7.5
-      type: []
+      type: ['rock', 'water']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2130.01
+        base-attack: 190
+        base-defense: 190
+        base-stamina: 120
+        capture-rate: 12 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1.2
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1.2
+        ground: 1.2
+        ice: 0.8
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 142
       display: true
       name-cn: 化石翼龙
@@ -5637,37 +5644,37 @@ generation-one:
       icon: "142 Aerodactyl.ico"
       max-cp: 2165
       rating: 7.5
-      type: []
+      type: ['flying', 'rock']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2165.49
+        base-attack: 182
+        base-defense: 162
+        base-stamina: 160
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1
+        fire: 0.8
+        flying: 0.8
+        ghost: 1
+        grass: 1
+        ground: 0.8
+        ice: 1.2
+        normal: 0.8
+        posion: 0.8
+        psychc: 1
+        rock: 1.2
+        steel: 1.2
+        water: 1.2
 
     - id: 143
       display: true
@@ -5677,157 +5684,157 @@ generation-one:
       icon: "143 Snorlax.ico"
       max-cp: 3113
       rating: 10
-      type: []
+      type: ['normal']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 3112.85
+        base-attack: 180
+        base-defense: 180
+        base-stamina: 320
+        capture-rate: 16 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 1.2
+        fire: 1
+        flying: 1
+        ghost: 0.8
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 1
+
     - id: 144
       display: true
       name-cn: 急冻鸟
       name-jp: フリーザー
       name-en: Articuno
       icon: "144 Articuno.ico"
-
       max-cp: 2978
       rating: 11
-      type: []
+      type: ['flying', 'ice']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 2978.16
+        base-attack: 198
+        base-defense: 242
+        base-stamina: 180
+        capture-rate: 0 %
+        flee-rate: 10 %
+        class: Legendary
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 1
+        fight: 1
+        fire: 1.2
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1.2
+        water: 1
+
     - id: 145
       display: true
       name-cn: 闪电鸟
       name-jp: サンダー
       name-en: Zapdos
       icon: "145 Zapdos.ico"
-
       max-cp: 3114
       rating: 11
-      type: []
+      type: ['electr', 'flying']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 3114.38
+        base-attack: 232
+        base-defense: 194
+        base-stamina: 180
+        capture-rate: 0 %
+        flee-rate: 10 %
+        class: Legendary
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 0.8
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1
+
     - id: 146
       display: true
       name-cn: 火焰鸟
       name-jp: ファイヤー
       name-en: Moltres
       icon: "146 Moltres.ico"
-
       max-cp: 3240
       rating: 11
-      type: []
+      type: ['fire', 'flying']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 3240.47
+        base-attack: 242
+        base-defense: 194
+        base-stamina: 180
+        capture-rate: 0 %
+        flee-rate: 10 %
+        class: Legendary
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1
+        electr: 1.2
+        fairy: 0.8
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 0.8
+        water: 1.2
 
     - id: 147
       display: true
@@ -5837,37 +5844,37 @@ generation-one:
       icon: "147 Dratini.ico"
       max-cp: 983
       rating: 4
-      type: []
+      type: ['dragon']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 983.47
+        base-attack: 128
+        base-defense: 110
+        base-stamina: 82
+        capture-rate: 32 %
+        flee-rate: 9 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch: 10km
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1.2
+        electr: 0.8
+        fairy: 1.2
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 0.8
 
     - id: 148
       display: true
@@ -5877,37 +5884,37 @@ generation-one:
       icon: "148 Dragonair.ico"
       max-cp: 1748
       rating: 6
-      type: []
+      type: ['dragon']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 1747.73
+        base-attack: 170
+        base-defense: 152
+        base-stamina: 122
+        capture-rate: 8 %
+        flee-rate: 6 %
+        class: Normal
       evolution-requirements:
-        candy-to-evolve:
+        candy-to-evolve: 100
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1
+        dark: 1
+        dragon: 1.2
+        electr: 0.8
+        fairy: 1.2
+        fight: 1
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 1
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1
+        steel: 1
+        water: 0.8
 
     - id: 149
       display: true
@@ -5917,37 +5924,37 @@ generation-one:
       icon: "149 Dragonite.ico"
       max-cp: 3500
       rating: 10
-      type: []
+      type: ['dragon', 'flying']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 3500.06
+        base-attack: 250
+        base-defense: 212
+        base-stamina: 182
+        capture-rate: 4 %
+        flee-rate: 5 %
+        class: Normal
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 0.8
+        dark: 1
+        dragon: 1.2
+        electr: 1
+        fairy: 1.2
+        fight: 0.8
+        fire: 0.8
+        flying: 1
+        ghost: 1
+        grass: 0.8
+        ground: 0.8
+        ice: 1.2
+        normal: 1
+        posion: 1
+        psychc: 1
+        rock: 1.2
+        steel: 1
+        water: 0.8
 
     - id: 150
       display: true
@@ -5957,37 +5964,37 @@ generation-one:
       icon: "150 Mewtwo.ico"
       max-cp: 4145
       rating: 11
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 4144.75
+        base-attack: 284
+        base-defense: 202
+        base-stamina: 212
+        capture-rate: 0 %
+        flee-rate: 10 %
+        class: Legendary
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
 
     - id: 151
       display: true
@@ -5997,34 +6004,34 @@ generation-one:
       icon: "151 Mew.ico"
       max-cp: 3299
       rating: 11
-      type: []
+      type: ['psychc']
       stats:
-        max-theoretical-cp:
-        base-attack:
-        base-defense:
-        base-stamina:
-        capture-rate:
-        flee-rate:
-        class:
+        max-theoretical-cp: 3299.17
+        base-attack: 220
+        base-defense: 220
+        base-stamina: 200
+        capture-rate: 0 %
+        flee-rate: 10 %
+        class: Mythic
       evolution-requirements:
         candy-to-evolve:
         egg-distance-to-hatch:
       weakness-resistance:
-        bug:
-        dark:
-        dragon:
-        electr:
-        fairy:
-        fight:
-        fire:
-        flying:
-        ghost:
-        grass:
-        ground:
-        ice:
-        normal:
-        posion:
-        psychc:
-        rock:
-        steel:
-        water:
+        bug: 1.2
+        dark: 1.2
+        dragon: 1
+        electr: 1
+        fairy: 1
+        fight: 0.8
+        fire: 1
+        flying: 1
+        ghost: 1.2
+        grass: 1
+        ground: 1
+        ice: 1
+        normal: 1
+        posion: 1
+        psychc: 0.8
+        rock: 1
+        steel: 1
+        water: 1
