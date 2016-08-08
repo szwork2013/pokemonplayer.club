@@ -1,6 +1,7 @@
+@import "breakpoints";
+
 table.responsive-table {
 
-  $sm: 768px;
   $light-grey-bg: #fafafa;
   $light-grey-border: #ddd;
   $box-shadow: 0 14px 12px -12px rgba(0, 0, 0, 0.6);
@@ -15,17 +16,12 @@ table.responsive-table {
     display: table-header-group;
     background: $light-grey-bg;
 
-    @media (min-width: $sm) {
-      display: table-header-group;
-    }
-
     tr {
       border: 1px solid $light-grey-border;
     }
 
     th {
       text-transform: uppercase;
-      font-size: 16px;
     }
   }
 
@@ -35,7 +31,7 @@ table.responsive-table {
     display: block;
     background: white;
 
-    @media (min-width: $sm) {
+    @include media-breakpoint-up(pad) {
       display: table-row;
       border-bottom-width: 1px;
       margin-bottom: 0;
@@ -44,6 +40,7 @@ table.responsive-table {
         background: $light-grey-bg;
       }
     }
+
   }
 
   th,
@@ -75,10 +72,9 @@ table.responsive-table {
     text-align: right;
     font-size: 14px;
 
-    @media (min-width: $sm) {
+    @include media-breakpoint-up(pad) {
       display: table-cell;
       text-align: center;
-      font-size: 14px;
       border-bottom: none;
     }
   }
@@ -89,7 +85,7 @@ table.responsive-table {
     text-transform: uppercase;
     font-weight: bold;
 
-    @media (min-width: $sm) {
+    @include media-breakpoint-up(pad) {
       content: "";
       display: none;
     }

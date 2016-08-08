@@ -25,7 +25,8 @@ class PokedexTypeFilter extends Component {
                                     <label className={"tag " + tag + "-tag"}>{tag.toUpperCase()}</label>
                                 </div>
                             )
-                        })}
+                        })
+                    }
                 </div>
             </div>
         );

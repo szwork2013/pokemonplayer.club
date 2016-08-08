@@ -1,26 +1,32 @@
-import {SET_POKEDEX_DATA, SET_EGG_FILTER, SORT_POKEDEX_DATA} from '../actions'
+import {SET_POKEDEX_DATA, SET_POKEDEX_FILTER, SORT_POKEDEX_DATA} from '../actions'
 
-const initialState = [];
+let initialState = [];
 let isSorted = false;
 
 export function Pokedex(state = initialState, action) {
 
     switch (action.type) {
-        case SET_EGG_FILTER: {
+        case SET_POKEDEX_FILTER: {
 
-            return state.map((item)=> {
+            let {filterType, filterValue} = action;
+            if ('ALL' === filterType.toUpperCase()) {
+                return initialState;
+            }
 
-                item.display = true;
-                let eggDistanceToHatch = item['evolution-requirements']['egg-distance-to-hatch'];
-                if ('ALL' !== action.filter.toUpperCase() && eggDistanceToHatch != action.filter) {
-                    item.display = false;
+            return state.filter((item)=> {
+
+                if ('egg' == filterType) {
+                    let eggDistanceToHatch = item['evolution-requirements']['egg-distance-to-hatch'];
+                    return eggDistanceToHatch === filterValue
+                } else if ('candy' == filterType) {
+                    let candyToEvolve = String(item['evolution-requirements']['candy-to-evolve']);
+                    return candyToEvolve === filterValue
                 }
-
-                return item;
+                return false;
             });
         }
         case SET_POKEDEX_DATA: {
-
+            initialState = action.data;
             return action.data;
         }
         case SORT_POKEDEX_DATA: {

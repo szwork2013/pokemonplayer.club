@@ -43,27 +43,24 @@ class PokedexTable extends Component {
                 {
                     Pokedex.map((item) => {
 
-                        if (item.display) {
+                        let candyToEvolve = item['evolution-requirements']['candy-to-evolve'],
+                            eggDistanceToHatch = item['evolution-requirements']['egg-distance-to-hatch'];
 
-                            let candyToEvolve = item['evolution-requirements']['candy-to-evolve'],
-                                eggDistanceToHatch = item['evolution-requirements']['egg-distance-to-hatch'];
-
-                            return (
-                                <tr key={item.id}>
-                                    <td>{item.id}</td>
-                                    <td className="pokedex-pic">
-                                        <img src={require('../../icons/' + item.icon)} width={50}/>
-                                    </td>
-                                    <td>{item['name-cn']}</td>
-                                    <td>{item['name-jp']}</td>
-                                    <td>{item['name-en']}</td>
-                                    <td>{candyToEvolve ? candyToEvolve : '-'}</td>
-                                    <td>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
-                                    <td>{item['max-cp']}</td>
-                                    <td>{item['rating']} / 10</td>
-                                </tr>
-                            )
-                        }
+                        return (
+                            <tr key={item.id}>
+                                <td>{item.id}</td>
+                                <td className="pokedex-pic">
+                                    <img src={require('../../icons/' + item.icon)} width={50}/>
+                                </td>
+                                <td>{item['name-cn']}</td>
+                                <td>{item['name-jp']}</td>
+                                <td>{item['name-en']}</td>
+                                <td>{candyToEvolve ? candyToEvolve : '-'}</td>
+                                <td>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
+                                <td>{item['max-cp']}</td>
+                                <td>{item['rating']} / 10</td>
+                            </tr>
+                        )
                     })
                 }
                 </tbody>

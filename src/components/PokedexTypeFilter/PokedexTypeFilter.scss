@@ -1,3 +1,5 @@
+@import "../../common/breakpoints";
+
 .component-pokedex-type-filter {
 
   background-color: white;
@@ -29,10 +31,16 @@
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       border: 1px solid black;
       color: white;
-      font-size: 11px;
+      font-size: 14px;
       letter-spacing: 1px;
       cursor: pointer;
       text-align: center;
+
+      @include media-breakpoint-down(pad) {
+        font-size: 10px;
+        padding: 2px 2px;
+        letter-spacing: 0;
+      }
 
       &.bug-tag {
         border-color: rgb(67, 108, 56);
