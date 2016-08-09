@@ -29,11 +29,7 @@ class PokedexReset extends Component {
                     <div className="title">{title}</div>
                 </div>
                 <div className="button-box">
-                    <input type="button"
-                           className="button"
-                           value="显示所有"
-                           onClick={this.onClickButton.bind(this)}
-                    />
+                    <a className="btn btn-block" onClick={this.onClickButton.bind(this)}>显示所有</a>
                 </div>
             </div>
         );

@@ -3,6 +3,7 @@
 @import "./visibility";
 @import "./normalize";
 @import "./colors";
+@import "./buttons";
 @import "./utils";
 @import "./responsive-table";
 
@@ -64,10 +65,10 @@ ul {
 }
 
 a {
-  color: $blue;
+  //color: $blue;
 
   &:link, &:visited, &:hover, &:active {
-    color: $blue;
+    //color: $blue;
   }
 }
 
