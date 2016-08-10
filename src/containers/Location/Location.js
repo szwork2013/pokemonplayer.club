@@ -3,6 +3,8 @@ import './Location.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import {Nav} from '../../components'
+
 class Location extends Component {
 
     constructor(props) {
@@ -11,7 +13,10 @@ class Location extends Component {
 
     render() {
         return (
-            <div className="location-view">
+            <div className="container">
+                <div className="location-view">
+                    <Nav/>
+                </div>
             </div>
         );
     }

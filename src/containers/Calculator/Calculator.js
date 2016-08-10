@@ -3,6 +3,8 @@ import './Calculator.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import {Nav} from '../../components'
+
 class Calculator extends Component {
 
     constructor(props) {
@@ -11,7 +13,10 @@ class Calculator extends Component {
 
     render() {
         return (
-            <div className="calculator-view">
+            <div className="container">
+                <div className="calculator-view">
+                    <Nav/>
+                </div>
             </div>
         );
     }

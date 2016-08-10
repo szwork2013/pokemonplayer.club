@@ -3,6 +3,8 @@ import './Settings.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import {Nav} from '../../components'
+
 class Settings extends Component {
 
     constructor(props) {
@@ -11,7 +13,10 @@ class Settings extends Component {
 
     render() {
         return (
-            <div className="settings-view">
+            <div className="container">
+                <div className="settings-view">
+                    <Nav/>
+                </div>
             </div>
         );
     }

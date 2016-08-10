@@ -7,18 +7,13 @@
 
   .header {
     margin: 5px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     font-weight: bold;
-    display: flex;
-
-    .title {
-      //padding: 3px 10px;
-    }
   }
 
   .radio {
     display: inline-block;
-    margin: 10px 30px;
+    margin: 10px 15px;
 
     > label {
       margin: auto 5px;

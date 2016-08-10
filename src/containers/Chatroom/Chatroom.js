@@ -3,6 +3,8 @@ import './Chatroom.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import {Nav} from '../../components'
+
 class Chatroom extends Component {
 
     constructor(props) {
@@ -11,8 +13,10 @@ class Chatroom extends Component {
 
     render() {
         return (
-            <div className="chatroom-view">
-                <iframe className="map" src="http://jp1.sunchaoran.com"></iframe>
+            <div className="container">
+                <div className="chatroom-view">
+                    <Nav/>
+                </div>
             </div>
         );
     }

@@ -19,6 +19,9 @@
     margin: auto;
     border-radius: 25px;
     background-color: darkgray;
+    color: black;
+    text-align: center;
+    padding: 18px;
 
     @media (max-width: $sm) {
       width: 75px;

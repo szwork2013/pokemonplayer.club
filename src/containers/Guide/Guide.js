@@ -3,6 +3,8 @@ import './Guide.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import {Nav} from '../../components'
+
 class Guide extends Component {
 
     constructor(props) {
@@ -11,7 +13,11 @@ class Guide extends Component {
 
     render() {
         return (
-            <div className="guide-view">
+
+            <div className="container">
+                <div className="guide-view">
+                    <Nav/>
+                </div>
             </div>
         );
     }
