@@ -19,11 +19,15 @@ class Home extends Component {
                 <div className="pikachu"></div>
 
                 <div className="home-view">
-                    <AppBlock path="pokedex" name="图鉴" icon={require('../../images/podex-icon.png')}/>
-                    <AppBlock path="pokemap" name="地图(暂时失效)" icon=""/>
-                    <AppBlock path="calculator" name="属性计算器(开发中)" icon=""/>
-                    <AppBlock path="guide" name="攻略(开发中)" icon=""/>
-                    {/*<AppBlock path="donation" name="捐赠(开发中)" icon=""/>*/}
+                    <AppBlock path="pokedex" name="图鉴" icon={require('../../images/podex-icon-1.png')}/>
+                    <AppBlock path="pokemap" name="地图(暂时失效)" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="calculator" name="属性计算器(开发中)" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="location" name="稀有宝贝地点" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="guide" name="攻略" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="chatroom" name="聊天室" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="messages" name="留言板" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="donation" name="捐助" icon={require('../../images/podex-icon.png')}/>
+                    <AppBlock path="settings" name="设置" icon={require('../../images/podex-icon.png')}/>
                 </div>
 
                 <div className="version">

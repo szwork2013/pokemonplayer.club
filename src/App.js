@@ -8,7 +8,20 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router'
 import {syncHistoryWithStore} from 'react-router-redux';
 
 import configureStore from './stores/configureStore';
-import {Error, Home, Pokedex, Pokemap, DevTools} from './containers'
+import {
+    Error,
+    Home,
+    Pokedex,
+    Pokemap,
+    Calculator,
+    Chatroom,
+    Guide,
+    Location,
+    Message,
+    Donation,
+    Settings,
+    DevTools
+} from './containers'
 
 let initState = {};
 
@@ -41,6 +54,13 @@ render((
             <Route path="/" component={Home}/>
             <Route path="/pokedex" component={Pokedex}/>
             <Route path="/pokemap" component={Pokemap}/>
+            <Route path="/calculator" component={Calculator}/>
+            <Route path="/location" component={Location}/>
+            <Route path="/guide" component={Guide}/>
+            <Route path="/chatroom" component={Chatroom}/>
+            <Route path="/messages" component={Message}/>
+            <Route path="/donation" component={Donation}/>
+            <Route path="/settings" component={Settings}/>
             <Route path="*" component={Home}/>
         </Router>
     </Provider>
