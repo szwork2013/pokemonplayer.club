@@ -18,3 +18,10 @@ export function sortPokedexData(sortType) {
 export function searchPokedexData(search) {
     return {type: SEARCH_POKEDEX_DATA, search}
 }
+
+
+export const SET_DONATION_DATA = 'SET_DONATION_DATA';
+
+export function setDonationData(data) {
+    return {type: SET_DONATION_DATA, data};
+}

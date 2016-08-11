@@ -1,21 +1,212 @@
+@import "../../common/breakpoints";
+@import "../../common/variables";
+
 .component-pokedex-modal {
 
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  padding: 20px;
-  //background-color: black;
-  z-index: 1000;
+  $modal-inner-padding: 15px !default;
+
+  $modal-dialog-margin: 10px !default;
+  $modal-dialog-sm-up-margin-y: 30px !default;
+
+  $modal-title-padding: 15px !default;
+  $modal-title-line-height: 1.5 !default;
+
+  $modal-content-bg: #fff !default;
+  $modal-content-border-color: rgba(0, 0, 0, .2) !default;
+  $modal-content-border-width: 1px !default;
+  $modal-content-xs-box-shadow: 0 3px 9px rgba(0, 0, 0, .5) !default;
+  $modal-content-sm-up-box-shadow: 0 5px 15px rgba(0, 0, 0, .5) !default;
+
+  $modal-backdrop-bg: #000 !default;
+  $modal-backdrop-opacity: .5 !default;
+  $modal-header-border-color: #e5e5e5 !default;
+  $modal-footer-border-color: $modal-header-border-color !default;
+  $modal-header-border-width: $modal-content-border-width !default;
+  $modal-footer-border-width: $modal-header-border-width !default;
+
+  $modal-lg: 900px !default;
+  $modal-md: 600px !default;
+  $modal-sm: 300px !default;
+
+  $border-radius: .25rem !default;
+
+  @mixin clearfix() {
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  @mixin box-shadow($shadow...) {
+    box-shadow: $shadow;
+  }
+
+  .modal-open {
+    overflow: hidden;
+  }
+
+  .model-hidden {
+    display: none;
+  }
 
   .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: $zindex-modal;
+
+    overflow: hidden;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+
+    &.fade .modal-dialog {
+      transition: transform .3s ease-out;
+      transform: translate(0, -25%);
+    }
+    &.in .modal-dialog {
+      transform: translate(0, 0);
+    }
+  }
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .modal-dialog {
     position: relative;
-    margin: 5% auto 0 auto;
-    width: 60%;
-    height: 60%;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    width: auto;
+    margin: $modal-dialog-margin;
+  }
+
+  .modal-content {
+    position: relative;
+    background-color: $modal-content-bg;
+    background-clip: padding-box;
+    border: $modal-content-border-width solid $modal-content-border-color;
+    @include box-shadow($modal-content-xs-box-shadow);
+    outline: 0;
+  }
+
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: $zindex-modal-bg;
+    background-color: $modal-backdrop-bg;
+
+    &.fade {
+      opacity: 0;
+    }
+    &.in {
+      opacity: $modal-backdrop-opacity;
+    }
+  }
+
+  .modal-header {
+    padding: $modal-title-padding;
+    border-bottom: $modal-header-border-width solid $modal-header-border-color;
+    @include clearfix;
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 15px;
+    }
+  }
+
+  .modal-title {
+    margin: 0;
+    line-height: $modal-title-line-height;
+  }
+
+  .modal-body {
+    position: relative;
+    padding: $modal-inner-padding;
+
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .base-states {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      width: 200px;
+      margin: 10px auto;
+    }
+
+    table.stats {
+      width: 100%;
+      border-collapse: separate;
+      background: #fff;
+      margin: 30px auto;
+      //@include box-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+
+      tbody tr td {
+        font-weight: 400;
+        color: #5f6062;
+        font-size: 13px;
+        padding: 15px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      tbody tr:nth-child(2n) {
+        background: #f0f3f5;
+      }
+
+      tbody tr:last-child td {
+        border-bottom: none;
+        &:first-child {
+          //@include border-bottom-left-radius(5px);
+        }
+        &:last-child {
+          //@include border-bottom-right-radius(5px);
+        }
+      }
+
+      tbody:hover > tr td {
+        //@include opacity(0.5);
+        /* color:transparent;
+        @include text-shadow(0px 0px 2px rgba(0,0,0,0.8));*/
+      }
+
+      tbody:hover > tr:hover td {
+        //@include text-shadow(none);
+        color: #2d2d2d;
+        //@include opacity(1.0);
+      }
+
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    .modal-dialog {
+      max-width: $modal-md;
+      margin: $modal-dialog-sm-up-margin-y auto;
+    }
+
+    .modal-content {
+      @include box-shadow($modal-content-sm-up-box-shadow);
+    }
+
+    .modal-sm {
+      max-width: $modal-sm;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .modal-lg {
+      max-width: $modal-lg;
+    }
   }
 
 }

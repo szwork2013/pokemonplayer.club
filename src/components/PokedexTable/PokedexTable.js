@@ -10,6 +10,10 @@ class PokedexTable extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            isOpenModal: false,
+            pokemonModal: null
+        }
     }
 
     clickHeader(event) {
@@ -25,6 +29,16 @@ class PokedexTable extends Component {
 
     showDetails(item) {
         console.log(item);
+        this.setState({
+            isOpenModal: true,
+            pokemonModal: item
+        })
+    }
+
+    closeModal(event) {
+        this.setState({
+            isOpenModal: false,
+        })
     }
 
     render() {
@@ -32,7 +46,7 @@ class PokedexTable extends Component {
 
         return (
             <div>
-                <PokedexModal base-attack="123"/>
+                <PokedexModal onOpen={this.state.isOpenModal} onClose={this.closeModal.bind(this)} pokemon={this.state.pokemonModal}/>
                 <table className="responsive-table component-pokedex-table">
                     <thead>
                     <tr>
