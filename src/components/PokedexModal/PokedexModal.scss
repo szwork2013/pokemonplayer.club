@@ -1,0 +1,21 @@
+.component-pokedex-modal {
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  //background-color: black;
+  z-index: 1000;
+
+  .modal {
+    position: relative;
+    margin: 5% auto 0 auto;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  }
+
+}
