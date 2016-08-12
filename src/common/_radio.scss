@@ -41,7 +41,7 @@ $radio-border: 2px solid $radio-fill-color !default;
   width: 16px;
   height: 16px;
   z-index: 0;
-  transition: .28s ease;
+  transition: .2s ease;
 }
 
 [type="radio"]:not(:checked) + label:before,
