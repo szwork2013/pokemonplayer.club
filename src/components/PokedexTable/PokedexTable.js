@@ -28,7 +28,6 @@ class PokedexTable extends Component {
     }
 
     showDetails(item) {
-        console.log(item);
         this.setState({
             isOpenModal: true,
             pokemonModal: item
@@ -59,7 +58,7 @@ class PokedexTable extends Component {
                         <th className="egg">孵蛋</th>
                         <th className="max-cp" value='max-cp' onClick={this.clickHeader.bind(this)}>MAX-CP</th>
                         <th className="rating" value='rating' onClick={this.clickHeader.bind(this)}>
-                            <i className="fa fa-star star"></i>
+                            <i className="fa fa-star"></i>
                         </th>
                     </tr>
                     </thead>
@@ -88,8 +87,8 @@ class PokedexTable extends Component {
                                     <td>{item['name-en']} / {item['name-jp']}</td>
                                     <td className={setClassNameIfNull(eggDistanceToHatch, 'hidden-lg-phone-down')}>{candyToEvolve ? candyToEvolve : '-'}</td>
                                     <td className={setClassNameIfNull(eggDistanceToHatch, 'hidden-lg-phone-down')}>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
-                                    <td><i className="fa fa-bolt badge hidden-pad-up"></i> {item['max-cp']}</td>
-                                    <td><i className="fa fa-star badge hidden-pad-up"></i>{item['rating']}</td>
+                                    <td><i className="fa fa-bolt hidden-pad-up"></i> {item['max-cp']}</td>
+                                    <td><i className="fa fa-star hidden-pad-up"></i>{item['rating']}</td>
                                 </tr>
                             )
                         })
