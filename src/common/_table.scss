@@ -16,6 +16,10 @@ table.responsive-table {
     display: table-header-group;
     background: $light-grey-bg;
 
+    @include media-breakpoint-down(pad) {
+      display: none;
+    }
+
     tr {
       border: 1px solid $light-grey-border;
     }

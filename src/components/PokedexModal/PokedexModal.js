@@ -17,10 +17,8 @@ class PokedexModal extends Component {
         }
     }
 
-    close() {
-        let {onClose} = this.props;
-        console.log(this.props);
-        onClose();
+    close(event) {
+        this.props.onClose();
     }
 
     render() {
@@ -94,22 +92,22 @@ class PokedexModal extends Component {
                                 {/*Pokemon Stats*/}
                                 <table className="stats">
                                     <tbody>
-                                        <tr>
-                                            <td>最大CP</td>
-                                            <td>{maxCp}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>攻击</td>
-                                            <td>{baseAttack}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>防御</td>
-                                            <td>{baseDefense}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>耐力</td>
-                                            <td>{baseStamina}</td>
-                                        </tr>
+                                    <tr>
+                                        <td>最大CP</td>
+                                        <td>{maxCp}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>攻击</td>
+                                        <td>{baseAttack}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>防御</td>
+                                        <td>{baseDefense}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>耐力</td>
+                                        <td>{baseStamina}</td>
+                                    </tr>
                                     </tbody>
                                 </table>
                                 {/*Pokemon Weakness/Resistance Chart*/}

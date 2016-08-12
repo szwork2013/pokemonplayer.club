@@ -70,6 +70,14 @@ class PokedexTable extends Component {
                             let candyToEvolve = item['evolution-requirements']['candy-to-evolve'],
                                 eggDistanceToHatch = item['evolution-requirements']['egg-distance-to-hatch'];
 
+                            function setClassNameIfNull(item, className) {
+                                if (!item) {
+                                    return className;
+                                } else {
+                                    return '';
+                                }
+                            }
+
                             return (
                                 <tr key={item.id} onClick={this.showDetails.bind(this, item)}>
                                     <td>#{item.id}</td>
@@ -78,10 +86,10 @@ class PokedexTable extends Component {
                                     </td>
                                     <td>{item['name-cn']} </td>
                                     <td>{item['name-en']} / {item['name-jp']}</td>
-                                    <td>{candyToEvolve ? candyToEvolve : '-'}</td>
-                                    <td>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
-                                    <td>{item['max-cp']}</td>
-                                    <td><i className="fa fa-star star hidden-pad-up"></i>{item['rating']}</td>
+                                    <td className={setClassNameIfNull(eggDistanceToHatch, 'hidden-lg-phone-down')}>{candyToEvolve ? candyToEvolve : '-'}</td>
+                                    <td className={setClassNameIfNull(eggDistanceToHatch, 'hidden-lg-phone-down')}>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
+                                    <td><i className="fa fa-bolt badge hidden-pad-up"></i> {item['max-cp']}</td>
+                                    <td><i className="fa fa-star badge hidden-pad-up"></i>{item['rating']}</td>
                                 </tr>
                             )
                         })
