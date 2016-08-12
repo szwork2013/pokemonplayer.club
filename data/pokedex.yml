@@ -7,6 +7,8 @@ generation-one:
       icon: "001 Bulbasaur.ico"
       max-cp: 1072
       rating: 3.5
+      weight: 6.90
+      height: 0.70
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 1071.54
@@ -47,6 +49,8 @@ generation-one:
       icon: "002 Ivysaur.ico"
       max-cp: 1632
       rating: 5.5
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 1632.19
@@ -87,6 +91,8 @@ generation-one:
       icon: "003 Venusaur.ico"
       max-cp: 2580
       rating: 9.5
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 2580.49
@@ -127,6 +133,8 @@ generation-one:
       icon: "004 Charmander.ico"
       max-cp: 955
       rating: 3.5
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 955.24
@@ -167,6 +175,8 @@ generation-one:
       icon: "005 Charmeleon.ico"
       max-cp: 1557
       rating: 5.5
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 1557.48
@@ -207,6 +217,8 @@ generation-one:
       icon: "006 Charizard.ico"
       max-cp: 2602
       rating: 9.5
+      weight:
+      height:
       type: ['fire', 'flying']
       stats:
         max-theoretical-cp: 2602.20
@@ -247,6 +259,8 @@ generation-one:
       icon: "007 Squirtle.ico"
       max-cp: 1009
       rating: 3.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1008.69
@@ -287,6 +301,8 @@ generation-one:
       icon: "008 Wartortle.ico"
       max-cp: 1583
       rating: 5.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1582.79
@@ -327,6 +343,8 @@ generation-one:
       icon: "009 Blastoise.ico"
       max-cp: 2542
       rating: 8.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 2542.01
@@ -367,6 +385,8 @@ generation-one:
       icon: "010 Caterpie.ico"
       max-cp: 444
       rating: 1.5
+      weight:
+      height:
       type: ['bug']
       stats:
         max-theoretical-cp: 443.52
@@ -407,6 +427,8 @@ generation-one:
       icon: "011 Metapod.ico"
       max-cp: 478
       rating: 1.5
+      weight:
+      height:
       type: ['bug']
       stats:
         max-theoretical-cp: 477.92
@@ -447,6 +469,8 @@ generation-one:
 
       max-cp: 1455
       rating: 6
+      weight:
+      height:
       type: ['bug', 'flying']
       stats:
         max-theoretical-cp: 1454.94
@@ -487,6 +511,8 @@ generation-one:
       icon: "013 Weedle.ico"
       max-cp: 449
       rating: 1.5
+      weight:
+      height:
       type: ['bug', 'poison']
       stats:
         max-theoretical-cp: 449.09
@@ -526,6 +552,8 @@ generation-one:
       icon: "014 Kakuna.ico"
       max-cp: 485
       rating: 1.5
+      weight:
+      height:
       type: ['bug', 'poison']
       stats:
         max-theoretical-cp: 485.35
@@ -566,6 +594,8 @@ generation-one:
       icon: "015 Beedrill.ico"
       max-cp: 1440
       rating: 7
+      weight:
+      height:
       type: ['bug', 'poison']
       stats:
         max-theoretical-cp: 1439.96
@@ -606,6 +636,8 @@ generation-one:
       icon: "016 Pidgey.ico"
       max-cp: 680
       rating: 3.5
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 679.93
@@ -645,6 +677,8 @@ generation-one:
       icon: "017 Pidgeotto.ico"
       max-cp: 1224
       rating: 5
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 1223.98
@@ -684,6 +718,8 @@ generation-one:
       icon: "018 Pidgeot.ico"
       max-cp: 2091
       rating: 9
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 2091.39
@@ -724,6 +760,8 @@ generation-one:
       icon: "019 Rattata.ico"
       max-cp: 582
       rating: 3.5
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 581.65
@@ -764,6 +802,8 @@ generation-one:
       icon: "020 Raticate.ico"
       max-cp: 1444
       rating: 7
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 1444.13
@@ -804,6 +844,8 @@ generation-one:
       icon: "021 Spearow.ico"
       max-cp: 687
       rating: 4
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 686.87
@@ -844,6 +886,8 @@ generation-one:
       icon: "022 Fearow.ico"
       max-cp: 1746
       rating: 6.5
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 1746.35
@@ -884,6 +928,8 @@ generation-one:
       icon: "023 Ekans.ico"
       max-cp: 824
       rating: 4
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 824.14
@@ -924,6 +970,8 @@ generation-one:
       icon: "024 Arbok.ico"
       max-cp: 1767
       rating: 7.5
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 1767.13
@@ -964,6 +1012,8 @@ generation-one:
       icon: "025 Pikachu.ico"
       max-cp: 888
       rating: 4.5
+      weight:
+      height:
       type: ['electr']
       stats:
         max-theoretical-cp: 887.69
@@ -1004,6 +1054,8 @@ generation-one:
       icon: "026 Raichu.ico"
       max-cp: 2028
       rating: 9
+      weight:
+      height:
       type: ['electr']
       stats:
         max-theoretical-cp: 2028.30
@@ -1044,6 +1096,8 @@ generation-one:
       icon: "027 Sandshrew.ico"
       max-cp: 799
       rating: 4.5
+      weight:
+      height:
       type: ['ground']
       stats:
         max-theoretical-cp: 798.76
@@ -1084,6 +1138,8 @@ generation-one:
       icon: "028 Sandslash.ico"
       max-cp: 1810
       rating: 8
+      weight:
+      height:
       type: ['ground']
       stats:
         max-theoretical-cp: 1810.22
@@ -1124,6 +1180,8 @@ generation-one:
       icon: "029 Nidoran ♀.ico"
       max-cp: 876
       rating: 4
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 876.01
@@ -1164,6 +1222,8 @@ generation-one:
       icon: "030 Nidorina.ico"
       max-cp: 1405
       rating: 5
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 1404.61
@@ -1204,6 +1264,8 @@ generation-one:
       icon: "031 Nidoqueen.ico"
       max-cp: 2485
       rating: 8.5
+      weight:
+      height:
       type: ['ground', 'poison']
       stats:
         max-theoretical-cp: 2485.03
@@ -1244,6 +1306,8 @@ generation-one:
       icon: "032 Nidoran ♂.ico"
       max-cp: 843
       rating: 4
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 843.14
@@ -1284,6 +1348,8 @@ generation-one:
       icon: "033 Nidorino.ico"
       max-cp: 1373
       rating: 5
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 1372.50
@@ -1324,6 +1390,8 @@ generation-one:
       icon: "034 Nidoking.ico"
       max-cp: 2475
       rating: 8.5
+      weight:
+      height:
       type: ['ground', 'poison']
       stats:
         max-theoretical-cp: 2475.14
@@ -1364,6 +1432,8 @@ generation-one:
       icon: "035 Clefairy.ico"
       max-cp: 1201
       rating: 4.5
+      weight:
+      height:
       type: ['fairy']
       stats:
         max-theoretical-cp: 1200.96
@@ -1404,6 +1474,8 @@ generation-one:
       icon: "036 Clefable.ico"
       max-cp: 2398
       rating: 6.5
+      weight:
+      height:
       type: ['fairy']
       stats:
         max-theoretical-cp: 2397.71
@@ -1444,6 +1516,8 @@ generation-one:
       icon: "037 Vulpix.ico"
       max-cp: 831
       rating: 4
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 831.41
@@ -1484,6 +1558,8 @@ generation-one:
       icon: "038 Ninetales.ico"
       max-cp: 2188
       rating: 8.5
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 2188.28
@@ -1524,6 +1600,8 @@ generation-one:
       icon: "039 Jigglypuff.ico"
       max-cp: 918
       rating: 4
+      weight:
+      height:
       type: ['fairy', 'normal']
       stats:
         max-theoretical-cp: 917.64
@@ -1564,6 +1642,8 @@ generation-one:
       icon: "040 Wigglytuff.ico"
       max-cp: 2177
       rating: 9
+      weight:
+      height:
       type: ['fairy', 'normal']
       stats:
         max-theoretical-cp: 2177.20
@@ -1604,6 +1684,8 @@ generation-one:
       icon: "041 Zubat.ico"
       max-cp: 643
       rating: 4
+      weight:
+      height:
       type: ['flying', 'poison']
       stats:
         max-theoretical-cp: 642.51
@@ -1644,6 +1726,8 @@ generation-one:
       icon: "042 Golbat.ico"
       max-cp: 1921
       rating: 7.5
+      weight:
+      height:
       type: ['flying', 'poison']
       stats:
         max-theoretical-cp: 1921.35
@@ -1684,6 +1768,8 @@ generation-one:
       icon: "043 Oddish.ico"
       max-cp: 1148
       rating: 4.5
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 1148.28
@@ -1724,6 +1810,8 @@ generation-one:
       icon: "044 Gloom.ico"
       max-cp: 1689
       rating: 5.5
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 1689.46
@@ -1764,6 +1852,8 @@ generation-one:
       icon: "045 Vileplume.ico"
       max-cp: 2493
       rating: 8
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 2492.66
@@ -1804,6 +1894,8 @@ generation-one:
       icon: "046 Paras.ico"
       max-cp: 917
       rating: 4
+      weight:
+      height:
       type: ['bug', 'grass']
       stats:
         max-theoretical-cp: 916.60
@@ -1844,6 +1936,8 @@ generation-one:
       icon: "047 Parasect.ico"
       max-cp: 1747
       rating: 8.5
+      weight:
+      height:
       type: ['bug', 'grass']
       stats:
         max-theoretical-cp: 1747.07
@@ -1884,6 +1978,8 @@ generation-one:
       icon: "048 Venonat.ico"
       max-cp: 1029
       rating: 4
+      weight:
+      height:
       type: ['bug', 'poison']
       stats:
         max-theoretical-cp: 1029.39
@@ -1924,6 +2020,8 @@ generation-one:
       icon: "049 Venomoth.ico"
       max-cp: 1890
       rating: 6.5
+      weight:
+      height:
       type: ['bug', 'poison']
       stats:
         max-theoretical-cp: 1890.32
@@ -1964,6 +2062,8 @@ generation-one:
       icon: "050 Diglett.ico"
       max-cp: 457
       rating: 4
+      weight:
+      height:
       type: ['ground']
       stats:
         max-theoretical-cp: 456.76
@@ -2004,6 +2104,8 @@ generation-one:
       icon: "051 Dugtrio.ico"
       max-cp: 1169
       rating: 7
+      weight:
+      height:
       type: ['ground']
       stats:
         max-theoretical-cp: 1168.55
@@ -2044,6 +2146,8 @@ generation-one:
       icon: "052 Meowth.ico"
       max-cp: 756
       rating: 4
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 756.32
@@ -2084,6 +2188,8 @@ generation-one:
       icon: "053 Persian.ico"
       max-cp: 1632
       rating: 7
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 1631.84
@@ -2124,6 +2230,8 @@ generation-one:
       icon: "054 Psyduck.ico"
       max-cp: 1110
       rating: 4.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1109.56
@@ -2164,6 +2272,8 @@ generation-one:
       icon: "055 Golduck.ico"
       max-cp: 2387
       rating: 8.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 2386.52
@@ -2204,6 +2314,8 @@ generation-one:
       icon: "056 Mankey.ico"
       max-cp: 879
       rating: 4.5
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 878.67
@@ -2244,6 +2356,8 @@ generation-one:
       icon: "057 Primeape.ico"
       max-cp: 1865
       rating: 7.5
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 1864.52
@@ -2284,6 +2398,8 @@ generation-one:
       icon: "058 Growlithe.ico"
       max-cp: 1335
       rating: 4.5
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 1335.03
@@ -2324,6 +2440,8 @@ generation-one:
       icon: "059 Arcanine.ico"
       max-cp: 2984
       rating: 9.5
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 2983.90
@@ -2364,6 +2482,8 @@ generation-one:
       icon: "060 Poliwag.ico"
       max-cp: 796
       rating: 4.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 795.96
@@ -2404,6 +2524,8 @@ generation-one:
       icon: "061 Poliwhirl.ico"
       max-cp: 1340
       rating: 5.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1340.43
@@ -2444,6 +2566,8 @@ generation-one:
       icon: "062 Poliwrath.ico"
       max-cp: 2505
       rating: 9
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 2505.33
@@ -2484,6 +2608,8 @@ generation-one:
       icon: "063 Abra.ico"
       max-cp: 600
       rating: 4.5
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 600.44
@@ -2524,6 +2650,8 @@ generation-one:
       icon: "064 Kadabra.ico"
       max-cp: 1132
       rating: 5.5
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 1131.96
@@ -2564,6 +2692,8 @@ generation-one:
       icon: "065 Alakazam.ico"
       max-cp: 1814
       rating: 9.5
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 1813.82
@@ -2604,6 +2734,8 @@ generation-one:
       icon: "066 Machop.ico"
       max-cp: 1090
       rating: 4.5
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 1089.59
@@ -2644,6 +2776,8 @@ generation-one:
       icon: "067 Machoke.ico"
       max-cp: 1761
       rating: 6
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 1760.71
@@ -2684,6 +2818,8 @@ generation-one:
       icon: "068 Machamp.ico"
       max-cp: 2594
       rating: 8
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 2594.17
@@ -2724,6 +2860,8 @@ generation-one:
       icon: "069 Bellsprout.ico"
       max-cp: 1117
       rating: 4.5
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 1117.43
@@ -2764,6 +2902,8 @@ generation-one:
       icon: "070 Weepinbell.ico"
       max-cp: 1724
       rating: 6
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 1723.76
@@ -2804,6 +2944,8 @@ generation-one:
       icon: "071 Victreebel.ico"
       max-cp: 2531
       rating: 8.5
+      weight:
+      height:
       type: ['grass', 'poison']
       stats:
         max-theoretical-cp: 2530.52
@@ -2844,6 +2986,8 @@ generation-one:
       icon: "072 Tentacool.ico"
       max-cp: 905
       rating: 5
+      weight:
+      height:
       type: ['poison', 'water']
       stats:
         max-theoretical-cp: 905.15
@@ -2884,6 +3028,8 @@ generation-one:
       icon: "073 Tentacruel.ico"
       max-cp: 2220
       rating: 8.5
+      weight:
+      height:
       type: ['poison', 'water']
       stats:
         max-theoretical-cp: 2220.32
@@ -2924,6 +3070,8 @@ generation-one:
       icon: "074 Geodude.ico"
       max-cp: 849
       rating: 4.5
+      weight:
+      height:
       type: ['ground', 'rock']
       stats:
         max-theoretical-cp: 849.49
@@ -2964,6 +3112,8 @@ generation-one:
       icon: "075 Graveler.ico"
       max-cp: 1434
       rating: 6
+      weight:
+      height:
       type: ['ground', 'rock']
       stats:
         max-theoretical-cp: 1433.63
@@ -3004,6 +3154,8 @@ generation-one:
       icon: "076 Golem.ico"
       max-cp: 2303
       rating: 9
+      weight:
+      height:
       type: ['ground', 'rock']
       stats:
         max-theoretical-cp: 2303.17
@@ -3044,6 +3196,8 @@ generation-one:
       icon: "077 Ponyta.ico"
       max-cp: 1516
       rating: 6
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 1516.11
@@ -3084,6 +3238,8 @@ generation-one:
       icon: "078 Rapidash.ico"
       max-cp: 2199
       rating: 7
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 2199.34
@@ -3124,6 +3280,8 @@ generation-one:
       icon: "079 Slowpoke.ico"
       max-cp: 1219
       rating: 4.5
+      weight:
+      height:
       type: ['psychc', 'water']
       stats:
         max-theoretical-cp: 1218.90
@@ -3164,6 +3322,8 @@ generation-one:
       icon: "080 Slowbro.ico"
       max-cp: 2597
       rating: 8.5
+      weight:
+      height:
       type: ['psychc', 'water']
       stats:
         max-theoretical-cp: 2597.19
@@ -3204,6 +3364,8 @@ generation-one:
       icon: "081 Magnemite.ico"
       max-cp: 891
       rating: 4.5
+      weight:
+      height:
       type: ['electr', 'steel']
       stats:
         max-theoretical-cp: 890.68
@@ -3244,6 +3406,8 @@ generation-one:
       icon: "082 Magneton.ico"
       max-cp: 1880
       rating: 8
+      weight:
+      height:
       type: ['electr', 'steel']
       stats:
         max-theoretical-cp: 1879.95
@@ -3284,6 +3448,8 @@ generation-one:
       icon: "083 Farfetch'd.ico"
       max-cp: 1264
       rating: 5
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 1263.89
@@ -3324,6 +3490,8 @@ generation-one:
       icon: "084 Doduo.ico"
       max-cp: 855
       rating: 4.5
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 855.41
@@ -3364,6 +3532,8 @@ generation-one:
       icon: "085 Dodrio.ico"
       max-cp: 1836
       rating: 6.5
+      weight:
+      height:
       type: ['flying', 'normal']
       stats:
         max-theoretical-cp: 1836.37
@@ -3404,6 +3574,8 @@ generation-one:
       icon: "086 Seel.ico"
       max-cp: 1107
       rating: 4.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1107.03
@@ -3444,6 +3616,8 @@ generation-one:
       icon: "087 Dewgong.ico"
       max-cp: 2146
       rating: 8.5
+      weight:
+      height:
       type: ['ice', 'water']
       stats:
         max-theoretical-cp: 2145.77
@@ -3484,6 +3658,8 @@ generation-one:
       icon: "088 Grimer.ico"
       max-cp: 1284
       rating: 4.5
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 1284.02
@@ -3524,6 +3700,8 @@ generation-one:
       icon: "089 Muk.ico"
       max-cp: 2603
       rating: 9.5
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 2602.90
@@ -3564,6 +3742,8 @@ generation-one:
       icon: "090 Shellder.ico"
       max-cp: 823
       rating: 5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 822.91
@@ -3604,6 +3784,8 @@ generation-one:
       icon: "091 Cloyster.ico"
       max-cp: 2053
       rating: 8
+      weight:
+      height:
       type: ['ice', 'water']
       stats:
         max-theoretical-cp: 2052.85
@@ -3644,6 +3826,8 @@ generation-one:
       icon: "092 Gastly.ico"
       max-cp: 804
       rating: 4.5
+      weight:
+      height:
       type: ['ghost', 'poison']
       stats:
         max-theoretical-cp: 804.41
@@ -3684,6 +3868,8 @@ generation-one:
       icon: "093 Haunter.ico"
       max-cp: 1380
       rating: 6
+      weight:
+      height:
       type: ['ghost', 'poison']
       stats:
         max-theoretical-cp: 1380.21
@@ -3724,6 +3910,8 @@ generation-one:
       icon: "094 Gengar.ico"
       max-cp: 2078
       rating: 9
+      weight:
+      height:
       type: ['ghost', 'poison']
       stats:
         max-theoretical-cp: 2078.23
@@ -3764,6 +3952,8 @@ generation-one:
       icon: "095 Onix.ico"
       max-cp: 857
       rating: 4
+      weight:
+      height:
       type: ['ground', 'rock']
       stats:
         max-theoretical-cp: 857.20
@@ -3804,6 +3994,8 @@ generation-one:
       icon: "096 Drowzee.ico"
       max-cp: 1075
       rating: 5
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 1075.14
@@ -3844,6 +4036,8 @@ generation-one:
       icon: "097 Hypno.ico"
       max-cp: 2184
       rating: 8
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 2184.16
@@ -3884,6 +4078,8 @@ generation-one:
       icon: "098 Krabby.ico"
       max-cp: 792
       rating: 5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 792.21
@@ -3924,6 +4120,8 @@ generation-one:
       icon: "099 Kingler.ico"
       max-cp: 1823
       rating: 7
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1823.15
@@ -3964,6 +4162,8 @@ generation-one:
       icon: "100 Voltorb.ico"
       max-cp: 840
       rating: 4.5
+      weight:
+      height:
       type: ['electr']
       stats:
         max-theoretical-cp: 839.73
@@ -4004,6 +4204,8 @@ generation-one:
       icon: "101 Electrode.ico"
       max-cp: 1646
       rating: 8.5
+      weight:
+      height:
       type: ['electr']
       stats:
         max-theoretical-cp: 1646.14
@@ -4044,6 +4246,8 @@ generation-one:
       icon: "102 Exeggcute.ico"
       max-cp: 1100
       rating: 4.5
+      weight:
+      height:
       type: ['grass', 'psychc']
       stats:
         max-theoretical-cp: 1099.81
@@ -4084,6 +4288,8 @@ generation-one:
       icon: "103 Exeggutor.ico"
       max-cp: 2955
       rating: 9
+      weight:
+      height:
       type: ['grass', 'psychc']
       stats:
         max-theoretical-cp: 2955.18
@@ -4124,6 +4330,8 @@ generation-one:
       icon: "104 Cubone.ico"
       max-cp: 1007
       rating: 4.5
+      weight:
+      height:
       type: ['ground']
       stats:
         max-theoretical-cp: 1006.61
@@ -4164,6 +4372,8 @@ generation-one:
       icon: "105 Marowak.ico"
       max-cp: 1657
       rating: 6
+      weight:
+      height:
       type: ['ground']
       stats:
         max-theoretical-cp: 1656.96
@@ -4204,6 +4414,8 @@ generation-one:
       icon: "106 Hitmonlee.ico"
       max-cp: 1493
       rating: 7
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 1492.94
@@ -4244,6 +4456,8 @@ generation-one:
       icon: "107 Hitmonchan.ico"
       max-cp: 1517
       rating: 7
+      weight:
+      height:
       type: ['fight']
       stats:
         max-theoretical-cp: 1516.51
@@ -4284,6 +4498,8 @@ generation-one:
       icon: "108 Lickitung.ico"
       max-cp: 1627
       rating: 7.5
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 1626.82
@@ -4324,6 +4540,8 @@ generation-one:
       icon: "109 Koffing.ico"
       max-cp: 1152
       rating: 5
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 1151.79
@@ -4364,6 +4582,8 @@ generation-one:
       icon: "110 Weezing.ico"
       max-cp: 2250
       rating: 8
+      weight:
+      height:
       type: ['poison']
       stats:
         max-theoretical-cp: 2250.15
@@ -4404,6 +4624,8 @@ generation-one:
       icon: "111 Rhyhorn.ico"
       max-cp: 1182
       rating: 5
+      weight:
+      height:
       type: ['ground', 'rock']
       stats:
         max-theoretical-cp: 1182.08
@@ -4444,6 +4666,8 @@ generation-one:
       icon: "112 Rhydon.ico"
       max-cp: 2243
       rating: 7.5
+      weight:
+      height:
       type: ['ground', 'rock']
       stats:
         max-theoretical-cp: 2243.22
@@ -4484,6 +4708,8 @@ generation-one:
       icon: "113 Chansey.ico"
       max-cp: 675
       rating: 8.5
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 675.12
@@ -4524,6 +4750,8 @@ generation-one:
       icon: "114 Tangela.ico"
       max-cp: 1740
       rating: 8
+      weight:
+      height:
       type: ['grass']
       stats:
         max-theoretical-cp: 1739.72
@@ -4564,6 +4792,8 @@ generation-one:
       icon: "115 Kangaskhan.ico"
       max-cp: 2043
       rating: 7.5
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 2043.40
@@ -4604,6 +4834,8 @@ generation-one:
       icon: "116 Horsea.ico"
       max-cp: 795
       rating: 4.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 794.67
@@ -4644,6 +4876,8 @@ generation-one:
       icon: "117 Seadra.ico"
       max-cp: 1713
       rating: 8
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 1713.22
@@ -4684,6 +4918,8 @@ generation-one:
       icon: "118 Goldeen.ico"
       max-cp: 965
       rating: 5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 965.14
@@ -4724,6 +4960,8 @@ generation-one:
       icon: "119 Seaking.ico"
       max-cp: 2044
       rating: 7.5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 2043.92
@@ -4764,6 +5002,8 @@ generation-one:
       icon: "120 Staryu.ico"
       max-cp: 938
       rating: 5
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 937.89
@@ -4804,6 +5044,8 @@ generation-one:
       icon: "121 Starmie.ico"
       max-cp: 2182
       rating: 8.5
+      weight:
+      height:
       type: ['psychc', 'water']
       stats:
         max-theoretical-cp: 2182.14
@@ -4844,6 +5086,8 @@ generation-one:
       icon: "122 Mr. Mime.ico"
       max-cp: 1494
       rating: 7.5
+      weight:
+      height:
       type: ['fairy', 'psychc']
       stats:
         max-theoretical-cp: 1494.42
@@ -4884,6 +5128,8 @@ generation-one:
       icon: "123 Scyther.ico"
       max-cp: 2074
       rating: 7
+      weight:
+      height:
       type: ['bug', 'flying']
       stats:
         max-theoretical-cp: 2073.96
@@ -4924,6 +5170,8 @@ generation-one:
       icon: "124 Jynx.ico"
       max-cp: 1717
       rating: 7
+      weight:
+      height:
       type: ['ice', 'psychc']
       stats:
         max-theoretical-cp: 1716.73
@@ -4964,6 +5212,8 @@ generation-one:
       icon: "125 Electabuzz.ico"
       max-cp: 2119
       rating: 8.5
+      weight:
+      height:
       type: ['electr']
       stats:
         max-theoretical-cp: 2119.17
@@ -5004,6 +5254,8 @@ generation-one:
       icon: "126 Magmar.ico"
       max-cp: 2265
       rating: 8.5
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 2265.30
@@ -5044,6 +5296,8 @@ generation-one:
       icon: "127 Pinsir.ico"
       max-cp: 2122
       rating: 7
+      weight:
+      height:
       type: ['bug']
       stats:
         max-theoretical-cp: 2121.87
@@ -5084,6 +5338,8 @@ generation-one:
       icon: "128 Tauros.ico"
       max-cp: 1845
       rating: 7.5
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 1844.76
@@ -5124,6 +5380,8 @@ generation-one:
       icon: "129 Magikarp.ico"
       max-cp: 263
       rating: 1
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 262.70
@@ -5164,6 +5422,8 @@ generation-one:
       icon: "130 Gyarados.ico"
       max-cp: 2689
       rating: 9.5
+      weight:
+      height:
       type: ['flying', 'water']
       stats:
         max-theoretical-cp: 2688.89
@@ -5204,6 +5464,8 @@ generation-one:
       icon: "131 Lapras.ico"
       max-cp: 2981
       rating: 9.5
+      weight:
+      height:
       type: ['ice', 'water']
       stats:
         max-theoretical-cp: 2980.73
@@ -5244,6 +5506,8 @@ generation-one:
       icon: "132 Ditto.ico"
       max-cp: 920
       rating: 11
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 919.62
@@ -5284,6 +5548,8 @@ generation-one:
       icon: "133 Eevee.ico"
       max-cp: 1077
       rating: 4.5
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 1077.20
@@ -5324,6 +5590,8 @@ generation-one:
       icon: "134 Vaporeon.ico"
       max-cp: 2816
       rating: 10
+      weight:
+      height:
       type: ['water']
       stats:
         max-theoretical-cp: 2816.25
@@ -5364,6 +5632,8 @@ generation-one:
       icon: "135 Jolteon.ico"
       max-cp: 2140
       rating: 8
+      weight:
+      height:
       type: ['electr']
       stats:
         max-theoretical-cp: 2140.27
@@ -5404,6 +5674,8 @@ generation-one:
       icon: "136 Flareon.ico"
       max-cp: 2643
       rating: 9
+      weight:
+      height:
       type: ['fire']
       stats:
         max-theoretical-cp: 2643.43
@@ -5444,6 +5716,8 @@ generation-one:
       icon: "137 Porygon.ico"
       max-cp: 1692
       rating: 7
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 1691.56
@@ -5484,6 +5758,8 @@ generation-one:
       icon: "138 Omanyte.ico"
       max-cp: 1120
       rating: 5
+      weight:
+      height:
       type: ['rock', 'water']
       stats:
         max-theoretical-cp: 1119.77
@@ -5524,6 +5800,8 @@ generation-one:
       icon: "139 Omastar.ico"
       max-cp: 2234
       rating: 7.5
+      weight:
+      height:
       type: ['rock', 'water']
       stats:
         max-theoretical-cp: 2233.65
@@ -5564,6 +5842,8 @@ generation-one:
       icon: "140 Kabuto.ico"
       max-cp: 1105
       rating: 5
+      weight:
+      height:
       type: ['rock', 'water']
       stats:
         max-theoretical-cp: 1104.72
@@ -5604,6 +5884,8 @@ generation-one:
       icon: "141 Kabutops.ico"
       max-cp: 2130
       rating: 7.5
+      weight:
+      height:
       type: ['rock', 'water']
       stats:
         max-theoretical-cp: 2130.01
@@ -5644,6 +5926,8 @@ generation-one:
       icon: "142 Aerodactyl.ico"
       max-cp: 2165
       rating: 7.5
+      weight:
+      height:
       type: ['flying', 'rock']
       stats:
         max-theoretical-cp: 2165.49
@@ -5684,6 +5968,8 @@ generation-one:
       icon: "143 Snorlax.ico"
       max-cp: 3113
       rating: 10
+      weight:
+      height:
       type: ['normal']
       stats:
         max-theoretical-cp: 3112.85
@@ -5724,6 +6010,8 @@ generation-one:
       icon: "144 Articuno.ico"
       max-cp: 2978
       rating: 11
+      weight:
+      height:
       type: ['flying', 'ice']
       stats:
         max-theoretical-cp: 2978.16
@@ -5764,6 +6052,8 @@ generation-one:
       icon: "145 Zapdos.ico"
       max-cp: 3114
       rating: 11
+      weight:
+      height:
       type: ['electr', 'flying']
       stats:
         max-theoretical-cp: 3114.38
@@ -5804,6 +6094,8 @@ generation-one:
       icon: "146 Moltres.ico"
       max-cp: 3240
       rating: 11
+      weight:
+      height:
       type: ['fire', 'flying']
       stats:
         max-theoretical-cp: 3240.47
@@ -5844,6 +6136,8 @@ generation-one:
       icon: "147 Dratini.ico"
       max-cp: 983
       rating: 4
+      weight:
+      height:
       type: ['dragon']
       stats:
         max-theoretical-cp: 983.47
@@ -5884,6 +6178,8 @@ generation-one:
       icon: "148 Dragonair.ico"
       max-cp: 1748
       rating: 6
+      weight:
+      height:
       type: ['dragon']
       stats:
         max-theoretical-cp: 1747.73
@@ -5924,6 +6220,8 @@ generation-one:
       icon: "149 Dragonite.ico"
       max-cp: 3500
       rating: 10
+      weight:
+      height:
       type: ['dragon', 'flying']
       stats:
         max-theoretical-cp: 3500.06
@@ -5964,6 +6262,8 @@ generation-one:
       icon: "150 Mewtwo.ico"
       max-cp: 4145
       rating: 11
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 4144.75
@@ -6004,6 +6304,8 @@ generation-one:
       icon: "151 Mew.ico"
       max-cp: 3299
       rating: 11
+      weight:
+      height:
       type: ['psychc']
       stats:
         max-theoretical-cp: 3299.17

@@ -2,6 +2,11 @@
 
 .component-pokedex-table {
 
+  .star {
+    color: #FF8F00;
+    margin: 3px;
+  }
+
   thead {
 
     th {
@@ -31,8 +36,8 @@
       width: 7%;
     }
 
-    th.name-jp {
-      width: 15%;
+    th.name {
+      width: 25%;
     }
   }
 

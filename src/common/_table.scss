@@ -69,7 +69,7 @@ table.responsive-table {
 
   td {
     display: block;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
 
     @include media-breakpoint-up(pad) {
