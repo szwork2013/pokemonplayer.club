@@ -68,7 +68,7 @@ app.put('/data/donation', function (req, res) {
         password = req.body.password;
 
     if (config.USERNAME == username && config.PASSWORD == password) {
-        POKEDEX_DATA = yaml.safeLoad(fs.readFileSync('./data/donation.yml', 'utf8'));
+        DONATION_DATA = yaml.safeLoad(fs.readFileSync('./data/donation.yml', 'utf8'));
         res.send('Data updated.');
     } else {
         res.send('Wrong Username or Password.');
