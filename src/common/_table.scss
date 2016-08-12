@@ -13,11 +13,11 @@ table.responsive-table {
   border-spacing: 0;
 
   thead {
-    display: table-header-group;
+    display: none;
     background: $light-grey-bg;
 
-    @include media-breakpoint-down(pad) {
-      display: none;
+    @include media-breakpoint-up(pad) {
+      display: table-header-group;
     }
 
     tr {
