@@ -4,7 +4,7 @@ import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 
 import {Nav, PokedexTable, PokedexSearch, PokedexTypeFilter, PokedexFilter, PokedexReset} from '../../components'
-import {setPokedexData} from '../../actions'
+import {setPokedexData, resetPokedexData} from '../../actions'
 
 import Ajax from '../../utils/AjaxUtil'
 
@@ -12,12 +12,20 @@ class Pokedex extends Component {
 
     constructor(props) {
         super(props);
-        const {dispatch} = this.props;
+        this.fetchData();
+    }
 
-        Ajax.GET('/data/pokedex', (err, data) => {
-            let generationOne = data['generation-one'];
-            dispatch(setPokedexData(generationOne));
-        });
+    fetchData() {
+        const {dispatch, Pokedex} = this.props;
+
+        if (0 === Pokedex.length) {
+            Ajax.GET('/data/pokedex', (err, data) => {
+                let generationOne = data['generation-one'];
+                dispatch(setPokedexData(generationOne));
+            });
+        } else {
+            dispatch(resetPokedexData());
+        }
     }
 
     render() {

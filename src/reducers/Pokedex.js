@@ -1,17 +1,23 @@
-import {SET_POKEDEX_DATA, SET_POKEDEX_FILTER, SORT_POKEDEX_DATA, SEARCH_POKEDEX_DATA} from '../actions'
+import {
+    SET_POKEDEX_DATA,
+    RESET_POKEDEX_DATA,
+    SET_POKEDEX_FILTER,
+    SORT_POKEDEX_DATA,
+    SEARCH_POKEDEX_DATA
+} from '../actions'
 
 let initialState = [];
 let isSorted = false;
-let filter = {
-    egg: '',
-    candy: '',
-    type: [],
-    reset() {
-        this.egg = '';
-        this.candy = '';
-        this.type = [];
-    }
-};
+// let filter = {
+//     egg: '',
+//     candy: '',
+//     type: [],
+//     reset() {
+//         this.egg = '';
+//         this.candy = '';
+//         this.type = [];
+//     }
+// };
 
 export function Pokedex(state = initialState, action) {
 
@@ -40,6 +46,9 @@ export function Pokedex(state = initialState, action) {
         case SET_POKEDEX_DATA: {
             initialState = action.data;
             return action.data;
+        }
+        case RESET_POKEDEX_DATA: {
+            return initialState;
         }
         case SEARCH_POKEDEX_DATA: {
 
