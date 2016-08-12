@@ -31,14 +31,14 @@ class PokedexFilter extends Component {
                 {
                     data.map((item, index) => {
                         return (
-                            <div key={index} className="radio">
+                            <div key={index} className="radio-box">
                                 <input type="radio"
                                        id={`component-pokedex-filter-${item}`}
                                        name={`component-pokedex-filter`}
                                        value={item}
                                        onChange={this.onChangeRadio.bind(this)}
                                 />
-                                <label htmlFor={`component-pokedex-filter-${item}`}>{item.toUpperCase()}</label>
+                                <label htmlFor={`component-pokedex-filter-${item}`}>{item}</label>
                             </div>
                         )
                     })

@@ -87,8 +87,8 @@ class PokedexTable extends Component {
                                     <td>{item['name-en']} / {item['name-jp']}</td>
                                     <td className={setClassNameIfNull(eggDistanceToHatch, 'hidden-lg-phone-down')}>{candyToEvolve ? candyToEvolve : '-'}</td>
                                     <td className={setClassNameIfNull(eggDistanceToHatch, 'hidden-lg-phone-down')}>{eggDistanceToHatch ? eggDistanceToHatch : '-'}</td>
-                                    <td><i className="fa fa-bolt hidden-pad-up"></i> {item['max-cp']}</td>
-                                    <td><i className="fa fa-star hidden-pad-up"></i>{item['rating']}</td>
+                                    <td><i className="fa fa-bolt fa-fw hidden-pad-up"></i>{item['max-cp']}</td>
+                                    <td><i className="fa fa-star fa-fw hidden-pad-up"></i>{item['rating']}</td>
                                 </tr>
                             )
                         })
