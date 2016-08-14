@@ -9,18 +9,9 @@ import {syncHistoryWithStore} from 'react-router-redux';
 
 import configureStore from './stores/configureStore';
 import {
-    Error,
-    Home,
-    Pokedex,
-    Pokemap,
-    Calculator,
-    Chatroom,
-    Guide,
-    Location,
-    Message,
-    Donation,
-    Settings,
-    DevTools
+    Error, Home, Pokedex, Pokemap, Calculator,
+    Chatroom, Guide, Location, Message,
+    Donation, Settings, DevTools
 } from './containers'
 
 let initState = {};
@@ -47,6 +38,12 @@ let initState = {};
 
 const store = configureStore(initState, browserHistory);
 const history = syncHistoryWithStore(browserHistory, store);
+
+// window.socket = socketClient('http://127.0.0.1:2334');
+// socket.on('test', function (data) {
+//     console.log(data);
+//     socket.emit('test', {my: 'data'});
+// });
 
 render((
     <Provider store={store}>

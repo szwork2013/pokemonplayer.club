@@ -31,3 +31,11 @@ export const SET_DONATION_DATA = 'SET_DONATION_DATA';
 export function setDonationData(data) {
     return {type: SET_DONATION_DATA, data};
 }
+
+
+// Chat
+export const SEND_MESSAGE = 'SEND_MESSAGE';
+
+export function sendMessage(data) {
+    return {type: SEND_MESSAGE, data}
+}

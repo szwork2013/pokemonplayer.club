@@ -4,8 +4,7 @@ const path = require('path'),
     webpack = require('webpack'),
     morgan = require('morgan'),
     compression = require('compression'),
-    yaml = require('js-yaml'),
-    fs = require('fs');
+    routes = require('./routes')
 
 const webpackConfig = require('./webpack.config'),
     config = require('./config');
@@ -13,10 +12,6 @@ const webpackConfig = require('./webpack.config'),
 const workEnv = process.env.NODE_ENV || config.NODE_ENV;
 
 var app = express();
-
-// Pokedex Data
-var POKEDEX_DATA = yaml.safeLoad(fs.readFileSync('./data/pokedex.yml', 'utf8')),
-    DONATION_DATA = yaml.safeLoad(fs.readFileSync('./data/donation.yml', 'utf8'));
 
 if (workEnv === 'development') {
 
@@ -41,43 +36,18 @@ app.use(compression());
 // logger
 app.use(morgan('[:date[iso]] :method :url :status :response-time[digits]ms :res[content-length] :remote-user :remote-addr HTTP/:http-version'));
 
-app.get('/data/pokedex', function (req, res) {
-    res.send(POKEDEX_DATA);
+var io = require('socket.io')(2334);
+
+io.on('connection', function (socket) {
+    socket.on('message', function (data) {
+        console.log(data);
+
+        io.emit('message', data);
+    });
 });
 
-app.get('/data/donation', function (req, res) {
-    res.send(DONATION_DATA);
-});
-
-app.put('/data/pokedex', function (req, res) {
-
-    var username = req.body.username,
-        password = req.body.password;
-
-    if (config.USERNAME == username && config.PASSWORD == password) {
-        POKEDEX_DATA = yaml.safeLoad(fs.readFileSync('./data/pokedex.yml', 'utf8'));
-        res.send('Data updated.');
-    } else {
-        res.send('Wrong Username or Password.');
-    }
-});
-
-app.put('/data/donation', function (req, res) {
-
-    var username = req.body.username,
-        password = req.body.password;
-
-    if (config.USERNAME == username && config.PASSWORD == password) {
-        DONATION_DATA = yaml.safeLoad(fs.readFileSync('./data/donation.yml', 'utf8'));
-        res.send('Data updated.');
-    } else {
-        res.send('Wrong Username or Password.');
-    }
-});
-
-app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'app.html'));
-});
+// setup routes
+routes(app);
 
 app.listen(config.SERVER_PORT, function (err) {
     if (err) {
@@ -87,3 +57,4 @@ app.listen(config.SERVER_PORT, function (err) {
 
     console.log('Listening at http://' + config.SERVER_IP + ':' + config.SERVER_PORT);
 });
+

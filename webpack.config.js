@@ -56,20 +56,23 @@ var webpackConfig = {
         }]
     }, plugins: (function () {
 
-        var definePluginObj = {
+        const definePluginObj = {
             'process.env': {
                 'NODE_ENV': JSON.stringify(process.env.NODE_ENV === PRODUCTION ? PRODUCTION : DEVELOPMENT),
                 'VERSION': JSON.stringify(config.VERSION)
             }
         };
 
+        const ProvidePlugin = new webpack.ProvidePlugin({
+            socketClient: 'socket.io-client'
+            // 'Promise': 'es6-promise',
+            // 'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
+        });
+
         if (process.env.NODE_ENV === PRODUCTION) {
             return [
+                ProvidePlugin,
                 new webpack.DefinePlugin(definePluginObj),
-                // new webpack.ProvidePlugin({
-                //     'Promise': 'es6-promise',
-                //     'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
-                // }),
                 new webpack.optimize.DedupePlugin(),
                 new webpack.optimize.OccurrenceOrderPlugin(),
                 new webpack.optimize.UglifyJsPlugin({
@@ -101,6 +104,7 @@ var webpackConfig = {
             ]
         } else {
             return [
+                ProvidePlugin,
                 new webpack.DefinePlugin(definePluginObj),
                 new webpack.HotModuleReplacementPlugin()
             ]
