@@ -1,23 +1,27 @@
-import {SEND_MESSAGE} from '../actions'
+import {NEW_MESSAGE, SEND_MESSAGE, REFRESH_MESSAGE, FETCH_ALL_MESSAGE, FETCH_ALL_MESSAGE_ACK} from '../actions'
 
-var messages = [];
-var socket = socketClient('http://127.0.0.1:2334');
-socket.on('message', function (data) {
-    messages.push({
-        id: messages.length - 1,
-        data
-    });
-});
-
-export function Chat(state = messages, action) {
+export function Chat(state = [], action) {
 
     switch (action.type) {
+        case FETCH_ALL_MESSAGE: {
+            action.socket.emit(FETCH_ALL_MESSAGE, action.data);
+            return state;
+        }
         case SEND_MESSAGE: {
-            socket.emit('message', action.data);
-            return messages;
+            action.socket.emit(SEND_MESSAGE, action.data);
+            return state;
+        }
+        case REFRESH_MESSAGE: {
+            return state;
+        }
+        case NEW_MESSAGE: {
+            return [...state, action.data];
+        }
+        case FETCH_ALL_MESSAGE_ACK: {
+            return action.data;
         }
         default: {
-            return state
+            return state;
         }
     }
 }

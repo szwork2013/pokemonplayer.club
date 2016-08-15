@@ -31,6 +31,7 @@ class Donation extends Component {
                     <Nav/>
                     <div className="info">
                         <p>如果您喜欢这个网站，并且它真的对您有所帮助，您可以用 支付宝 或 微信 捐助的方式来支持我</p>
+                        <p>注: 以微信方式捐助并不会显示昵称</p>
                         <p>（每次24小时我会更新一次捐助名单）</p>
                     </div>
                     <div className="qrcode-box">

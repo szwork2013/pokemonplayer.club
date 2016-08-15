@@ -32,10 +32,35 @@ export function setDonationData(data) {
     return {type: SET_DONATION_DATA, data};
 }
 
-
 // Chat
+export const FETCH_ALL_MESSAGE = 'FETCH_ALL_MESSAGE';
+export const FETCH_ALL_MESSAGE_ACK = 'FETCH_ALL_MESSAGE_ACK';
+export const NEW_MESSAGE = 'NEW_MESSAGE';
 export const SEND_MESSAGE = 'SEND_MESSAGE';
+export const REFRESH_MESSAGE = 'REFRESH_MESSAGE';
+export const RECEIVE_MESSAGE = 'RECEIVE_MESSAGE';
 
-export function sendMessage(data) {
-    return {type: SEND_MESSAGE, data}
+
+export function fetchAllMessage(socket) {
+    return {type: FETCH_ALL_MESSAGE, socket}
+}
+
+export function fetchAllMessageAck(socket, data) {
+    return {type: FETCH_ALL_MESSAGE_ACK, socket, data}
+}
+
+export function newMessage(socket, data) {
+    return {type: NEW_MESSAGE, socket, data}
+}
+
+export function sendMessage(socket, data) {
+    return {type: SEND_MESSAGE, socket, data}
+}
+
+export function refreshMessage(socket, data) {
+    return {type: REFRESH_MESSAGE, socket, data}
+}
+
+export function receiveMessage(socket) {
+    return {type: RECEIVE_MESSAGE, socket}
 }

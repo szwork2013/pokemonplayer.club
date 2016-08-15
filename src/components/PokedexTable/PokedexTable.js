@@ -46,7 +46,7 @@ class PokedexTable extends Component {
         return (
             <div>
                 {/*<PokedexModal onOpen={this.state.isOpenModal} onClose={this.closeModal.bind(this)}*/}
-                {/*pokemon={this.state.pokemonModal}/>*/}
+                              {/*pokemon={this.state.pokemonModal}/>*/}
                 <table className="responsive-table component-pokedex-table">
                     <thead>
                     <tr>

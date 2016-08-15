@@ -5,3 +5,9 @@ donation:
     - id: 2
       name: 437
       money: 10
+    - id: 3
+      name: 微信网友
+      money: 10
+    - id: 4
+      name: 微信网友
+      money: 10
