@@ -41,6 +41,10 @@ class Chatroom extends Component {
         this.$chatBodyBox = document.getElementById("chat-body-box");
     }
 
+    componentWillUnmount() {
+        socket.removeAllListeners();
+    }
+
     initial() {
         const {dispatch} = this.props;
 

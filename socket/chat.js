@@ -48,13 +48,21 @@ module.exports = function (io) {
 
         socket.on('JOIN_IN_CHATROOM', function (data) {
             var username = data.username;
+            var error = null;
             var isExist = users.find(function (user) {
                 return user.username === username;
             });
-            if (isExist) {
+
+            if (username.length > 8) {
+                error = '名字长度须小于8';
+            } else if (isExist) {
+                error = '该用户名已存在';
+            }
+
+            if (error) {
                 socket.emit('JOIN_IN_CHATROOM_ACK', {
                     success: false,
-                    error: '该用户名已存在'
+                    error: error
                 });
                 return;
             }
