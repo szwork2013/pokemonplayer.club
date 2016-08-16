@@ -7,8 +7,6 @@ module.exports = {
     SERVER_IP: '127.0.0.1',
     SERVER_PORT: '2333',
 
-    SERVER_SOCKET_PROT: '2334',
-
     USERNAME: 'username',
     PASSWORD: 'password',
 
