@@ -11,3 +11,6 @@ donation:
     - id: 4
       name: 微信网友
       money: 10
+    - id: 5
+      name: 微信网友
+      money: 20
