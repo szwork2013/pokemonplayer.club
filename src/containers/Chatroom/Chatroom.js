@@ -3,14 +3,23 @@ import './Chatroom.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-import {FETCH_ALL_MESSAGE_ACK, REFRESH_MESSAGE, NEW_MESSAGE, RECEIVE_MESSAGE} from '../../actions'
+import {
+    FETCH_ALL_MESSAGE_ACK,
+    REFRESH_MESSAGE,
+    NEW_MESSAGE,
+    RECEIVE_MESSAGE,
+    JOIN_IN_CHATROOM,
+    JOIN_IN_CHATROOM_ACK
+} from '../../actions'
 import {
     fetchAllMessage,
     fetchAllMessageAck,
     newMessage,
     sendMessage,
     refreshMessage,
-    receiveMessage
+    receiveMessage,
+    joinInChatroom,
+    joinInChatroomAck
 } from '../../actions'
 import {Nav} from '../../components'
 
@@ -45,6 +54,20 @@ class Chatroom extends Component {
         // socket.on(REFRESH_MESSAGE, (data) => {
         //     dispatch(refreshMessage(socket, data));
         // });
+
+        socket.on(JOIN_IN_CHATROOM, (data) => {
+            // dispatch(refreshMessage(socket, data));
+        });
+
+        // success, username, users
+        socket.on(JOIN_IN_CHATROOM_ACK, (data) => {
+            const {success, error, username, users} = data;
+            if (success) {
+                dispatch(joinInChatroomAck(socket, data));
+            } else {
+                alert(error);
+            }
+        });
     }
 
     scrollToBottom(el) {
@@ -67,9 +90,9 @@ class Chatroom extends Component {
                                 <div className="textinput-box">
                                     <input id="username-textinput"
                                            className="username-textinput"
-                                           placeholder="设置昵称(8个字符以内)" type="text"/>
+                                           placeholder="设置昵称（8个字符以内）" type="text"/>
                                 </div>
-                                <a className="btn btn-block join" onClick={this.joinChatroom.bind(this)}>进入</a>
+                                <a className="btn btn-block join" onClick={this.joinInChatroom.bind(this)}>进入</a>
                             </div>
                         </div>
                     </div>
@@ -78,12 +101,16 @@ class Chatroom extends Component {
         );
     }
 
-    joinChatroom(event) {
-        let username = document.getElementById('username-textinput').value;
+    joinInChatroom(event) {
+
+        let username = document.getElementById('username-textinput').value.trim();
         console.log(username);
         if (!username || username.length > 8) {
             return;
         }
+
+        const {dispatch} = this.props;
+        dispatch(joinInChatroom(socket, username));
     }
 
     onKeyDown(event) {
@@ -109,6 +136,11 @@ class Chatroom extends Component {
     render() {
         const {Chat} = this.props;
         const {messages, username} = Chat;
+
+        console.log('RENDER...');
+        console.log(username);
+        console.log(messages);
+        console.log('RENDER...');
 
         return (
             <div className="container">

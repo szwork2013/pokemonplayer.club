@@ -42,29 +42,30 @@ module.exports = function (io) {
         //     io.emit('SEND_MESSAGE_ACK', messages);
         // });
 
-        socket.on('JOIN_CHATROOM', function (data) {
-            var _this = this;
-            var username = data.username;
-
-            var isExist = users.find(function (username) {
-                return username === _this.username;
+        socket.on('JOIN_IN_CHATROOM', function (username) {
+            var isExist = users.find(function (user) {
+                return user.username === username;
             });
-            console.log(isExist);
             if (isExist) {
-                io.emit('JOIN_CHATROOM_ACK', {
+                io.emit('JOIN_IN_CHATROOM_ACK', {
                     success: false,
                     error: '该用户名已存在'
                 });
             }
 
-            users.push(username);
-            socket.username = username;
-            socket.broadcast.emit('JOIN_CHATROOM', {
+            users.push({
+                username: username
+            });
+            socket.user = {
+                username: username
+            };
+            socket.broadcast.emit('JOIN_IN_CHATROOM', {
                 username: username
             });
 
-            io.emit('JOIN_CHATROOM_ACK', {
+            io.emit('JOIN_IN_CHATROOM_ACK', {
                 success: true,
+                username: username,
                 users: users
             });
         });

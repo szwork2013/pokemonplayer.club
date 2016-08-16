@@ -4,8 +4,8 @@ import {
     REFRESH_MESSAGE,
     FETCH_ALL_MESSAGE,
     FETCH_ALL_MESSAGE_ACK,
-    JOIN_CHATROOM,
-    JOIN_CHATROOM_ACK
+    JOIN_IN_CHATROOM,
+    JOIN_IN_CHATROOM_ACK
 } from '../actions'
 
 let initialState = {
@@ -17,12 +17,13 @@ let initialState = {
 export function Chat(state = initialState, action) {
 
     switch (action.type) {
-        case JOIN_CHATROOM: {
-            action.socket.emit(JOIN_CHATROOM, action.username);
+        case JOIN_IN_CHATROOM: {
+            action.socket.emit(JOIN_IN_CHATROOM, action.username);
             return state;
         }
-        case JOIN_CHATROOM_ACK: {
+        case JOIN_IN_CHATROOM_ACK: {
             state.username = action.username;
+            state.users = action.users;
             return state;
         }
         case FETCH_ALL_MESSAGE: {
