@@ -98,6 +98,11 @@ class Chatroom extends Component {
     sendMessage(value) {
         const {dispatch} = this.props;
         let message = value;
+
+        if (!message) {
+            return;
+        }
+
         dispatch(sendMessage(socket, message));
 
         setTimeout(()=> {

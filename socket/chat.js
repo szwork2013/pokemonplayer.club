@@ -32,10 +32,16 @@ module.exports = function (io) {
         });
 
         socket.on('SEND_MESSAGE', function (data) {
+
+            if (!data.message || !data.message.trim()) {
+                return;
+            }
+
             var message = {
                 username: socket.user.username,
-                message: data.message
+                message: data.message.trim()
             };
+
             messages.push(message);
 
             socket.broadcast.emit('NEW_MESSAGE', message);
