@@ -37,10 +37,6 @@ class Chatroom extends Component {
         this.initial();
     }
 
-    componentDidMount() {
-        this.$chatBodyBox = document.getElementById("chat-body-box");
-    }
-
     componentWillUnmount() {
         socket.removeAllListeners();
     }
@@ -50,13 +46,13 @@ class Chatroom extends Component {
 
         socket.on(NEW_MESSAGE, (data) => {
             dispatch(newMessage(socket, data));
-            this.scrollToBottom(this.$chatBodyBox);
+            this.scrollToBottom(this.chatBodyBox);
         });
 
         dispatch(fetchAllMessage(socket));
         socket.on(FETCH_ALL_MESSAGE_ACK, (messages) => {
             dispatch(fetchAllMessageAck(socket, messages));
-            this.scrollToBottom(this.$chatBodyBox);
+            this.scrollToBottom(this.chatBodyBox);
         });
 
         // success, username, users
@@ -85,10 +81,44 @@ class Chatroom extends Component {
         el.scrollTop = el.scrollHeight;
     }
 
-    joinInChatroom(event) {
+    onKeyDownChatTextinput(event) {
+        if (13 !== event.keyCode) { // KEY_ENTER = 13
+            return;
+        }
 
-        let username = document.getElementById('username-textinput').value.trim();
-        if (!username || username.length > 8) {
+        this.sendMessage(event.target.value);
+        event.target.value = '';
+    }
+
+    onClickSendMessage() {
+        this.sendMessage(this.chatTextinput.value);
+        this.chatTextinput.value = '';
+    }
+
+    sendMessage(value) {
+        const {dispatch} = this.props;
+        let message = value;
+        dispatch(sendMessage(socket, message));
+
+        setTimeout(()=> {
+            this.scrollToBottom(this.chatBodyBox);
+        }, 50);
+    }
+
+    onKeyDownUsernameTextinput(event) {
+        if (13 !== event.keyCode) { // KEY_ENTER = 13
+            return;
+        }
+        this.joinInChatroom(this.usernameTextinput.value.trim());
+    }
+
+    onClickJoinButton() {
+        this.joinInChatroom(this.usernameTextinput.value.trim());
+    }
+
+    joinInChatroom(username) {
+
+        if (!username) {
             return;
         }
 
@@ -96,7 +126,7 @@ class Chatroom extends Component {
         dispatch(joinInChatroom(socket, username));
     }
 
-    joinChatroomModal() {
+    joinInChatroomModal() {
 
         return (
             <div className="chatroom-modal">
@@ -110,37 +140,18 @@ class Chatroom extends Component {
                             </div>
                             <div className="modal-body">
                                 <div className="textinput-box">
-                                    <input id="username-textinput"
-                                           className="username-textinput"
-                                           placeholder="设置昵称（8个字符以内）" type="text"/>
+                                    <input id="username-textinput" className="username-textinput"
+                                           placeholder="设置昵称（8个字符以内）" type="text"
+                                           onKeyDown={this.onKeyDownUsernameTextinput.bind(this)}
+                                           ref={(ref) => this.usernameTextinput = ref}/>
                                 </div>
-                                <a className="btn btn-block join" onClick={this.joinInChatroom.bind(this)}>进入</a>
+                                <a className="btn btn-block join" onClick={this.onClickJoinButton.bind(this)}>进入</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         );
-    }
-
-    onKeyDown(event) {
-
-        if (13 !== event.keyCode) { // KEY_ENTER = 13
-            return;
-        }
-
-        const {dispatch} = this.props;
-        let message = event.target.value;
-        event.target.value = '';
-        dispatch(sendMessage(socket, message));
-
-        setTimeout(()=> {
-            this.scrollToBottom(this.$chatBodyBox);
-        }, 50);
-    }
-
-    sendMessage(event) {
-
     }
 
     render() {
@@ -152,9 +163,9 @@ class Chatroom extends Component {
                 <div className="chatroom-view">
                     <Nav/>
 
-                    {!username && this.joinChatroomModal()}
+                    {!username && this.joinInChatroomModal()}
 
-                    <div id='chat-body-box' className="chat-body-box">
+                    <div id='chat-body-box' className="chat-body-box" ref={(ref) => this.chatBodyBox = ref}>
                         {
                             messages.map((item, index) => {
                                 return (<div key={index++}>{`${item.username}: ${item.message}`}</div>);
@@ -165,8 +176,9 @@ class Chatroom extends Component {
                     <div className="chat-textinput-box">
                         <input className="chat-textinput"
                                placeholder="发送消息" type="text"
-                               onKeyDown={this.onKeyDown.bind(this)}/>
-                        <a className="btn btn-block" onClick={this.sendMessage.bind(this)}>发送</a>
+                               ref={(ref) => this.chatTextinput = ref}
+                               onKeyDown={this.onKeyDownChatTextinput.bind(this)}/>
+                        <a className="btn btn-block" onClick={this.onClickSendMessage.bind(this)}>发送</a>
                     </div>
                 </div>
             </div>
