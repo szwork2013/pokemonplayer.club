@@ -4,26 +4,30 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import {
-    FETCH_ALL_MESSAGE_ACK,
-    REFRESH_MESSAGE,
     NEW_MESSAGE,
-    RECEIVE_MESSAGE,
+    SEND_MESSAGE,
+    FETCH_ALL_MESSAGE,
+    FETCH_ALL_MESSAGE_ACK,
     JOIN_IN_CHATROOM,
-    JOIN_IN_CHATROOM_ACK
+    JOIN_IN_CHATROOM_ACK,
+    LEAVE_CHATROOM,
+    NEW_USER
 } from '../../actions'
+
 import {
-    fetchAllMessage,
-    fetchAllMessageAck,
     newMessage,
     sendMessage,
-    refreshMessage,
-    receiveMessage,
+    fetchAllMessage,
+    fetchAllMessageAck,
     joinInChatroom,
-    joinInChatroomAck
+    joinInChatroomAck,
+    leaveChatroom,
+    newUser
 } from '../../actions'
+
 import {Nav} from '../../components'
 
-let socket = socketClient();
+let socket = socketClient('/chatroom');
 
 class Chatroom extends Component {
 
@@ -40,38 +44,52 @@ class Chatroom extends Component {
     initial() {
         const {dispatch} = this.props;
 
-        // dispatch(fetchAllMessage(socket));
-        // socket.on(FETCH_ALL_MESSAGE_ACK, (data) => {
-        //     dispatch(fetchAllMessageAck(socket, data));
-        //     this.scrollToBottom(this.$chatBodyBox);
-        // });
-        //
-        // socket.on(NEW_MESSAGE, (data) => {
-        //     dispatch(newMessage(socket, data));
-        //     this.scrollToBottom(this.$chatBodyBox);
-        // });
-        //
-        // socket.on(REFRESH_MESSAGE, (data) => {
-        //     dispatch(refreshMessage(socket, data));
-        // });
+        socket.on(NEW_MESSAGE, (data) => {
+            dispatch(newMessage(socket, data));
+            this.scrollToBottom(this.$chatBodyBox);
+        });
 
-        socket.on(JOIN_IN_CHATROOM, (data) => {
-            // dispatch(refreshMessage(socket, data));
+        dispatch(fetchAllMessage(socket));
+        socket.on(FETCH_ALL_MESSAGE_ACK, (messages) => {
+            dispatch(fetchAllMessageAck(socket, messages));
+            this.scrollToBottom(this.$chatBodyBox);
         });
 
         // success, username, users
         socket.on(JOIN_IN_CHATROOM_ACK, (data) => {
             const {success, error, username, users} = data;
             if (success) {
-                dispatch(joinInChatroomAck(socket, data));
+                dispatch(joinInChatroomAck(socket, username, users));
             } else {
+                console.log(error);
                 alert(error);
             }
+        });
+
+        socket.on(LEAVE_CHATROOM, (data) => {
+            const {username, users} = data;
+            dispatch(leaveChatroom(socket, username, users));
+        });
+
+        socket.on(NEW_USER, (data)=> {
+            const {username} = data;
+            dispatch(newUser(socket, username));
         });
     }
 
     scrollToBottom(el) {
         el.scrollTop = el.scrollHeight;
+    }
+
+    joinInChatroom(event) {
+
+        let username = document.getElementById('username-textinput').value.trim();
+        if (!username || username.length > 8) {
+            return;
+        }
+
+        const {dispatch} = this.props;
+        dispatch(joinInChatroom(socket, username));
     }
 
     joinChatroomModal() {
@@ -101,28 +119,16 @@ class Chatroom extends Component {
         );
     }
 
-    joinInChatroom(event) {
-
-        let username = document.getElementById('username-textinput').value.trim();
-        console.log(username);
-        if (!username || username.length > 8) {
-            return;
-        }
-
-        const {dispatch} = this.props;
-        dispatch(joinInChatroom(socket, username));
-    }
-
     onKeyDown(event) {
 
-        // KEY_ENTER = 13
-        if (13 !== event.keyCode) {
+        if (13 !== event.keyCode) { // KEY_ENTER = 13
             return;
         }
 
         const {dispatch} = this.props;
-        dispatch(sendMessage(socket, event.target.value));
+        let message = event.target.value;
         event.target.value = '';
+        dispatch(sendMessage(socket, message));
 
         setTimeout(()=> {
             this.scrollToBottom(this.$chatBodyBox);
@@ -137,11 +143,6 @@ class Chatroom extends Component {
         const {Chat} = this.props;
         const {messages, username} = Chat;
 
-        console.log('RENDER...');
-        console.log(username);
-        console.log(messages);
-        console.log('RENDER...');
-
         return (
             <div className="container">
                 <div className="chatroom-view">
@@ -152,7 +153,7 @@ class Chatroom extends Component {
                     <div id='chat-body-box' className="chat-body-box">
                         {
                             messages.map((item, index) => {
-                                return (<div key={index++}>{item}</div>);
+                                return (<div key={index++}>{`${item.username}: ${item.message}`}</div>);
                             })
                         }
                     </div>

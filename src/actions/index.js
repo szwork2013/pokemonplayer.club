@@ -33,38 +33,29 @@ export function setDonationData(data) {
 }
 
 // Chat
-export const FETCH_ALL_MESSAGE = 'FETCH_ALL_MESSAGE';
-export const FETCH_ALL_MESSAGE_ACK = 'FETCH_ALL_MESSAGE_ACK';
 export const NEW_MESSAGE = 'NEW_MESSAGE';
 export const SEND_MESSAGE = 'SEND_MESSAGE';
-export const REFRESH_MESSAGE = 'REFRESH_MESSAGE';
-export const RECEIVE_MESSAGE = 'RECEIVE_MESSAGE';
+export const FETCH_ALL_MESSAGE = 'FETCH_ALL_MESSAGE';
+export const FETCH_ALL_MESSAGE_ACK = 'FETCH_ALL_MESSAGE_ACK';
 export const JOIN_IN_CHATROOM = 'JOIN_IN_CHATROOM';
 export const JOIN_IN_CHATROOM_ACK = 'JOIN_IN_CHATROOM_ACK';
-export const SET_USERNAME = 'SET_USERNAME';
+export const LEAVE_CHATROOM = 'LEAVE_CHATROOM';
+export const NEW_USER = 'NEW_USER';
+
+export function newMessage(socket, message) {
+    return {type: NEW_MESSAGE, socket, message}
+}
+
+export function sendMessage(socket, message, to) {
+    return {type: SEND_MESSAGE, socket, message, to}
+}
 
 export function fetchAllMessage(socket) {
     return {type: FETCH_ALL_MESSAGE, socket}
 }
 
-export function fetchAllMessageAck(socket, data) {
-    return {type: FETCH_ALL_MESSAGE_ACK, socket, data}
-}
-
-export function newMessage(socket, data) {
-    return {type: NEW_MESSAGE, socket, data}
-}
-
-export function sendMessage(socket, data) {
-    return {type: SEND_MESSAGE, socket, data}
-}
-
-export function refreshMessage(socket, data) {
-    return {type: REFRESH_MESSAGE, socket, data}
-}
-
-export function receiveMessage(socket) {
-    return {type: RECEIVE_MESSAGE, socket}
+export function fetchAllMessageAck(socket, messages) {
+    return {type: FETCH_ALL_MESSAGE_ACK, socket, messages}
 }
 
 export function joinInChatroom(socket, username) {
@@ -75,6 +66,10 @@ export function joinInChatroomAck(socket, username, users) {
     return {type: JOIN_IN_CHATROOM_ACK, socket, username, users}
 }
 
-export function setUsername(username) {
-    return {type: SET_USERNAME, username}
+export function leaveChatroom(socket, username, users) {
+    return {type: LEAVE_CHATROOM, socket, username, users}
+}
+
+export function newUser(socket, username) {
+    return {type: NEW_USER, socket, username}
 }

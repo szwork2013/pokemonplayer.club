@@ -1,11 +1,12 @@
 import {
     NEW_MESSAGE,
     SEND_MESSAGE,
-    REFRESH_MESSAGE,
     FETCH_ALL_MESSAGE,
     FETCH_ALL_MESSAGE_ACK,
     JOIN_IN_CHATROOM,
-    JOIN_IN_CHATROOM_ACK
+    JOIN_IN_CHATROOM_ACK,
+    LEAVE_CHATROOM,
+    NEW_USER
 } from '../actions'
 
 let initialState = {
@@ -17,31 +18,49 @@ let initialState = {
 export function Chat(state = initialState, action) {
 
     switch (action.type) {
-        case JOIN_IN_CHATROOM: {
-            action.socket.emit(JOIN_IN_CHATROOM, action.username);
-            return state;
+        case NEW_MESSAGE: {
+            state.messages.push(action.message);
+            return Object.assign({}, state, {
+                messages: state.messages
+            });
         }
-        case JOIN_IN_CHATROOM_ACK: {
-            state.username = action.username;
-            state.users = action.users;
+        case SEND_MESSAGE: {
+            action.socket.emit(SEND_MESSAGE, {
+                message: action.message
+            });
             return state;
         }
         case FETCH_ALL_MESSAGE: {
-            action.socket.emit(FETCH_ALL_MESSAGE, action.data);
+            action.socket.emit(FETCH_ALL_MESSAGE);
             return state;
-        }
-        case SEND_MESSAGE: {
-            action.socket.emit(SEND_MESSAGE, action.data);
-            return state;
-        }
-        case REFRESH_MESSAGE: {
-            return state;
-        }
-        case NEW_MESSAGE: {
-            return [...state, action.data];
         }
         case FETCH_ALL_MESSAGE_ACK: {
-            return action.data;
+            return Object.assign({}, state, {
+                messages: action.messages
+            })
+        }
+        case JOIN_IN_CHATROOM: {
+            action.socket.emit(JOIN_IN_CHATROOM, {
+                username: action.username
+            });
+            return state;
+        }
+        case JOIN_IN_CHATROOM_ACK: {
+            return Object.assign({}, state, {
+                username: action.username,
+                users: action.users
+            })
+        }
+        case LEAVE_CHATROOM: {
+            return Object.assign({}, state, {
+                users: action.users
+            })
+        }
+        case NEW_USER: {
+            state.users.push(action.username);
+            return Object.assign({}, state, {
+                users: state.users
+            });
         }
         default: {
             return state;
