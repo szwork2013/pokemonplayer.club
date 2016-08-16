@@ -22,7 +22,7 @@ class Home extends Component {
                     <AppBlock path="pokedex" name="图鉴" icon={require('../../images/icon-pokedex.png')}/>
                     <AppBlock path="pokemap" name="地图 - 需翻墙(Beta)" icon={require('../../images/icon-pokemap.png')}/>
                     <AppBlock path="calculator" name="属性计算器(开发中)" icon={require('../../images/icon-calculator.png')}/>
-                    <AppBlock path="location" name="稀有宝贝地点(开发中)" />
+                    {/*<AppBlock path="location" name="稀有宝贝地点(开发中)" />*/}
                     {/*<AppBlock path="guide" name="攻略" icon={require('../../images/podex-icon.png')}/>*/}
                     <AppBlock path="chatroom" name="聊天室(开发中)" />
                     {/*<AppBlock path="messages" name="留言板" icon={require('../../images/podex-icon.png')}/>*/}

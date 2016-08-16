@@ -14,7 +14,7 @@ import {
 } from '../../actions'
 import {Nav} from '../../components'
 
-let socket = socketClient('http://127.0.0.1:2334');
+let socket = socketClient();
 
 class Chatroom extends Component {
 
@@ -31,24 +31,59 @@ class Chatroom extends Component {
     initial() {
         const {dispatch} = this.props;
 
-        dispatch(fetchAllMessage(socket));
-        socket.on(FETCH_ALL_MESSAGE_ACK, (data) => {
-            dispatch(fetchAllMessageAck(socket, data));
-            this.scrollToBottom(this.$chatBodyBox);
-        });
-
-        socket.on(NEW_MESSAGE, (data) => {
-            dispatch(newMessage(socket, data));
-            this.scrollToBottom(this.$chatBodyBox);
-        });
-
-        socket.on(REFRESH_MESSAGE, (data) => {
-            dispatch(refreshMessage(socket, data));
-        });
+        // dispatch(fetchAllMessage(socket));
+        // socket.on(FETCH_ALL_MESSAGE_ACK, (data) => {
+        //     dispatch(fetchAllMessageAck(socket, data));
+        //     this.scrollToBottom(this.$chatBodyBox);
+        // });
+        //
+        // socket.on(NEW_MESSAGE, (data) => {
+        //     dispatch(newMessage(socket, data));
+        //     this.scrollToBottom(this.$chatBodyBox);
+        // });
+        //
+        // socket.on(REFRESH_MESSAGE, (data) => {
+        //     dispatch(refreshMessage(socket, data));
+        // });
     }
 
     scrollToBottom(el) {
         el.scrollTop = el.scrollHeight;
+    }
+
+    joinChatroomModal() {
+
+        return (
+            <div className="chatroom-modal">
+                <div className="modal-backdrop in"></div>
+
+                <div className="modal modal-open">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title">设置聊天室昵称</h5>
+                            </div>
+                            <div className="modal-body">
+                                <div className="textinput-box">
+                                    <input id="username-textinput"
+                                           className="username-textinput"
+                                           placeholder="设置昵称(8个字符以内)" type="text"/>
+                                </div>
+                                <a className="btn btn-block join" onClick={this.joinChatroom.bind(this)}>进入</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    joinChatroom(event) {
+        let username = document.getElementById('username-textinput').value;
+        console.log(username);
+        if (!username || username.length > 8) {
+            return;
+        }
     }
 
     onKeyDown(event) {
@@ -73,22 +108,26 @@ class Chatroom extends Component {
 
     render() {
         const {Chat} = this.props;
+        const {messages, username} = Chat;
 
         return (
             <div className="container">
                 <div className="chatroom-view">
                     <Nav/>
 
+                    {!username && this.joinChatroomModal()}
+
                     <div id='chat-body-box' className="chat-body-box">
                         {
-                            Chat.map((item, index) => {
+                            messages.map((item, index) => {
                                 return (<div key={index++}>{item}</div>);
                             })
                         }
                     </div>
 
                     <div className="chat-textinput-box">
-                        <input className="chat-textinput" placeholder="发送消息" type="text"
+                        <input className="chat-textinput"
+                               placeholder="发送消息" type="text"
                                onKeyDown={this.onKeyDown.bind(this)}/>
                         <a className="btn btn-block" onClick={this.sendMessage.bind(this)}>发送</a>
                     </div>

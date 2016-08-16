@@ -39,7 +39,8 @@ export const NEW_MESSAGE = 'NEW_MESSAGE';
 export const SEND_MESSAGE = 'SEND_MESSAGE';
 export const REFRESH_MESSAGE = 'REFRESH_MESSAGE';
 export const RECEIVE_MESSAGE = 'RECEIVE_MESSAGE';
-
+export const JOIN_CHATROOM = 'JOIN_CHATROOM';
+export const SET_USERNAME = 'SET_USERNAME';
 
 export function fetchAllMessage(socket) {
     return {type: FETCH_ALL_MESSAGE, socket}
@@ -63,4 +64,12 @@ export function refreshMessage(socket, data) {
 
 export function receiveMessage(socket) {
     return {type: RECEIVE_MESSAGE, socket}
+}
+
+export function joinChatroom(username) {
+    return {type: JOIN_CHATROOM, username}
+}
+
+export function setUsername(username) {
+    return {type: SET_USERNAME, username}
 }

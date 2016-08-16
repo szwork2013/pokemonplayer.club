@@ -1,8 +1,30 @@
-import {NEW_MESSAGE, SEND_MESSAGE, REFRESH_MESSAGE, FETCH_ALL_MESSAGE, FETCH_ALL_MESSAGE_ACK} from '../actions'
+import {
+    NEW_MESSAGE,
+    SEND_MESSAGE,
+    REFRESH_MESSAGE,
+    FETCH_ALL_MESSAGE,
+    FETCH_ALL_MESSAGE_ACK,
+    JOIN_CHATROOM,
+    JOIN_CHATROOM_ACK
+} from '../actions'
 
-export function Chat(state = [], action) {
+let initialState = {
+    username: '',
+    users: [],
+    messages: []
+};
+
+export function Chat(state = initialState, action) {
 
     switch (action.type) {
+        case JOIN_CHATROOM: {
+            action.socket.emit(JOIN_CHATROOM, action.username);
+            return state;
+        }
+        case JOIN_CHATROOM_ACK: {
+            state.username = action.username;
+            return state;
+        }
         case FETCH_ALL_MESSAGE: {
             action.socket.emit(FETCH_ALL_MESSAGE, action.data);
             return state;
