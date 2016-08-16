@@ -14,3 +14,6 @@ donation:
     - id: 5
       name: 微信网友
       money: 20
+    - id: 6
+      name: MoSence
+      money: 10

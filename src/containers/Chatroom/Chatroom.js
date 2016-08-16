@@ -156,7 +156,7 @@ class Chatroom extends Component {
 
     render() {
         const {Chat} = this.props;
-        const {messages, username} = Chat;
+        const {messages, username, users} = Chat;
 
         return (
             <div className="container">
@@ -166,9 +166,24 @@ class Chatroom extends Component {
                     {!username && this.joinInChatroomModal()}
 
                     <div id='chat-body-box' className="chat-body-box" ref={(ref) => this.chatBodyBox = ref}>
+                        <div className="user-number">
+                            <i className="fa fa-user fa-fw">{users.length}</i>
+                        </div>
+
                         {
                             messages.map((item, index) => {
-                                return (<div key={index++}>{`${item.username}: ${item.message}`}</div>);
+                                return (
+
+                                    <div key={index++}>
+                                        <div className="avatar">
+                                            {/*<img src={require('../../icons/025 Pikachu.ico')} width={26}/>*/}
+                                            <div className="name">{`${item.username}`}</div>
+                                        </div>
+                                        <div className="message-bubble arrow-left-top">
+                                            <p className="talktext">{item.message}</p>
+                                        </div>
+                                    </div>
+                                );
                             })
                         }
                     </div>
