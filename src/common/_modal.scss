@@ -187,6 +187,13 @@ $border-radius: .25rem !default;
   }
 }
 
+.modal-footer {
+  padding: $modal-inner-padding;
+  text-align: right; // right align buttons
+  border-top: $modal-footer-border-width solid $modal-footer-border-color;
+  @include clearfix(); // clear it in case folks use .pull-* classes on buttons
+}
+
 @include media-breakpoint-up(sm) {
   .modal-dialog {
     max-width: $modal-md;

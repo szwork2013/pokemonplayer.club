@@ -20,7 +20,7 @@ class Home extends Component {
 
                 <div className="home-view">
                     <AppBlock path="pokedex" name="图鉴" icon={require('../../images/icon-pokedex.png')}/>
-                    <AppBlock path="pokemap" name="地图 Beta - 需翻墙" icon={require('../../images/icon-pokemap.png')}/>
+                    <AppBlock path="pokemap" name="地图(关)" icon={require('../../images/icon-pokemap.png')}/>
                     <AppBlock path="calculator" name="属性计算器(开发中)" icon={require('../../images/icon-calculator.png')}/>
                     {/*<AppBlock path="location" name="稀有宝贝地点(开发中)" />*/}
                     {/*<AppBlock path="guide" name="攻略" icon={require('../../images/podex-icon.png')}/>*/}
