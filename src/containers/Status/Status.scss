@@ -13,16 +13,22 @@
       width: 200px;
       margin: auto;
 
+      .emojione {
+        width: 20px;
+      }
+
       span {
         margin: 10px;
+        height: 25px;
       }
 
       span.name {
-        text-align: right;
+        height: 25px;
+        vertical-align: middle;
       }
 
       span.item {
-        text-align: left;
+
       }
     }
   }

@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {POKE_SERVER_STATUS, refreshPokeserverStatus} from '../../actions'
 import {Nav} from '../../components'
+import emojione from 'emojione'
 
 import socketClient from 'socket.io-client'
 let socket = socketClient('/pokeserver');
@@ -31,13 +32,17 @@ class Status extends Component {
     render() {
 
         const {Status} = this.props;
-
-        let size = Status.length / 5;
+        const GROUP_NUMBER = 3;
+        let size = Status.length / GROUP_NUMBER;
 
         let StatusSlice = [];
 
-        for (let index = 0; index < 5; index++) {
+        for (let index = 0; index < GROUP_NUMBER; index++) {
             StatusSlice[index] = Status.slice(size * index, size * (index + 1));
+        }
+
+        function createEmojiHtml(value) {
+            return {__html: emojione.toImage(value)};
         }
 
         console.log(Status.length);
@@ -55,8 +60,9 @@ class Status extends Component {
                                         status.map((item, index) => {
                                             return (
                                                 <li key={index} className="item">
-                                                    <span className="name">{item.name}</span>
-                                                    {/*<span className="time">{item.time ? `${item.time}` : "?"}</span>*/}
+                                                    <span className="name"
+                                                          dangerouslySetInnerHTML={createEmojiHtml(item.name)}></span>
+                                                    <span className="time">{item.time ? `${item.time}` : "?"}</span>
                                                 </li>
                                             );
                                         })
