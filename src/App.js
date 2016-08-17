@@ -10,7 +10,7 @@ import {syncHistoryWithStore} from 'react-router-redux';
 import configureStore from './stores/configureStore';
 import {
     Error, Home, Pokedex, Pokemap, Calculator,
-    Chatroom, Guide, Location, Message,
+    Chatroom, Guide, Location, Message, Status,
     Donation, Settings, DevTools
 } from './containers'
 
@@ -55,6 +55,7 @@ render((
             <Route path="/location" component={Location}/>
             <Route path="/guide" component={Guide}/>
             <Route path="/chatroom" component={Chatroom}/>
+            <Route path="/status" component={Status}/>
             <Route path="/messages" component={Message}/>
             <Route path="/donation" component={Donation}/>
             <Route path="/settings" component={Settings}/>

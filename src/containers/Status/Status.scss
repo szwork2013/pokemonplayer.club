@@ -1,0 +1,30 @@
+.status-view {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  ul.status-list {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+
+    li.item {
+      width: 200px;
+      margin: auto;
+
+      span {
+        margin: 10px;
+      }
+
+      span.name {
+        text-align: right;
+      }
+
+      span.item {
+        text-align: left;
+      }
+    }
+  }
+
+}

@@ -6,8 +6,10 @@ const path = require('path'),
     compression = require('compression'),
     http = require('http'),
     socketIO = require('socket.io'),
-    routes = require('./routes'),
-    chatSocket = require('./socket/chat');
+    routes = require('./routes');
+
+const chatSocket = require('./socket/chat'),
+    pokeserverSocket = require('./socket/pokeserver');
 
 const webpackConfig = require('./webpack.config'),
     config = require('./config');
@@ -46,6 +48,7 @@ routes(app);
 
 // socketio
 chatSocket(io);
+pokeserverSocket(io);
 
 server.listen(config.SERVER_PORT, function (err) {
     if (err) {

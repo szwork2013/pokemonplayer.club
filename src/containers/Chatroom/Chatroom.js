@@ -2,6 +2,7 @@ import './Chatroom.scss'
 
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import socketClient from 'socket.io-client'
 
 import {
     NEW_MESSAGE,

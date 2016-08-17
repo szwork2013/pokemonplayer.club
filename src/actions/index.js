@@ -73,3 +73,11 @@ export function leaveChatroom(socket, username, users) {
 export function newUser(socket, username) {
     return {type: NEW_USER, socket, username}
 }
+
+// Pokeserver
+export const POKE_SERVER_STATUS = 'POKE_SERVER_STATUS';
+export const REFRESH_POKE_SERVER_STATUS = 'REFRESH_POKE_SERVER_STATUS';
+
+export function refreshPokeserverStatus(status) {
+    return {type: REFRESH_POKE_SERVER_STATUS, status}
+}

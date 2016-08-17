@@ -64,7 +64,7 @@ var webpackConfig = {
         };
 
         const ProvidePlugin = new webpack.ProvidePlugin({
-            socketClient: 'socket.io-client'
+            // socketClient: 'socket.io-client'
             // 'Promise': 'es6-promise',
             // 'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
         });
