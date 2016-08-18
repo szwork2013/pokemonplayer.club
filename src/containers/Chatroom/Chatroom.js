@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import socketClient from 'socket.io-client'
 import emojione from 'emojione'
+import xssFilters  from 'xss-filters';
 
 import {
     NEW_MESSAGE,
@@ -165,8 +166,8 @@ class Chatroom extends Component {
         const {Chat} = this.props;
         const {messages, username, users} = Chat;
 
-        function createEmojiHtml(value) {
-            return {__html: emojione.toImage(value)};
+        function emojify(value) {
+            return {__html: emojione.toImage(xssFilters.inHTMLData(value))};
         }
 
         return (
@@ -192,7 +193,7 @@ class Chatroom extends Component {
                                         </div>
                                         <div className="message-bubble arrow-left-top">
                                             <p className="talktext"
-                                               dangerouslySetInnerHTML={createEmojiHtml(item.message)}/>
+                                               dangerouslySetInnerHTML={emojify(item.message)}/>
                                         </div>
                                     </div>
                                 );

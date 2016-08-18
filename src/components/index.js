@@ -3,10 +3,10 @@ export {Nav} from './Nav/Nav'
 export {Switch} from './Switch/Switch'
 export {Image} from './Image/Image'
 
+export Search from './Search/Search'
+
 export PokedexTable from './PokedexTable/PokedexTable'
-export PokedexSearch from './PokedexSearch/PokedexSearch'
 export PokedexTypeFilter from './PokedexTypeFilter/PokedexTypeFilter'
 export PokedexFilter from './PokedexFilter/PokedexFilter'
-export PokedexSearch from'./PokedexSearch/PokedexSearch'
 export PokedexReset from'./PokedexReset/PokedexReset'
 export PokedexModal from'./PokedexModal/PokedexModal'

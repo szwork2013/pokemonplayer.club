@@ -3,7 +3,7 @@ import './Pokedex.scss'
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 
-import {Nav, PokedexTable, PokedexSearch, PokedexTypeFilter, PokedexFilter, PokedexReset} from '../../components'
+import {Nav, PokedexTable, Search, PokedexTypeFilter, PokedexFilter, PokedexReset} from '../../components'
 import {setPokedexData, resetPokedexData} from '../../actions'
 
 import Ajax from '../../utils/AjaxUtil'
@@ -46,9 +46,9 @@ class Pokedex extends Component {
                         <PokedexFilter type="candy"
                                        title="进化糖果"
                                        data={['12', '25', '50', '100', '400']}/>
-                        <PokedexSearch/>
+                        <Search DataType="pokedex" Placeholder="ID/中文/英文"/>
                     </div>
-                    <PokedexTable Pokedex={Pokedex}/>
+                    <PokedexTable Pokedex={Pokedex} />
                 </div>
             </div>
         );

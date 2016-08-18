@@ -1,68 +1,70 @@
 'use strict';
-var request = require("request");
+var request = require("request"),
+    redis = require('redis'),
+    redisClient = redis.createClient();
 
 const ENG_TO_CN = {
-    'Google Login': 'Google 登录',
-    'Poke Club Login': 'Poke Club 登录',
-    'Brazil': '巴西🇧🇷',
-    'Germany': '德国🇩🇪',
-    'Italy': '意大利🇮🇹',
-    'United Kingdom': '英国🇬🇧',
-    'United States': '美国🇺🇸',
-    'Argentina': '阿根廷',
-    'Australia': '澳大利亚🇦🇺',
-    'Austria': '奥地利🇦🇹',
-    'Belgium': '比利时🇧🇪',
-    'Bulgaria': '保加利亚🇧🇬',
-    'Cambodia': '柬埔寨🇱🇹',
-    'Canada': '加拿大🇨🇦',
-    'Chile': '智利🇨🇱',
-    'Croatia': '克罗地亚🇭🇷',
-    'Czech Republic': '捷克🇨🇿',
-    'Denmark': '丹麦🇩🇰',
-    'Estonia': '爱沙尼亚🇪🇪',
-    'Finland': '芬兰🇫🇮',
-    'France': '法国🇫🇷',
-    'Greece': '希腊🇬🇷',
-    'Hong Kong &#39321;&#28207;': '香港🇭🇰',
-    'Hungary': '匈牙利🇭🇺',
-    'Iceland': '冰岛🇮🇸',
-    'Indonesia': '印度尼西亚🇮🇩',
-    'Ireland': '爱尔兰🇮🇪',
-    'Japan &#26085;&#26412;': '日本🇯🇵',
-    'Laos': '老挝🇱🇦',
-    'Latvia': '拉脱维亚🇱🇻',
-    'Lithuania': '立陶宛🇱🇹',
-    'Luxembourg': '卢森堡🇱🇺',
-    'Malaysia': '马来西亚🇲🇾',
-    'Mexico': '墨西哥🇲🇽',
-    'Monaco': '摩纳哥',
-    'Netherlands': '荷兰🇳🇱',
-    'New Zealand': '新西兰🇳🇿',
-    'Norway': '挪威🇳🇴',
-    'Papua N Guinea': '巴布亚几内亚',
-    'Philippines': '菲律宾🇵🇭',
-    'Poland': '波兰🇵🇱',
-    'Portugal': '葡萄牙🇵🇹',
-    'Romania': '罗马尼亚🇷🇴',
-    'Singapore': '新加坡🇸🇬',
-    'Slovakia': '斯洛伐克🇸🇰',
-    'Slovenia': '斯洛文尼亚🇸🇮',
-    'Spain': '西班牙🇪🇸',
-    'Sweden': '瑞典🇸🇪',
-    'Switzerland': '瑞士🇨🇭',
-    'Taiwan': '台湾',
-    'Thailand': '泰国🇹🇭',
-    'Venezuela': '委瑞内拉',
-    'Vietnam': '越南🇻🇳',
-    'China &#20013;&#22269;': '中国🇨🇳',
-    'India &#2311;&#2306;&#2337;&#2367;&#2351;&#2366;': '印度🇮🇳',
-    'Israel': '以色列🇮🇱',
-    'Pakistan': '巴基斯坦🇵🇰',
-    'Peru': '秘鲁🇵🇪',
-    'Russia &#1056;&#1086;&#1089;&#1089;&#1080;&#1103;': '俄罗斯🇷🇺',
-    'South Korea': '韩国🇰🇷',
-    'Turkey': '土耳其🇹🇷'
+    'Google Login': {name: 'Google', emoji: ''},
+    'Poke Club Login': {name: 'Pokemon Club', emoji: ''},
+    'Brazil': {name: '巴西', emoji: '🇧🇷'},
+    'Germany': {name: '德国', emoji: '🇩🇪'},
+    'Italy': {name: '意大利', emoji: '🇮🇹'},
+    'United Kingdom': {name: '英国', emoji: '🇬🇧'},
+    'United States': {name: '美国', emoji: '🇺🇸'},
+    'Argentina': {name: '阿根廷', emoji: '🇦🇷'},
+    'Australia': {name: '澳大利亚', emoji: '🇦🇺'},
+    'Austria': {name: '奥地利', emoji: '🇦🇹'},
+    'Belgium': {name: '比利时', emoji: '🇧🇪'},
+    'Bulgaria': {name: '保加利亚', emoji: '🇧🇬'},
+    'Cambodia': {name: '柬埔寨', emoji: '🇱🇹'},
+    'Canada': {name: '加拿大', emoji: '🇨🇦'},
+    'Chile': {name: '智利', emoji: '🇨🇱'},
+    'Croatia': {name: '克罗地亚', emoji: '🇭🇷'},
+    'Czech Republic': {name: '捷克', emoji: '🇨🇿'},
+    'Denmark': {name: '丹麦', emoji: '🇩🇰'},
+    'Estonia': {name: '爱沙尼亚', emoji: '🇪🇪'},
+    'Finland': {name: '芬兰', emoji: '🇫🇮'},
+    'France': {name: '法国', emoji: '🇫🇷'},
+    'Greece': {name: '希腊', emoji: '🇬🇷'},
+    'Hong Kong &#39321;&#28207;': {name: '香港', emoji: '🇭🇰'},
+    'Hungary': {name: '匈牙利', emoji: '🇭🇺'},
+    'Iceland': {name: '冰岛', emoji: '🇮🇸'},
+    'Indonesia': {name: '印度尼西亚', emoji: '🇮🇩'},
+    'Ireland': {name: '爱尔兰', emoji: '🇮🇪'},
+    'Japan &#26085;&#26412;': {name: '日本', emoji: '🇯🇵'},
+    'Laos': {name: '老挝', emoji: '🇱🇦'},
+    'Latvia': {name: '拉脱维亚', emoji: '🇱🇻'},
+    'Lithuania': {name: '立陶宛', emoji: '🇱🇹'},
+    'Luxembourg': {name: '卢森堡', emoji: '🇱🇺'},
+    'Malaysia': {name: '马来西亚', emoji: '🇲🇾'},
+    'Mexico': {name: '墨西哥', emoji: '🇲🇽'},
+    // 'Monaco': {name: '摩纳哥', emoji: ''},
+    'Netherlands': {name: '荷兰', emoji: '🇳🇱'},
+    'New Zealand': {name: '新西兰', emoji: '🇳🇿'},
+    'Norway': {name: '挪威', emoji: '🇳🇴'},
+    // 'Papua N Guinea': '巴布亚几内亚',
+    'Philippines': {name: '菲律宾', emoji: '🇵🇭'},
+    'Poland': {name: '波兰', emoji: '🇵🇱'},
+    'Portugal': {name: '葡萄牙', emoji: '🇵🇹'},
+    'Romania': {name: '罗马尼亚', emoji: '🇷🇴'},
+    'Singapore': {name: '新加坡', emoji: '🇸🇬'},
+    'Slovakia': {name: '斯洛伐克', emoji: '🇸🇰'},
+    'Slovenia': {name: '斯洛文尼亚', emoji: '🇸🇮'},
+    'Spain': {name: '西班牙', emoji: '🇪🇸'},
+    'Sweden': {name: '瑞典', emoji: '🇸🇪'},
+    'Switzerland': {name: '瑞士', emoji: '🇨🇭'},
+    // 'Taiwan': '台湾',
+    'Thailand': {name: '泰国', emoji: '🇹🇭'},
+    // 'Venezuela': {name: '委瑞内拉', emoji: ''},
+    'Vietnam': {name: '越南', emoji: '🇻🇳'},
+    'China &#20013;&#22269;': {name: '中国', emoji: '🇨🇳'},
+    'India &#2311;&#2306;&#2337;&#2367;&#2351;&#2366;': {name: '印度', emoji: '🇮🇳'},
+    'Israel': {name: '以色列', emoji: '🇮🇱'},
+    // 'Pakistan': {name: '巴基斯坦', emoji: '🇵🇰'},
+    'Peru': {name: '秘鲁', emoji: '🇵🇪'},
+    'Russia &#1056;&#1086;&#1089;&#1089;&#1080;&#1103;': {name: '俄罗斯', emoji: '🇷🇺'},
+    'South Korea': {name: '韩国', emoji: '🇰🇷'},
+    'Turkey': {name: '土耳其', emoji: '🇹🇷'},
 };
 
 var POKE_SERVER_STATUS = [];
@@ -84,20 +86,58 @@ function checkPokeserverStatus() {
         }
 
         var allServerMatchedData = body.match(/<li.*?>(.*?)<span><i.*?>(.*?)<\/i>/g);
+
+        if (!allServerMatchedData) {
+            console.log('Fetch Server status error...');
+            return;
+        }
+
         var serverStatus = [];
         for (var matchedData of allServerMatchedData) {
             var status = matchedData.match(/<li.*?>(.*?)<span><i.*?>(.*?)<\/i>/);
-            serverStatus.push({
-                name: ENG_TO_CN[status[1].trim()],
-                time: status[2]
-            });
+            var key = status[1].trim();
+            var ping = status[2];
+
+            var obj = ENG_TO_CN[key];
+
+            if (obj) {
+                serverStatus.push({
+                    name: obj.name,
+                    emoji: obj.emoji,
+                    ping: ping
+                });
+
+                redisClient.set(key, ping);
+            }
         }
 
         POKE_SERVER_STATUS = serverStatus;
     });
 }
 
-checkPokeserverStatus();
+function initPokeserverStatusByRedis() {
+    POKE_SERVER_STATUS = [];
+
+    Object.keys(ENG_TO_CN).forEach(function (key) {
+        redisClient.get(key, function (err, ping) {
+            if (err) {
+                console.log(err);
+                return;
+            } else if (null == ping) {
+                console.log(ping);
+                return;
+            }
+            var obj = ENG_TO_CN[key];
+            POKE_SERVER_STATUS.push({
+                name: obj.name,
+                emoji: obj.emoji,
+                ping: ping
+            });
+        });
+    });
+}
+
+initPokeserverStatusByRedis();
 setInterval(checkPokeserverStatus, 15 * 1000); // 30s
 
 module.exports = function (io) {
@@ -108,8 +148,7 @@ module.exports = function (io) {
 
         var emitPokeserverInfo = setInterval(function () {
             socket.emit('POKE_SERVER_STATUS', POKE_SERVER_STATUS);
-        }, 5 * 1000);
-        socket.emit('POKE_SERVER_STATUS', POKE_SERVER_STATUS);
+        }, 2 * 1000);
 
         socket.on('disconnect', function () {
             clearInterval(emitPokeserverInfo);

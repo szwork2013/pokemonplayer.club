@@ -25,7 +25,7 @@ class Home extends Component {
                     {/*<AppBlock path="location" name="稀有宝贝地点(开发中)" />*/}
                     {/*<AppBlock path="guide" name="攻略" icon={require('../../images/podex-icon.png')}/>*/}
                     <AppBlock path="chatroom" name="聊天室 Beta" />
-                    <AppBlock path="status" name="服务状态 Beta" />
+                    <AppBlock path="status" name="状态" />
                     <AppBlock path="donation" name="捐助" />
                     {/*<AppBlock path="settings" name="设置" icon={require('../../images/podex-icon.png')}/>*/}
                 </div>

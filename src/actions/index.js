@@ -77,7 +77,12 @@ export function newUser(socket, username) {
 // Pokeserver
 export const POKE_SERVER_STATUS = 'POKE_SERVER_STATUS';
 export const REFRESH_POKE_SERVER_STATUS = 'REFRESH_POKE_SERVER_STATUS';
+export const SEARCH_SERVER_STATUS = 'SEARCH_SERVER_STATUS';
 
 export function refreshPokeserverStatus(status) {
     return {type: REFRESH_POKE_SERVER_STATUS, status}
+}
+
+export function searchServerStatus(search) {
+    return {type: SEARCH_SERVER_STATUS, search}
 }
