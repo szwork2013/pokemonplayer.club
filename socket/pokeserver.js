@@ -124,7 +124,6 @@ function initPokeserverStatusByRedis() {
                 console.log(err);
                 return;
             } else if (null == ping) {
-                console.log(ping);
                 return;
             }
             var obj = ENG_TO_CN[key];
