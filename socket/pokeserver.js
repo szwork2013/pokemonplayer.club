@@ -2,7 +2,7 @@
 var request = require("request");
 
 const ENG_TO_CN = {
-    'Google Login': '谷歌帐号登录',
+    'Google Login': 'Google 登录',
     'Poke Club Login': 'Poke Club 登录',
     'Brazil': '巴西🇧🇷',
     'Germany': '德国🇩🇪',
@@ -18,7 +18,7 @@ const ENG_TO_CN = {
     'Canada': '加拿大🇨🇦',
     'Chile': '智利🇨🇱',
     'Croatia': '克罗地亚🇭🇷',
-    'Czech Republic': '捷克共和国🇨🇿',
+    'Czech Republic': '捷克🇨🇿',
     'Denmark': '丹麦🇩🇰',
     'Estonia': '爱沙尼亚🇪🇪',
     'Finland': '芬兰🇫🇮',
@@ -78,7 +78,9 @@ function checkPokeserverStatus() {
         }
     }, function (error, response, body) {
         if (error) {
-            throw new Error(error);
+            // throw new Error(error);
+            console.log(error);
+            return;
         }
 
         var allServerMatchedData = body.match(/<li.*?>(.*?)<span><i.*?>(.*?)<\/i>/g);
@@ -96,7 +98,7 @@ function checkPokeserverStatus() {
 }
 
 checkPokeserverStatus();
-setInterval(checkPokeserverStatus, 30 * 1000); // 30s
+setInterval(checkPokeserverStatus, 15 * 1000); // 30s
 
 module.exports = function (io) {
 

@@ -3,6 +3,7 @@ import './Chatroom.scss'
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import socketClient from 'socket.io-client'
+import emojione from 'emojione'
 
 import {
     NEW_MESSAGE,
@@ -164,6 +165,10 @@ class Chatroom extends Component {
         const {Chat} = this.props;
         const {messages, username, users} = Chat;
 
+        function createEmojiHtml(value) {
+            return {__html: emojione.toImage(value)};
+        }
+
         return (
             <div className="container">
                 <div className="chatroom-view">
@@ -186,7 +191,8 @@ class Chatroom extends Component {
                                             <div className="name">{`${item.username}`}</div>
                                         </div>
                                         <div className="message-bubble arrow-left-top">
-                                            <p className="talktext">{item.message}</p>
+                                            <p className="talktext"
+                                               dangerouslySetInnerHTML={createEmojiHtml(item.message)}/>
                                         </div>
                                     </div>
                                 );

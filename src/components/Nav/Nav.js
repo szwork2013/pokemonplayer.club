@@ -12,7 +12,7 @@ export class Nav extends Component {
     render() {
         return (
             <nav className="component-navbar">
-                {/*<Link to='/' className="brand">Pokémon 玩家俱乐部</Link>*/}
+                <Link to='/' className="brand">Pokémon 玩家俱乐部</Link>
 
                 <ul className="nav">
                     <li className="item">

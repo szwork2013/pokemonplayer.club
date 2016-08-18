@@ -32,7 +32,7 @@ class Status extends Component {
     render() {
 
         const {Status} = this.props;
-        const GROUP_NUMBER = 3;
+        const GROUP_NUMBER = 5;
         let size = Status.length / GROUP_NUMBER;
 
         let StatusSlice = [];
@@ -53,21 +53,13 @@ class Status extends Component {
                 <div className="status-view">
                     <Nav/>
                     {
-                        StatusSlice.map((status, index) => {
+                        Status.map((item, index) => {
                             return (
-                                <ul key={index} className="status-list">
-                                    {
-                                        status.map((item, index) => {
-                                            return (
-                                                <li key={index} className="item">
-                                                    <span className="name"
-                                                          dangerouslySetInnerHTML={createEmojiHtml(item.name)}></span>
-                                                    <span className="time">{item.time ? `${item.time}` : "?"}</span>
-                                                </li>
-                                            );
-                                        })
-                                    }
-                                </ul>
+                                <div key={index} className="status-item">
+                                    <span className="name"
+                                          dangerouslySetInnerHTML={createEmojiHtml(item.name)}/>
+                                    <span className="time">{item.time ? `${item.time}` : "?"}</span>
+                                </div>
                             );
                         })
                     }
